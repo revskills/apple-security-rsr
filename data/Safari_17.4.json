@@ -1,0 +1,72 @@
+{
+    "name": "Safari 17.4",
+    "url": "https://support.apple.com/kb/HT214089",
+    "available": "macOS Monterey and macOS Ventura",
+    "released": "07 Mar 2024",
+    "advisories": [
+        {
+            "module": "Safari Private Browsing",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Private Browsing tabs may be accessed without authentication",
+            "description": "This issue was addressed through improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23273",
+                    "credit": "Matej Rabzelj"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A malicious website may exfiltrate audio data cross-origin",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "bugzilla": "263795",
+                    "id": "CVE-2024-23254",
+                    "credit": "James Lee (@Windowsrcer)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "A logic issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "bugzilla": "264811",
+                    "id": "CVE-2024-23263",
+                    "credit": "Johan Carlsson (joaxcar)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "An injection issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "bugzilla": "266703",
+                    "id": "CVE-2024-23280",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "267241",
+                    "id": "CVE-2024-23284",
+                    "credit": "Georg Felber and Marco Squarcina"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "name": "Safari 17.6",
+    "url": "https://support.apple.com/kb/HT214121",
+    "available": "macOS Monterey and macOS Ventura",
+    "released": "29 Jul 2024",
+    "advisories": [
+        {
+            "module": "Safari",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Visiting a website that frames malicious content may lead to UI spoofing",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40817",
+                    "credit": "Yadhu Krishna M and Narendra Bhati, Manager of Cyber Security At Suma Soft Pvt. Ltd, Pune (India)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "273176",
+                    "id": "CVE-2024-40776",
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                },
+                {
+                    "bugzilla": "268770",
+                    "id": "CVE-2024-40782",
+                    "credit": "Maksymilian Motyl"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "bugzilla": "275431",
+                    "id": "CVE-2024-40779",
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                },
+                {
+                    "bugzilla": "275273",
+                    "id": "CVE-2024-40780",
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "273805",
+                    "id": "CVE-2024-40785",
+                    "credit": "Johan Carlsson (joaxcar)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "An out-of-bounds access issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40789",
+                    "credit": "Seunghyun Lee (@0x10n) of KAIST Hacking Lab working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "bugzilla": "274165",
+                    "id": "CVE-2024-4558"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Private Browsing tabs may be accessed without authentication",
+            "description": "This issue was addressed through improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "275272",
+                    "id": "CVE-2024-40794",
+                    "credit": "Matthew Butler"
+                }
+            ]
+        }
+    ]
+}

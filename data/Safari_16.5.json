@@ -1,0 +1,76 @@
+{
+    "name": "Safari 16.5",
+    "url": "https://support.apple.com/kb/HT213762",
+    "available": "macOS Big Sur and macOS Monterey",
+    "released": "18 May 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may disclose sensitive information",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "255075",
+                    "id": "CVE-2023-32402",
+                    "credit": "Ignacio Sanmillan (@ulexec)"
+                }
+            ],
+            "updated": [
+                "December 21, 2023"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may disclose sensitive information",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "254781",
+                    "id": "CVE-2023-32423",
+                    "credit": "Ignacio Sanmillan (@ulexec)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "A remote attacker may be able to break out of Web Content sandbox. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "The issue was addressed with improved bounds checks.",
+            "cves": [
+                {
+                    "bugzilla": "255350",
+                    "id": "CVE-2023-32409",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group and Donncha \u00d3 Cearbhaill of Amnesty International\u2019s Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may disclose sensitive information. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "254930",
+                    "id": "CVE-2023-28204",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "254840",
+                    "id": "CVE-2023-32373",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "iCloud for Windows 14.1",
+    "url": "https://support.apple.com/kb/HT213538",
+    "available": "Windows 10 and later via the Microsoft Store",
+    "released": "13 Dec 2022",
+    "advisories": [
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted file may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46693",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing maliciously crafted web content may bypass Same Origin Policy",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "246783",
+                    "id": "CVE-2022-46692",
+                    "credit": "KirtiKumar Anandrao Ramchandani"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46698",
+                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Secure Disclosure Labs & DNSLab, Korea Univ."
+                }
+            ]
+        }
+    ]
+}

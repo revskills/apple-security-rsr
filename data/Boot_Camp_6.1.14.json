@@ -1,0 +1,21 @@
+{
+    "name": "Boot Camp 6.1.14",
+    "url": "https://support.apple.com/kb/HT212517",
+    "available": "Mac Pro (Late 2013 and later), MacBook Pro (Late 2013 and later), MacBook Air (Mid 2013 and later), Mac mini (Mid 2014 and later), iMac (Mid 2014 and later), MacBook (Early 2015 and later), iMac Pro (Late 2017)",
+    "released": "17 May 2021",
+    "advisories": [
+        {
+            "module": "Boot Camp",
+            "available": "Mac Pro (Late 2013 and later), MacBook Pro (Late 2013 and later), MacBook Air (Mid 2013 and later), Mac mini (Mid 2014 and later), iMac (Mid 2014 and later), MacBook (Early 2015 and later), iMac Pro (Late 2017)",
+            "impact": "A malicious application may be able to elevate privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "note": "Boot Camp requires a Mac with an Intel processor.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30675",
+                    "credit": "MJ0011 of Kunlun Lab"
+                }
+            ]
+        }
+    ]
+}

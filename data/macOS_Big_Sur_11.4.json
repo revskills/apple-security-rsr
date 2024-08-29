@@ -1,0 +1,878 @@
+{
+    "name": "macOS Big Sur 11.4",
+    "url": "https://support.apple.com/kb/HT212529",
+    "available": "macOS Big Sur",
+    "released": "24 May 2021",
+    "advisories": [
+        {
+            "module": "AMD",
+            "available": "macOS Big Sur",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30678",
+                    "credit": "Yu Wang of Didi Research America"
+                }
+            ]
+        },
+        {
+            "module": "AMD",
+            "available": "macOS Big Sur",
+            "impact": "A local user may be able to cause unexpected system termination or read kernel memory",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30676",
+                    "credit": "shrek_wzw"
+                }
+            ]
+        },
+        {
+            "module": "App Store",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to break out of its sandbox",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30688",
+                    "credit": "Thijs Alkemade of Computest Research Division"
+                }
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30669",
+                    "credit": "Yair Hoffman"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30707",
+                    "credit": "hjy79425575 working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "macOS Big Sur",
+            "impact": "Parsing a maliciously crafted audio file may lead to disclosure of user information",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30685",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "macOS Big Sur",
+            "impact": "A memory corruption issue was addressed with improved state management",
+            "description": "A malicious application may be able to gain root privileges",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30672",
+                    "credit": "say2 of ENKI"
+                }
+            ]
+        },
+        {
+            "module": "Core Services",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30681",
+                    "credit": "Zhongcheng Li (CK01)"
+                }
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted audio file may disclose restricted memory",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30686",
+                    "credit": "Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "CoreText",
+            "available": "macOS Big Sur",
+            "impact": "An out-of-bounds read was addressed with improved input validation",
+            "description": "Processing a maliciously crafted font may result in the disclosure of process memory.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30733",
+                    "credit": "Sunglin from the Knownsec 404"
+                },
+                {
+                    "id": "CVE-2021-30753",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Crash Reporter",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30727",
+                    "credit": "Cees Elzinga"
+                }
+            ]
+        },
+        {
+            "module": "CVMS",
+            "available": "macOS Big Sur",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30724",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Dock",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to access a user's call history",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30673",
+                    "credit": "Josh Parnham (@joshparnham)"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30771",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro, CFF of Topsec Alpha Team"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Big Sur",
+            "impact": "An out-of-bounds read was addressed with improved input validation",
+            "description": "Processing a maliciously crafted font may result in the disclosure of process memory",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30755",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Graphics Drivers",
+            "available": "macOS Big Sur",
+            "impact": "A remote attacker may cause an unexpected application termination or arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30684",
+                    "credit": "Liu Long of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Graphics Drivers",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30735",
+                    "credit": "Jack Dates of RET2 Systems, Inc. (@ret2systems) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Heimdal",
+            "available": "macOS Big Sur",
+            "impact": "A local user may be able to leak sensitive user information",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30697",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "Heimdal",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may cause a denial of service or potentially disclose memory contents",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30710",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "Heimdal",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application could execute arbitrary code leading to compromise of user information",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30683",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted image may lead to disclosure of user information",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30687",
+                    "credit": "Hou JingYi (@hjy79425575) of Qihoo 360"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted image may lead to disclosure of user information",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30700",
+                    "credit": "Ye Zhang(@co0py_Cat) of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30701",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro and Ye Zhang of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted ASTC file may disclose memory contents",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30705",
+                    "credit": "Ye Zhang of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Big Sur",
+            "impact": "This issue was addressed with improved checks",
+            "description": "Processing a maliciously crafted image may lead to disclosure of user information.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30706",
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative, Jzhu working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Big Sur",
+            "impact": "A local user may be able to cause unexpected system termination or read kernel memory",
+            "description": "An out-of-bounds read issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30719",
+                    "credit": "an anonymous researcher working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30728",
+                    "credit": "Liu Long of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2021-30726",
+                    "credit": "Yinyi Wu(@3ndy1) of Qihoo 360 Vulcan Team"
+                }
+            ]
+        },
+        {
+            "module": "IOUSBHostFamily",
+            "available": "macOS Big Sur",
+            "impact": "This issue was addressed with improved checks",
+            "description": "An unprivileged application may be able to capture USB devices.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30731",
+                    "credit": "UTM (@UTMapp)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30740",
+                    "credit": "Linus Henze (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30704",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted message may lead to a denial of service",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30715",
+                    "credit": "The UK's National Cyber Security Centre (NCSC)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow was addressed with improved size validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30736",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30739",
+                    "credit": "Zuozhi Fan (@pattern_F_) of Ant Group Tianqiong Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "A double free issue was addressed with improved memory management",
+            "description": "An application may be able to execute arbitrary code with kernel privileges.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30703",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kext Management",
+            "available": "macOS Big Sur",
+            "impact": "A local user may be able to load unsigned kernel extensions",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30680",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to break out of its sandbox",
+            "description": "This issue was addressed with improved environment sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30677",
+                    "credit": "Ron Waisberg (@epsilan)"
+                }
+            ]
+        },
+        {
+            "module": "Login Window",
+            "available": "macOS Big Sur",
+            "impact": "A person with physical access to a Mac may be able to bypass Login Window",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30702",
+                    "credit": "Jewel Lambert of Original Spin, LLC."
+                }
+            ]
+        },
+        {
+            "module": "Mail",
+            "available": "macOS Big Sur",
+            "impact": "An attacker in a privileged network position may be able to misrepresent application state",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30696",
+                    "credit": "Fabian Ising and Damian Poddebniak of M\u00fcnster University of Applied Sciences"
+                }
+            ]
+        },
+        {
+            "module": "MediaRemote",
+            "available": "macOS Big Sur",
+            "impact": "A privacy issue in Now Playing was addressed with improved permissions",
+            "description": "A local attacker may be able to view Now Playing information from the lock screen.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30756",
+                    "credit": "Ricky D'Amelio, Jatayu Holznagel (@jholznagel)"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30723",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                },
+                {
+                    "id": "CVE-2021-30691",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                },
+                {
+                    "id": "CVE-2021-30692",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                },
+                {
+                    "id": "CVE-2021-30694",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30725",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30746",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A validation issue was addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30693",
+                    "credit": "Mickey Jin (@patch1t) & Junzhi Lu (@pwn0rz) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30695",
+                    "credit": "Mickey Jin (@patch1t) & Junzhi Lu (@pwn0rz) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30708",
+                    "credit": "Mickey Jin (@patch1t) & Junzhi Lu (@pwn0rz) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30709",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "NSOpenPanel",
+            "available": "macOS Big Sur",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30679",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "OpenLDAP",
+            "available": "macOS Big Sur",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-36226"
+                },
+                {
+                    "id": "CVE-2020-36227"
+                },
+                {
+                    "id": "CVE-2020-36223"
+                },
+                {
+                    "id": "CVE-2020-36224"
+                },
+                {
+                    "id": "CVE-2020-36225"
+                },
+                {
+                    "id": "CVE-2020-36221"
+                },
+                {
+                    "id": "CVE-2020-36228"
+                },
+                {
+                    "id": "CVE-2020-36222"
+                },
+                {
+                    "id": "CVE-2020-36230"
+                },
+                {
+                    "id": "CVE-2020-36229"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to overwrite arbitrary files",
+            "description": "An issue with path validation logic for hardlinks was addressed with improved path sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30738",
+                    "credit": "Qingyang Chen of Topsec Alpha Team and Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to bypass certain Privacy preferences",
+            "description": "This issue was addressed with improved data protection.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30751",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted certificate may lead to arbitrary code execution",
+            "description": "A memory corruption issue in the ASN.1 decoder was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30737",
+                    "credit": "xerub"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Big Sur",
+            "impact": "An attacker in a privileged network position may be able to perform denial of service",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30716",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Big Sur",
+            "impact": "An attacker in a privileged network position may be able to execute arbitrary code",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30717",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Big Sur",
+            "impact": "An attacker in a privileged network position may be able to leak sensitive user information",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30721",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Big Sur",
+            "impact": "An attacker in a privileged network position may be able to leak sensitive user information",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30722",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Big Sur",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30712",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "Software Update",
+            "available": "macOS Big Sur",
+            "impact": "A person with physical access to a Mac may be able to bypass Login Window during a software update",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30668",
+                    "credit": "Syrus Kimiagar and Danilo Paffi Monteiro"
+                }
+            ]
+        },
+        {
+            "module": "SoftwareUpdate",
+            "available": "macOS Big Sur",
+            "impact": "A non-privileged user may be able to modify restricted settings",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30718",
+                    "credit": "SiQian Wei of ByteDance Security"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to send unauthorized Apple events to Finder",
+            "description": "A validation issue was addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30671",
+                    "credit": "Ryan Bell (@iRyanBell)"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to bypass Privacy preferences. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A permissions issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30713",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A cross-origin issue with iframe elements was addressed with improved tracking of security origins.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30744",
+                    "credit": "Dan Hite of jsontop"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-21779",
+                    "credit": "Marcin Towalski of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to leak sensitive user information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30682",
+                    "credit": "Prakash (@1lastBr3ath)"
+                }
+            ],
+            "updated": [
+                "July 21, 2021"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30689",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "Multiple memory corruption issues were addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30749",
+                    "credit": "an anonymous researcher and mipu94 of SEFCOM lab, ASU. working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2021-30734",
+                    "credit": "Jack Dates of RET2 Systems, Inc. (@ret2systems) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur",
+            "impact": "A malicious website may be able to access restricted ports on arbitrary servers",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30720",
+                    "credit": "David Sch\u00fctz (@xdavidhu)"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "macOS Big Sur",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "A null pointer dereference was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-23841",
+                    "credit": "Tavis Ormandy of Google"
+                },
+                {
+                    "id": "CVE-2021-30698",
+                    "credit": "Tavis Ormandy of Google"
+                }
+            ]
+        }
+    ]
+}

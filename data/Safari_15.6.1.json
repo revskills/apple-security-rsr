@@ -1,0 +1,21 @@
+{
+    "name": "Safari 15.6.1",
+    "url": "https://support.apple.com/kb/HT213414",
+    "available": "macOS Big Sur and macOS Catalina",
+    "released": "18 Aug 2022",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "bugzilla": "243557",
+                    "id": "CVE-2022-32893",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

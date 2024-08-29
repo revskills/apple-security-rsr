@@ -1,0 +1,32 @@
+{
+    "name": "Logic Pro 10.7.3",
+    "url": "https://support.apple.com/kb/HT213190",
+    "available": "macOS Big Sur 11.5 and later",
+    "released": "14 Mar 2022",
+    "advisories": [
+        {
+            "module": "MIDI",
+            "available": "macOS Big Sur 11.5 and later",
+            "impact": "Opening a maliciously crafted file may lead to unexpected application termination or arbitrary code execution",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22657",
+                    "credit": "Brandon Perry of Atredis Partners"
+                }
+            ]
+        },
+        {
+            "module": "MIDI",
+            "available": "macOS Big Sur 11.5 and later",
+            "impact": "Opening a maliciously crafted file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22664",
+                    "credit": "Brandon Perry of Atredis Partners"
+                }
+            ]
+        }
+    ]
+}

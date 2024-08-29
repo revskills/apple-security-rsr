@@ -1,0 +1,80 @@
+{
+    "name": "iTunes 12.11 for Windows",
+    "url": "https://support.apple.com/kb/HT211933",
+    "available": "Windows 10 and later",
+    "released": "17 Nov 2020",
+    "advisories": [
+        {
+            "module": "Foundation",
+            "available": "Windows 10 and later",
+            "impact": "A local user may be able to read arbitrary files",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10002",
+                    "credit": "James Hutchins"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27912",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Windows 10 and later",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27917",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Windows 10 and later",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27911",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27918",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Windows Security",
+            "available": "Windows 10 and later",
+            "impact": "A malicious application may be able to access local users Apple IDs",
+            "description": "An information disclosure issue existed in the transition of program state. This issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27895",
+                    "credit": "Sourav Newatia (linkedin.com/in/sourav-newatia-5b0848a8/)"
+                }
+            ]
+        }
+    ]
+}

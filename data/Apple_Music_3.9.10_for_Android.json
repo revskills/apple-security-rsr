@@ -1,0 +1,44 @@
+{
+    "name": "Apple Music 3.9.10 for Android",
+    "url": "https://support.apple.com/kb/HT213473",
+    "available": "Android version 5.0 and later",
+    "released": "14 Jun 2022",
+    "advisories": [
+        {
+            "module": "Apple Music on Android",
+            "available": "Android version 5.0 and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32836",
+                    "credit": "hluwa"
+                }
+            ]
+        },
+        {
+            "module": "Apple Music on Android",
+            "available": "Android version 5.0 and later",
+            "impact": "A user in a privileged network position may intercept SSL/TLS connections",
+            "description": "This issue was addressed with using HTTPS when sending information over the network.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32906",
+                    "credit": "David Coomber of Info-Sec.CA"
+                }
+            ]
+        },
+        {
+            "module": "Apple Music on Android",
+            "available": "Android version 5.0 and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32846",
+                    "credit": "Martin Mwangi Kibuchi"
+                }
+            ]
+        }
+    ]
+}

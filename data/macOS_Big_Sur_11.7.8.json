@@ -1,0 +1,23 @@
+{
+    "name": "macOS Big Sur 11.7.8",
+    "url": "https://support.apple.com/kb/HT213809",
+    "available": "macOS Big Sur",
+    "released": "21 Jun 2023",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32434",
+                    "credit": "Georgy Kucherin (@kucher1n), Leonid Bezvershenko (@bzvr_), Boris Larin (@oct0xor), and Valentin Pashkov of Kaspersky"
+                }
+            ],
+            "updated": [
+                "August 1, 2023"
+            ]
+        }
+    ]
+}

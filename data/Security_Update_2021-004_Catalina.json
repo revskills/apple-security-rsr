@@ -1,0 +1,393 @@
+{
+    "name": "Security Update 2021-004 Catalina",
+    "url": "https://support.apple.com/kb/HT212600",
+    "available": "macOS Catalina",
+    "released": "21 Jul 2021",
+    "advisories": [
+        {
+            "module": "AMD Kernel",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30805",
+                    "credit": "ABC Research s.r.o"
+                }
+            ]
+        },
+        {
+            "module": "AppKit",
+            "available": "macOS Catalina",
+            "impact": "Opening a maliciously crafted file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An information disclosure issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30790",
+                    "credit": "hjy79425575 working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Catalina",
+            "impact": "A local attacker may be able to read sensitive information",
+            "description": "This issue was addressed with improved checks.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30811",
+                    "credit": "an anonymous researcher working with Compartir"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "macOS Catalina",
+            "impact": "A local attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30781",
+                    "credit": "tr3e"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30672",
+                    "credit": "say2 of ENKI"
+                }
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30775",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "macOS Catalina",
+            "impact": "Playing a malicious audio file may lead to an unexpected application termination",
+            "description": "A logic issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30776",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreServices",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "This issue was addressed with improved checks.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30772",
+                    "credit": "Zhongcheng Li (CK01)"
+                }
+            ]
+        },
+        {
+            "module": "CoreStorage",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "An injection issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30777",
+                    "credit": "Tim Michaud(@TimGMichaud) of Zoom Video Communications and Gary Nield of ECSC Group plc"
+                }
+            ]
+        },
+        {
+            "module": "CoreText",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30789",
+                    "credit": "Sunglin of Knownsec 404 team, Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "CoreText",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted font may result in the disclosure of process memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30733",
+                    "credit": "Sunglin from the Knownsec 404"
+                }
+            ]
+        },
+        {
+            "module": "Crash Reporter",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30774",
+                    "credit": "Yizhuo Wang of Group of Software Security In Progress (G.O.S.S.I.P) at Shanghai Jiao Tong University"
+                }
+            ]
+        },
+        {
+            "module": "CVMS",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30780",
+                    "credit": "Tim Michaud(@TimGMichaud) of Zoom Video Communications"
+                }
+            ]
+        },
+        {
+            "module": "dyld",
+            "available": "macOS Catalina",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30768",
+                    "credit": "Linus Henze (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30760",
+                    "credit": "Sunglin of Knownsec 404 team"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "A stack overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30759",
+                    "credit": "hjy79425575 working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted tiff file may lead to a denial-of-service or potentially disclose memory contents",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30788",
+                    "credit": "tr3e working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30785",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro, CFF of Topsec Alpha Team"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to cause unexpected system termination or write kernel memory",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30787",
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30765",
+                    "credit": "Yinyi Wu (@3ndy1) of Qihoo 360 Vulcan Team, Liu Long of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2021-30766",
+                    "credit": "Liu Long of Ant Security Light-Year Lab"
+                }
+            ],
+            "updated": [
+                "January 19, 2022"
+            ]
+        },
+        {
+            "module": "IOKit",
+            "available": "macOS Catalina",
+            "impact": "A local attacker may be able to execute code on the Apple T2 Security Chip",
+            "description": "Multiple issues were addressed with improved logic.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30784",
+                    "credit": "George Nosenko"
+                }
+            ]
+        },
+        {
+            "module": "IOUSBHostFamily",
+            "available": "macOS Catalina",
+            "impact": "An unprivileged application may be able to capture USB devices",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30731",
+                    "credit": "UTM (@UTMapp)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A double free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30703",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30793",
+                    "credit": "Zuozhi Fan (@pattern_F_) of Ant Security TianQiong Lab"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to break out of its sandbox",
+            "description": "This issue was addressed with improved environment sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30677",
+                    "credit": "Ron Waisberg (@epsilan)"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Catalina",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30783",
+                    "credit": "Ron Waisberg (@epsilan)"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted file may disclose user information",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30791",
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30792",
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted image may lead to a denial of service",
+            "description": "A logic issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30796",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to access restricted files",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30782",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "Multiple memory corruption issues were addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30799",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

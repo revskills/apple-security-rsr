@@ -1,0 +1,363 @@
+{
+    "name": "tvOS 17.5",
+    "url": "https://support.apple.com/kb/HT214102",
+    "available": "Apple TV HD and Apple TV 4K (all models)",
+    "released": "13 May 2024",
+    "advisories": [
+        {
+            "module": "Apple Neural Engine",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "A local attacker may be able to cause unexpected system shutdown",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "July 29, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27826",
+                    "credit": "Minghao Lin, and Ye Zhang (@VAR10CK) of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "AppleAVD",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to cause unexpected system termination",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27804",
+                    "credit": "Meysam Firouzi (@R00tkitSMM)"
+                }
+            ],
+            "updated": [
+                "May 15, 2024"
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An attacker may be able to access user data",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27816",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Core Data",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "An issue was addressed with improved validation of environment variables.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27805",
+                    "credit": "Kirin (@Pwnrin) and \u5c0f\u6765\u6765 (@Smi1eSEC)"
+                }
+            ]
+        },
+        {
+            "module": "CoreMedia",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27817",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreMedia",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing a file may lead to unexpected app termination or arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27831",
+                    "credit": "Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations"
+                }
+            ]
+        },
+        {
+            "module": "Disk Images",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to elevate privileges",
+            "description": "The issue was addressed with improved checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27832",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Foundation",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to elevate privileges",
+            "description": "The issue was addressed with improved checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27801",
+                    "credit": "CertiK SkyFall Team"
+                }
+            ]
+        },
+        {
+            "module": "IOSurface",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27828",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An attacker that has already achieved kernel code execution may be able to bypass kernel memory protections",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27840",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27815",
+                    "credit": "an anonymous researcher, and Joseph Ravichandran (@0xjprx) of MIT CSAIL"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An attacker in a privileged network position may be able to spoof network packets",
+            "description": "A race condition was addressed with improved locking.",
+            "added": "July 29, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27823",
+                    "credit": "Prof. Benny Pinkas of Bar-Ilan University, Prof. Amit Klein of Hebrew University, and EP"
+                }
+            ]
+        },
+        {
+            "module": "libiconv",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to elevate privileges",
+            "description": "The issue was addressed with improved checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27811",
+                    "credit": "Nick Wellnhofer"
+                }
+            ]
+        },
+        {
+            "module": "Maps",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27810",
+                    "credit": "LFY@secsys of Fudan University"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing a maliciously crafted message may lead to a denial-of-service",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27800",
+                    "credit": "Daniel Zajork and Joshua Zajork"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27802",
+                    "credit": "Meysam Firouzi (@R00tkitsmm) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An out-of-bounds access issue was addressed with improved bounds checking.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27857",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "RemoteViewServices",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An attacker may be able to access user data",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27816",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Spotlight",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "This issue was addressed with improved environment sanitization.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27806"
+                }
+            ]
+        },
+        {
+            "module": "Transparency",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed with a new entitlement.",
+            "added": "July 29, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27884",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "272750",
+                    "id": "CVE-2024-27834",
+                    "credit": "Manfred Paul (@_manfp) working with Trend Micro's Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "The issue was addressed by adding additional logic.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "262337",
+                    "id": "CVE-2024-27838",
+                    "credit": "Emilio Cobos of Mozilla"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "268221",
+                    "id": "CVE-2024-27808",
+                    "credit": "Lukas Bernhard of CISPA Helmholtz Center for Information Security"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "271491",
+                    "id": "CVE-2024-27833",
+                    "credit": "Manfred Paul (@_manfp) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved bounds checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "272106",
+                    "id": "CVE-2024-27851",
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Canvas",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "This issue was addressed through improved state management.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "271159",
+                    "id": "CVE-2024-27830",
+                    "credit": "Joe Rutkowski (@Joe12387) of Crawless and @abrahamjuliot"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Web Inspector",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "270139",
+                    "id": "CVE-2024-27820",
+                    "credit": "Jeff Johnson of underpassapp.com"
+                }
+            ]
+        }
+    ]
+}

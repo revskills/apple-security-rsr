@@ -1,0 +1,82 @@
+{
+    "name": "iTunes 12.12.4 for Windows",
+    "url": "https://support.apple.com/kb/HT213259",
+    "available": "Windows 10 and later",
+    "released": "18 May 2022",
+    "advisories": [
+        {
+            "module": "AppleGraphicsControl",
+            "available": "Windows 10 and later",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26751",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An integer overflow issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26711",
+                    "credit": "actae0n of Blacksun Hackers Club working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "iTunes",
+            "available": "Windows 10 and later",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26774",
+                    "credit": "Sai Wynn Myat (@404death)"
+                }
+            ]
+        },
+        {
+            "module": "iTunes",
+            "available": "Windows 10 and later",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A logic issue was addressed with improved checks.",
+            "added": "April 24, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2022-48611",
+                    "credit": "Lockheed Martin Red Team"
+                }
+            ]
+        },
+        {
+            "module": "Mobile Device Service",
+            "available": "Windows 10 and later",
+            "impact": "An application may be able to delete files for which it does not have permission",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26773",
+                    "credit": "Sai Wynn Myat (@404death)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "238171",
+                    "id": "CVE-2022-26717",
+                    "credit": "Jeonghoon Shin of Theori"
+                }
+            ]
+        }
+    ]
+}

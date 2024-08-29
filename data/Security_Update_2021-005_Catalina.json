@@ -1,0 +1,294 @@
+{
+    "name": "Security Update 2021-005 Catalina",
+    "url": "https://support.apple.com/kb/HT212805",
+    "available": "macOS Catalina",
+    "released": "13 Sep 2021",
+    "advisories": [
+        {
+            "module": "CoreGraphics",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted PDF may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30860",
+                    "credit": "The Citizen Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreServices",
+            "available": "macOS Catalina",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30783",
+                    "credit": "an anonymous researcher, Ron Hass (@ronhass7) of Perception Point"
+                }
+            ]
+        },
+        {
+            "module": "Core Telephony",
+            "available": "macOS Catalina",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions. Apple was aware of a report that this issue may have been actively exploited at the time of release.",
+            "description": "A deserialization issue was addressed through improved validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-31010",
+                    "credit": "Citizen Lab and Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "CUPS",
+            "available": "macOS Catalina",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A permissions issue existed. This issue was addressed with improved permission validation.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30827",
+                    "credit": "Nathan Nye of WhiteBeam Security, Inc."
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "CUPS",
+            "available": "macOS Catalina",
+            "impact": "A local user may be able to read arbitrary files as root",
+            "description": "This issue was addressed with improved checks.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30828",
+                    "credit": "Nathan Nye of WhiteBeam Security, Inc."
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "CUPS",
+            "available": "macOS Catalina",
+            "impact": "A local user may be able to execute arbitrary files",
+            "description": "A URI parsing issue was addressed with improved parsing.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30829",
+                    "credit": "Nathan Nye of WhiteBeam Security, Inc."
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Catalina",
+            "impact": "curl could potentially reveal sensitive internal information to the server using a clear-text network protocol",
+            "description": "A buffer overflow was addressed with improved input validation.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-22925",
+                    "credit": "Red Hat Product Security"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "CVMS",
+            "available": "macOS Catalina",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30832",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted dfont file may lead to arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30841",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2021-30842",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2021-30843",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30835",
+                    "credit": "Ye Zhang of Baidu Security"
+                },
+                {
+                    "id": "CVE-2021-30847",
+                    "credit": "Mike Zhang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30830",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30865",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "Mounting a maliciously crafted NFS network share may lead to arbitrary code execution with system privileges",
+            "description": "A race condition was addressed with additional validation.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-29622",
+                    "credit": "Jordy Zomer of Certified Secure"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved locking.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30857",
+                    "credit": "Manish Bhatt of Red Team X @Meta, Zweig of Kunlun Lab"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30859",
+                    "credit": "Apple"
+                }
+            ]
+        },
+        {
+            "module": "libexpat",
+            "available": "macOS Catalina",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "This issue was addressed by updating expat to version 2.4.1.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2013-0340",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Preferences",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to access restricted files",
+            "description": "A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30855",
+                    "credit": "Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Catalina",
+            "impact": "A user may gain access to protected parts of the file system",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30850",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "SMB",
+            "available": "macOS Catalina",
+            "impact": "A remote attacker may be able to leak memory",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30844",
+                    "credit": "Peter Nguyen Vu Hoang of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to bypass Privacy preferences",
+            "description": "A permissions issue was addressed with improved validation.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30713",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

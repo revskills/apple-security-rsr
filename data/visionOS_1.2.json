@@ -1,0 +1,283 @@
+{
+    "name": "visionOS 1.2",
+    "url": "https://support.apple.com/kb/HT214108",
+    "available": "Apple Vision Pro",
+    "released": "10 Jun 2024",
+    "advisories": [
+        {
+            "module": "CoreMedia",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27817",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreMedia",
+            "available": "Apple Vision Pro",
+            "impact": "Processing a file may lead to unexpected app termination or arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27831",
+                    "credit": "Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations"
+                }
+            ]
+        },
+        {
+            "module": "Disk Images",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to elevate privileges",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27832",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Foundation",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to elevate privileges",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27801",
+                    "credit": "CertiK SkyFall Team"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple Vision Pro",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27836",
+                    "credit": "Junsung Lee working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "IOSurface",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27828",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Vision Pro",
+            "impact": "An attacker that has already achieved kernel code execution may be able to bypass kernel memory protections",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27840",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27815",
+                    "credit": "an anonymous researcher, and Joseph Ravichandran (@0xjprx) of MIT CSAIL"
+                }
+            ]
+        },
+        {
+            "module": "libiconv",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to elevate privileges",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27811",
+                    "credit": "Nick Wellnhofer"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "Apple Vision Pro",
+            "impact": "Processing a maliciously crafted message may lead to a denial-of-service",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27800",
+                    "credit": "Daniel Zajork and Joshua Zajork"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "Apple Vision Pro",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27802",
+                    "credit": "Meysam Firouzi (@R00tkitsmm) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "Apple Vision Pro",
+            "impact": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An out-of-bounds access issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27857",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "Apple Vision Pro",
+            "impact": "A website's permission dialog may persist after navigation away from the site",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27844",
+                    "credit": "Narendra Bhati of Suma Soft Pvt. Ltd in Pune (India), Shaheen Fazim"
+                }
+            ]
+        },
+        {
+            "module": "Transparency",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed with a new entitlement.",
+            "added": "July 29, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27884",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "The issue was addressed by adding additional logic.",
+            "cves": [
+                {
+                    "bugzilla": "262337",
+                    "id": "CVE-2024-27838",
+                    "credit": "Emilio Cobos of Mozilla"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "268221",
+                    "id": "CVE-2024-27808",
+                    "credit": "Lukas Bernhard of CISPA Helmholtz Center for Information Security"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "Processing web content may lead to a denial-of-service",
+            "description": "A logic issue was addressed with improved file handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27812",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ],
+            "updated": [
+                "June 20, 2024"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "This issue was addressed with improvements to the noise injection algorithm.",
+            "cves": [
+                {
+                    "bugzilla": "270767",
+                    "id": "CVE-2024-27850",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "271491",
+                    "id": "CVE-2024-27833",
+                    "credit": "Manfred Paul (@_manfp) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved bounds checks.",
+            "cves": [
+                {
+                    "bugzilla": "272106",
+                    "id": "CVE-2024-27851",
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Canvas",
+            "available": "Apple Vision Pro",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "This issue was addressed through improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "271159",
+                    "id": "CVE-2024-27830",
+                    "credit": "Joe Rutkowski (@Joe12387) of Crawless and @abrahamjuliot"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Web Inspector",
+            "available": "Apple Vision Pro",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "270139",
+                    "id": "CVE-2024-27820",
+                    "credit": "Jeff Johnson of underpassapp.com"
+                }
+            ]
+        }
+    ]
+}

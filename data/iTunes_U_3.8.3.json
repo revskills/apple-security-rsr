@@ -1,0 +1,20 @@
+{
+    "name": "iTunes U 3.8.3",
+    "url": "https://support.apple.com/kb/HT212809",
+    "available": "iOS 12.4 and later or iPadOS 12.4 and later",
+    "released": "15 Sep 2021",
+    "advisories": [
+        {
+            "module": "iTunes U",
+            "available": "iOS 12.4 and later or iPadOS 12.4 and later",
+            "impact": "Processing a maliciously crafted URL may lead to arbitrary javascript code execution",
+            "description": "A validation issue was addressed with improved input sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30862",
+                    "credit": "Giyas Umarov (@3h6_1) of Holmdel High School"
+                }
+            ]
+        }
+    ]
+}

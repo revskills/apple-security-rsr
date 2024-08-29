@@ -1,0 +1,20 @@
+{
+    "name": "macOS Big Sur 11.7.10",
+    "url": "https://support.apple.com/kb/HT213915",
+    "available": "macOS Big Sur",
+    "released": "11 Sep 2023",
+    "advisories": [
+        {
+            "module": "ImageIO",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-41064",
+                    "credit": "The Citizen Lab at The University of Toronto\u02bcs Munk School"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "name": "macOS Ventura 13.6.4",
+    "url": "https://support.apple.com/kb/HT214058",
+    "available": "macOS Ventura",
+    "released": "22 Jan 2024",
+    "advisories": [
+        {
+            "module": "Apple Neural Engine",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23212",
+                    "credit": "Ye Zhang of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "Accessibility",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42937",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)"
+                }
+            ]
+        },
+        {
+            "module": "Core Data",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40528",
+                    "credit": "Kirin (@Pwnrin) of NorthSea"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Ventura",
+            "impact": "Multiple issues in curl",
+            "description": "Multiple issues were addressed by updating to curl version 8.4.0.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38545"
+                },
+                {
+                    "id": "CVE-2023-38039"
+                },
+                {
+                    "id": "CVE-2023-38546"
+                }
+            ],
+            "updated": [
+                "February 13, 2024"
+            ]
+        },
+        {
+            "module": "Finder",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23224",
+                    "credit": "Brian McNulty"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Ventura",
+            "impact": "Processing a maliciously crafted image may result in disclosure of process memory",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42888",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "LoginWindow",
+            "available": "macOS Ventura",
+            "impact": "A local attacker may be able to view the previous logged in user\u2019s desktop from the fast user switching screen",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42935",
+                    "credit": "ASentientBot"
+                }
+            ],
+            "updated": [
+                "April 24, 2024"
+            ]
+        },
+        {
+            "module": "Mail Search",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23207",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab), and Ian de Marcellus"
+                }
+            ]
+        },
+        {
+            "module": "NSOpenPanel",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to read arbitrary files",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42887",
+                    "credit": "Ron Masas of BreakPoint.sh"
+                }
+            ]
+        },
+        {
+            "module": "Power Manager",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to corrupt coprocessor memory",
+            "description": "The issue was addressed with improved checks.",
+            "added": "April 24, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27791",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited.",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "267134",
+                    "id": "CVE-2024-23222"
+                }
+            ]
+        }
+    ]
+}

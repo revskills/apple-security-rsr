@@ -1,0 +1,20 @@
+{
+    "name": "macOS Big Sur 11.5.1",
+    "url": "https://support.apple.com/kb/HT212622",
+    "available": "macOS Big Sur",
+    "released": "26 Jul 2021",
+    "advisories": [
+        {
+            "module": "IOMobileFrameBuffer",
+            "available": "macOS Big Sur",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30807",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

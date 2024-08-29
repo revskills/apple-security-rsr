@@ -1,0 +1,68 @@
+{
+    "name": "Safari 15.1",
+    "url": "https://support.apple.com/kb/HT212875",
+    "available": "macOS Big Sur and macOS Catalina",
+    "released": "27 Oct 2021",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "added": "March 31, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-31008"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to unexpectedly unenforced Content Security Policy",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30887",
+                    "credit": "Narendra Bhati (@imnarendrabhati) of Suma Soft Pvt. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "A malicious website using Content Security Policy reports may be able to leak information via redirect behavior",
+            "description": "An information leakage issue was addressed.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30888",
+                    "credit": "Prakash (@1lastBr3ath)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30889",
+                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30890",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

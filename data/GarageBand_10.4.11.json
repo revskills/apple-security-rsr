@@ -1,0 +1,20 @@
+{
+    "name": "GarageBand 10.4.11",
+    "url": "https://support.apple.com/kb/HT214090",
+    "available": "macOS Ventura and macOS Sonoma",
+    "released": "12 Mar 2024",
+    "advisories": [
+        {
+            "module": "GarageBand",
+            "available": "macOS Ventura and macOS Sonoma",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination or arbitrary code execution",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23300",
+                    "credit": "Marc Schoenefeld, Dr. rer. nat."
+                }
+            ]
+        }
+    ]
+}

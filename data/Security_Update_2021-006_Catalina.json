@@ -1,0 +1,20 @@
+{
+    "name": "Security Update 2021-006 Catalina",
+    "url": "https://support.apple.com/kb/HT212825",
+    "available": "macOS Catalina",
+    "released": "23 Sep 2021",
+    "advisories": [
+        {
+            "module": "XNU",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30869",
+                    "credit": "Erye Hernandez of Google Threat Analysis Group, Cl\u00e9ment Lecigne of Google Threat Analysis Group, and Ian Beer of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

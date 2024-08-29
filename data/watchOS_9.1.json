@@ -1,0 +1,266 @@
+{
+    "name": "watchOS 9.1",
+    "url": "https://support.apple.com/kb/HT213491",
+    "available": "Apple Watch Series 4 and later",
+    "released": "24 Oct 2022",
+    "advisories": [
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "This issue was addressed by removing additional entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42825",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32932",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Parsing a maliciously crafted audio file may lead to disclosure of user information",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-42798",
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved bounds checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32940",
+                    "credit": "ABC Research s.r.o."
+                }
+            ]
+        },
+        {
+            "module": "CFNetwork",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing a maliciously crafted certificate may lead to arbitrary code execution",
+            "description": "A certificate validation issue existed in the handling of WKWebView. This issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42813",
+                    "credit": "Jonathan Zhang of Open Computing Facility (ocf.berkeley.edu)"
+                }
+            ]
+        },
+        {
+            "module": "GPU Drivers",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32947",
+                    "credit": "Asahi Lina (@LinaAsahi)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to cause unexpected system termination or potentially execute code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "June 6, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46712",
+                    "credit": "Tommy Muir (@Muirey03)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32924",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A remote user may be able to cause kernel code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42808",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32944",
+                    "credit": "Tim Michaud (@TimGMichaud) of Moveworks.ai"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved locking.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-42803",
+                    "credit": "Xinru Chi of Pangu Lab, John Aakerblom (@jaakerblom)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app with root privileges may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved bounds checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32926",
+                    "credit": "Tim Michaud (@TimGMichaud) of Moveworks.ai"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue was addressed with improved checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-42801",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Visiting a maliciously crafted website may leak sensitive data",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-42817",
+                    "credit": "Mir Masood Ali, PhD student, University of Illinois at Chicago; Binoy Chitale, MS student, Stony Brook University; Mohammad Ghasemisharif, PhD Candidate, University of Illinois at Chicago; Chris Kanich, Associate Professor, University of Illinois at Chicago"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42811",
+                    "credit": "Justin Bui (@slyd0g) of Snowflake"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Visiting a malicious website may lead to user interface spoofing",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "bugzilla": "243693",
+                    "id": "CVE-2022-42799",
+                    "credit": "Jihwan Kim (@gPayl0ad), Dohyun Lee (@l33d0hyun)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "244622",
+                    "id": "CVE-2022-42823",
+                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Labs"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "245058",
+                    "id": "CVE-2022-42824",
+                    "credit": "Abdulrahman Alqabandi of Microsoft Browser Vulnerability Research, Ryan Shin of IAAI SecLab at Korea University, Dohyun Lee (@l33d0hyun) of DNSLab at Korea University"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may disclose internal states of the app",
+            "description": "A correctness issue in the JIT was addressed with improved checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "bugzilla": "242964",
+                    "id": "CVE-2022-32923",
+                    "credit": "Wonyoung Jung (@nonetype_pwn) of KAIST Hacking Lab"
+                }
+            ]
+        },
+        {
+            "module": "zlib",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-37434",
+                    "credit": "Evgeny Legerov"
+                },
+                {
+                    "id": "CVE-2022-42800",
+                    "credit": "Evgeny Legerov"
+                }
+            ]
+        }
+    ]
+}

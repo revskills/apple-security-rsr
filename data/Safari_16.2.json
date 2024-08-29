@@ -1,0 +1,144 @@
+{
+    "name": "Safari 16.2",
+    "url": "https://support.apple.com/kb/HT213537",
+    "available": "macOS Big Sur and macOS Monterey",
+    "released": "13 Dec 2022",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "A spoofing issue existed in the handling of URLs. This issue was addressed with improved input validation.",
+            "added": "December 22, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-46705",
+                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE"
+                }
+            ],
+            "updated": [
+                "March 16, 2023"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "245521",
+                    "id": "CVE-2022-42867",
+                    "credit": "Maddie Stone of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "245466",
+                    "id": "CVE-2022-46691",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may bypass Same Origin Policy",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "246783",
+                    "id": "CVE-2022-46692",
+                    "credit": "KirtiKumar Anandrao Ramchandani"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may result in the disclosure of process memory",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "246721",
+                    "id": "CVE-2022-42852",
+                    "credit": "hazbinhotel working with Trend Micro Zero Day Initiative"
+                }
+            ],
+            "updated": [
+                "December 22, 2022"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "246942",
+                    "id": "CVE-2022-46696",
+                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                },
+                {
+                    "bugzilla": "247562",
+                    "id": "CVE-2022-46700",
+                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "247066",
+                    "id": "CVE-2022-46698",
+                    "credit": "Dohyun Lee (@l33d0hyun) of DNSLab at Korea University, Ryan Shin of IAAI SecLab at Korea University"
+                }
+            ],
+            "updated": [
+                "December 22, 2022"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "247420",
+                    "id": "CVE-2022-46699",
+                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                },
+                {
+                    "bugzilla": "244622",
+                    "id": "CVE-2022-42863",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.1.",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "bugzilla": "248266",
+                    "id": "CVE-2022-42856",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                }
+            ]
+        }
+    ]
+}

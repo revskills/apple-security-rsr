@@ -1,0 +1,35 @@
+{
+    "name": "Safari 14.0.1",
+    "url": "https://support.apple.com/kb/HT211934",
+    "available": "macOS Catalina and macOS Mojave",
+    "released": "12 Nov 2020",
+    "advisories": [
+        {
+            "module": "Safari",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "A spoofing issue existed in the handling of URLs. This issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9945",
+                    "credit": "Narendra Bhati of Suma Soft Pvt. Ltd. Pune (India) @imnarendrabhati"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27918",
+                    "credit": "Liu Long of Ant Security Light-Year Lab"
+                }
+            ],
+            "updated": [
+                "March 16, 2021"
+            ]
+        }
+    ]
+}

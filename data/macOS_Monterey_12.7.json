@@ -1,0 +1,206 @@
+{
+    "name": "macOS Monterey 12.7",
+    "url": "https://support.apple.com/kb/HT213932",
+    "available": "macOS Monterey",
+    "released": "21 Sep 2023",
+    "advisories": [
+        {
+            "module": "Apple Neural Engine",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40412",
+                    "credit": "Mohamed GHANNAM (@_simo36)"
+                },
+                {
+                    "id": "CVE-2023-40409",
+                    "credit": "Ye Zhang (@VAR10CK) of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40410",
+                    "credit": "Tim Michaud (@TimGMichaud) of Moveworks.ai"
+                }
+            ]
+        },
+        {
+            "module": "Ask to Buy",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access protected user data",
+            "description": "The issue was addressed with improved checks.",
+            "added": "December 22, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38612",
+                    "credit": "Chris Ross (Zoom)"
+                }
+            ]
+        },
+        {
+            "module": "Biometric Authentication",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-41232",
+                    "credit": "Liang Wei of PixiePoint Security"
+                }
+            ]
+        },
+        {
+            "module": "ColorSync",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read arbitrary files",
+            "description": "The issue was addressed with improved checks.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40406",
+                    "credit": "JeongOhKyea of Theori"
+                }
+            ]
+        },
+        {
+            "module": "CoreAnimation",
+            "available": "macOS Monterey",
+            "impact": "Processing web content may lead to a denial-of-service",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40420",
+                    "credit": "\uc774\uc900\uc131(Junsung Lee) of Cross Republic"
+                }
+            ]
+        },
+        {
+            "module": "Disk Management",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read arbitrary files",
+            "description": "This issue was addressed with improved validation of symlinks.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-41968",
+                    "credit": "Mickey Jin (@patch1t) and James Hutchins"
+                }
+            ]
+        },
+        {
+            "module": "Game Center",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access contacts",
+            "description": "The issue was addressed with improved handling of caches.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40395",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-41984",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "A local attacker may be able to elevate their privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-41992",
+                    "credit": "Bill Marczak of The Citizen Lab at The University of Toronto's Munk School and Maddie Stone of Google's Threat Analysis Group"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access protected user data",
+            "description": "An authorization issue was addressed with improved state management.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-41073",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to delete files for which it does not have permission",
+            "description": "A permissions issue was addressed with additional restrictions.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40454",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "libxslt",
+            "available": "macOS Monterey",
+            "impact": "Processing web content may disclose sensitive information",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40403",
+                    "credit": "Dohyun Lee (@l33d0hyun) of PK Security"
+                }
+            ]
+        },
+        {
+            "module": "Maps",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "The issue was addressed with improved handling of caches.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40427",
+                    "credit": "Adam M., and Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to overwrite arbitrary files",
+            "description": "The issue was addressed with improved bounds checks.",
+            "added": "September 26, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40452",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ]
+        }
+    ]
+}

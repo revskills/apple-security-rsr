@@ -1,0 +1,46 @@
+{
+    "name": "iTunes 12.12.9 for Windows",
+    "url": "https://support.apple.com/kb/HT213763",
+    "available": "Windows 10 and later",
+    "released": "23 May 2023",
+    "advisories": [
+        {
+            "module": "iTunes",
+            "available": "Windows 10 and later",
+            "impact": "An app may be able to elevate privileges",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32353",
+                    "credit": "Zeeshan Shaikh (@bugzzzhunter) \u2013 Synopsys Cybersecurity Research Center (CyRC)"
+                }
+            ]
+        },
+        {
+            "module": "iTunes",
+            "available": "Windows 10 and later",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32351",
+                    "credit": "ycdxsb of VARAS@IIE"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "A dynamic library loading issue was addressed with improved path searching.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "bugzilla": "241430",
+                    "id": "CVE-2023-32430",
+                    "credit": "James Tsz Ko Yeung (@5cript1diot)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "GarageBand 10.4.3",
+    "url": "https://support.apple.com/kb/HT212299",
+    "available": "macOS Big Sur",
+    "released": "06 Apr 2021",
+    "advisories": [
+        {
+            "module": "GarageBand",
+            "available": "macOS Big Sur",
+            "impact": "A local attacker may be able to read sensitive information",
+            "description": "This issue was addressed by removing additional entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30654",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "name": "iOS 15.7.6 and iPadOS 15.7.6",
+    "url": "https://support.apple.com/kb/HT213765",
+    "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+    "released": "18 May 2023",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32388",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "devices with Apple Neural Engine: iPhone 8 and later, iPad Pro (3rd generation) and later, iPad Air (3rd generation) and later, and iPad mini (5th generation)",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23532",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "devices with Apple Neural Engine: iPhone 8 and later, iPad Pro (3rd generation) and later, iPad Air (3rd generation) and later, and iPad mini (5th generation)",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32425",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "CoreCapture",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-28181",
+                    "credit": "Tingting Yin of Tsinghua University"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32384",
+                    "credit": "Meysam Firouzi @R00tkitsmm working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "IOSurface",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to leak sensitive kernel state",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32410",
+                    "credit": "hou xuewei (@p1ay8y3ar) vmk msu"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "A sandboxed app may be able to observe system-wide network connections",
+            "description": "The issue was addressed with additional permissions checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27940",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32413",
+                    "credit": "Eloi Benoist-Vanderbeken (@elvanderb) from Synacktiv (@Synacktiv) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32398",
+                    "credit": "Adam Doup\u00e9 of ASU SEFCOM"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32407",
+                    "credit": "Gergely Kalman (@gergely_kalman)"
+                }
+            ]
+        },
+        {
+            "module": "NetworkExtension",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32403",
+                    "credit": "Adam M."
+                }
+            ],
+            "updated": [
+                "December 21, 2023"
+            ]
+        },
+        {
+            "module": "Photos",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "Shake-to-undo may allow a deleted photo to be re-surfaced without authentication",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32365",
+                    "credit": "Jiwon Park"
+                }
+            ]
+        },
+        {
+            "module": "Shell",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32397",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "A shortcut may be able to use sensitive data with certain actions without prompting the user",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32391",
+                    "credit": "Wenchao Li and Xiaolong Bai of Alibaba Group"
+                }
+            ]
+        },
+        {
+            "module": "Telephony",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32412",
+                    "credit": "Ivan Fratric of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "TV App",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "The issue was addressed with improved handling of caches.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32408",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "Processing web content may disclose sensitive information. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "254930",
+                    "id": "CVE-2023-28204",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "254840",
+                    "id": "CVE-2023-32373",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

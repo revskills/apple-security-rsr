@@ -1,0 +1,40 @@
+{
+    "name": "Xcode 13",
+    "url": "https://support.apple.com/kb/HT212818",
+    "available": "macOS Big Sur 11.3 and later",
+    "released": "20 Sep 2021",
+    "advisories": [
+        {
+            "module": "IDE Xcode Server",
+            "available": "macOS Big Sur 11.3 and later",
+            "impact": "Multiple issues in nginx",
+            "description": "Multiple issues were addressed by updating nginx to version 1.21.0.",
+            "cves": [
+                {
+                    "id": "CVE-2016-0742"
+                },
+                {
+                    "id": "CVE-2016-0746"
+                },
+                {
+                    "id": "CVE-2016-0747"
+                },
+                {
+                    "id": "CVE-2017-7529"
+                },
+                {
+                    "id": "CVE-2018-16843"
+                },
+                {
+                    "id": "CVE-2018-16844"
+                },
+                {
+                    "id": "CVE-2018-16845"
+                },
+                {
+                    "id": "CVE-2019-20372"
+                }
+            ]
+        }
+    ]
+}

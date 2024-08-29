@@ -1,0 +1,139 @@
+{
+    "name": "Safari 16.6",
+    "url": "https://support.apple.com/kb/HT213847",
+    "available": "macOS Big Sur and macOS Monterey",
+    "released": "24 Jul 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "A website may be able to track sensitive user information",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "bugzilla": "257822",
+                    "id": "CVE-2023-38599",
+                    "credit": "Hritvik Taneja, Jason Kim, Jie Jeff Xu, Stephan van Schaik, Daniel Genkin, and Yuval Yarom"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing a document may lead to a cross site scripting attack",
+            "description": "This issue was addressed with improved checks.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "bugzilla": "257299",
+                    "id": "CVE-2023-32445",
+                    "credit": "Johan Carlsson (joaxcar)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "bugzilla": "257331",
+                    "id": "CVE-2023-38592",
+                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India, Valentino Dalla Valle, Pedro Bernardo, Marco Squarcina, and Lorenzo Veronese of TU Wien"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "A website may be able to bypass Same Origin Policy",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "256549",
+                    "id": "CVE-2023-38572",
+                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "256865",
+                    "id": "CVE-2023-38594",
+                    "credit": "Yuhao Hu"
+                },
+                {
+                    "bugzilla": "256573",
+                    "id": "CVE-2023-38595",
+                    "credit": "an anonymous researcher, Jiming Wang, and Jikai Ren"
+                },
+                {
+                    "bugzilla": "257387",
+                    "id": "CVE-2023-38600",
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "258058",
+                    "id": "CVE-2023-38611",
+                    "credit": "Francisco Alonso (@revskills)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "bugzilla": "257684",
+                    "id": "CVE-2023-42866",
+                    "credit": "Francisco Alonso (@revskills) and Junsung Lee"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Process Model",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "258100",
+                    "id": "CVE-2023-38597",
+                    "credit": "\uc774\uc900\uc131(Junsung Lee) of Cross Republic"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Web Inspector",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may disclose sensitive information",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "256932",
+                    "id": "CVE-2023-38133",
+                    "credit": "YeongHyeon Choi (@hyeon101010)"
+                }
+            ]
+        }
+    ]
+}

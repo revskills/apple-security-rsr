@@ -1,0 +1,714 @@
+{
+    "name": "macOS Sonoma 14.6",
+    "url": "https://support.apple.com/kb/HT214119",
+    "available": "macOS Sonoma",
+    "released": "29 Jul 2024",
+    "advisories": [
+        {
+            "module": "Accounts",
+            "available": "macOS Sonoma",
+            "impact": "A malicious application may be able to access private information",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40804",
+                    "credit": "IES Red Team of ByteDance"
+                }
+            ]
+        },
+        {
+            "module": "apache",
+            "available": "macOS Sonoma",
+            "impact": "Multiple issues in apache",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38709",
+                    "credit": "Yeto"
+                },
+                {
+                    "id": "CVE-2024-24795",
+                    "credit": "Yeto"
+                },
+                {
+                    "id": "CVE-2024-27316",
+                    "credit": "Yeto"
+                }
+            ]
+        },
+        {
+            "module": "APFS",
+            "available": "macOS Sonoma",
+            "impact": "A malicious application may be able to bypass Privacy preferences",
+            "description": "The issue was addressed with improved restriction of data container access.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40783",
+                    "credit": "Csaba Fitzl (@theevilbit) of Kandji"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A downgrade issue was addressed with additional code-signing restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40774",
+                    "credit": "Mickey Jin (@patch1t)"
+                },
+                {
+                    "id": "CVE-2024-40814",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to leak sensitive user information",
+            "description": "A downgrade issue was addressed with additional code-signing restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40775",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "AppleVA",
+            "available": "macOS Sonoma",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27877",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "ASP TCP",
+            "available": "macOS Sonoma",
+            "impact": "An app with root privileges may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27878",
+                    "credit": "CertiK SkyFall Team"
+                }
+            ]
+        },
+        {
+            "module": "CoreGraphics",
+            "available": "macOS Sonoma",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40799",
+                    "credit": "D4m0n"
+                }
+            ]
+        },
+        {
+            "module": "CoreMedia",
+            "available": "macOS Sonoma",
+            "impact": "Processing a maliciously crafted video file may lead to unexpected app termination",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27873",
+                    "credit": "Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Sonoma",
+            "impact": "Multiple issues in curl",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "id": "CVE-2024-2004"
+                },
+                {
+                    "id": "CVE-2024-2379"
+                },
+                {
+                    "id": "CVE-2024-2398"
+                },
+                {
+                    "id": "CVE-2024-2466"
+                }
+            ]
+        },
+        {
+            "module": "DesktopServices",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to overwrite arbitrary files",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40827",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "dyld",
+            "available": "macOS Sonoma",
+            "impact": "A malicious attacker with arbitrary read and write capability may be able to bypass Pointer Authentication",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40815",
+                    "credit": "w0wbox"
+                }
+            ]
+        },
+        {
+            "module": "Family Sharing",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "This issue was addressed with improved data protection.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40795",
+                    "credit": "Csaba Fitzl (@theevilbit) of Kandji"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Sonoma",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "id": "CVE-2023-6277"
+                },
+                {
+                    "id": "CVE-2023-52356"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Sonoma",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40806",
+                    "credit": "Yisumi"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Sonoma",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An out-of-bounds access issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40777",
+                    "credit": "Junsung Lee working with Trend Micro Zero Day Initiative, and Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Sonoma",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40784",
+                    "credit": "Junsung Lee working with Trend Micro Zero Day Initiative, Gandalf4a"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Sonoma",
+            "impact": "A local attacker may be able to determine kernel memory layout",
+            "description": "An information disclosure issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27863",
+                    "credit": "CertiK SkyFall Team"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Sonoma",
+            "impact": "A local attacker may be able to cause unexpected system shutdown",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40816",
+                    "credit": "sqrtpwn"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Sonoma",
+            "impact": "A local attacker may be able to cause unexpected system shutdown",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40788",
+                    "credit": "Minghao Lin and Jiaxun Zhu from Zhejiang University"
+                }
+            ]
+        },
+        {
+            "module": "Keychain Access",
+            "available": "macOS Sonoma",
+            "impact": "An attacker may be able to cause unexpected app termination",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40803",
+                    "credit": "Patrick Wardle of DoubleYou & the Objective-See Foundation"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A permissions issue was addressed with additional restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40805"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to view a contact's phone number in system logs",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40832",
+                    "credit": "Rodolphe BRUNETTI (@eisw0lf)"
+                }
+            ]
+        },
+        {
+            "module": "NetworkExtension",
+            "available": "macOS Sonoma",
+            "impact": "Private browsing may leak some browsing history",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40796",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "OpenSSH",
+            "available": "macOS Sonoma",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "id": "CVE-2024-6387"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Sonoma",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40781",
+                    "credit": "Mickey Jin (@patch1t)"
+                },
+                {
+                    "id": "CVE-2024-40802",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40823",
+                    "credit": "Zhongquan Li (@Guluisacat) from Dawn Security Lab of JingDong"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A permissions issue was addressed with additional restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27882",
+                    "credit": "Mickey Jin (@patch1t)"
+                },
+                {
+                    "id": "CVE-2024-27883",
+                    "credit": "Mickey Jin (@patch1t), and Csaba Fitzl (@theevilbit) of Kandji"
+                }
+            ]
+        },
+        {
+            "module": "Photos Storage",
+            "available": "macOS Sonoma",
+            "impact": "Photos in the Hidden Photos Album may be viewed without authentication",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40778",
+                    "credit": "Mateen Alinaghi"
+                }
+            ]
+        },
+        {
+            "module": "Restore Framework",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "An input validation issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40800",
+                    "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "macOS Sonoma",
+            "impact": "An app may bypass Gatekeeper checks",
+            "description": "A race condition was addressed with improved locking.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27952",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "macOS Sonoma",
+            "impact": "Visiting a website that frames malicious content may lead to UI spoofing",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40817",
+                    "credit": "Yadhu Krishna M and Narendra Bhati, Manager of Cyber Security At Suma Soft Pvt. Ltd, Pune (India)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed through improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40824",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog), and Zhongquan Li (@Guluisacat) from Dawn Security Lab of JingDong"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to access protected user data",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27871",
+                    "credit": "Mickey Jin (@patch1t), Csaba Fitzl (@theevilbit) of Kandji, and Zhongquan Li (@Guluisacat) of Dawn Security Lab of JingDong"
+                }
+            ]
+        },
+        {
+            "module": "Scripting Bridge",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to access information about a user\u2019s contacts",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27881",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Sonoma",
+            "impact": "Third party app extensions may not receive the correct sandbox restrictions",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40821",
+                    "credit": "Joshua Jones"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to read Safari's browsing history",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40798",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "Security Initialization",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to access protected user data",
+            "description": "This issue was addressed with improved validation of symlinks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27872",
+                    "credit": "Zhongquan Li (@Guluisacat) of Dawn Security Lab of JingDong"
+                }
+            ]
+        },
+        {
+            "module": "Setup Assistant",
+            "available": "macOS Sonoma",
+            "impact": "Enabling Lockdown Mode while setting up a Mac may cause FileVault to become unexpectedly disabled",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27862",
+                    "credit": "Jiwon Park"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Sonoma",
+            "impact": "A shortcut may be able to use sensitive data with certain actions without prompting the user",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40833",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40835",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40836",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40807",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Sonoma",
+            "impact": "A shortcut may be able to bypass sensitive Shortcuts app settings",
+            "description": "This issue was addressed by adding an additional prompt for user consent.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40834",
+                    "credit": "Marcio Almeida from Tanto Security"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Sonoma",
+            "impact": "A shortcut may be able to bypass Internet permission requirements",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40809",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40812",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Sonoma",
+            "impact": "A shortcut may be able to bypass Internet permission requirements",
+            "description": "This issue was addressed by adding an additional prompt for user consent.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40787",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40793",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "macOS Sonoma",
+            "impact": "An attacker with physical access may be able to use Siri to access sensitive user data",
+            "description": "This issue was addressed by restricting options offered on a locked device.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40818",
+                    "credit": "Bistrit Dahal and Srijan Poudel"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "macOS Sonoma",
+            "impact": "An attacker with physical access to a device may be able to access contacts from the lock screen",
+            "description": "This issue was addressed by restricting options offered on a locked device.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40822",
+                    "credit": "Srijan Poudel"
+                }
+            ]
+        },
+        {
+            "module": "StorageKit",
+            "available": "macOS Sonoma",
+            "impact": "A malicious app may be able to gain root privileges",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40828",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "sudo",
+            "available": "macOS Sonoma",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40811",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Sonoma",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "273176",
+                    "id": "CVE-2024-40776",
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                },
+                {
+                    "bugzilla": "268770",
+                    "id": "CVE-2024-40782",
+                    "credit": "Maksymilian Motyl"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Sonoma",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "bugzilla": "275431",
+                    "id": "CVE-2024-40779",
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                },
+                {
+                    "bugzilla": "275273",
+                    "id": "CVE-2024-40780",
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Sonoma",
+            "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "273805",
+                    "id": "CVE-2024-40785",
+                    "credit": "Johan Carlsson (joaxcar)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Sonoma",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "An out-of-bounds access issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40789",
+                    "credit": "Seunghyun Lee (@0x10n) of KAIST Hacking Lab working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Sonoma",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "bugzilla": "274165",
+                    "id": "CVE-2024-4558"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Sonoma",
+            "impact": "Private Browsing tabs may be accessed without authentication",
+            "description": "This issue was addressed through improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "275272",
+                    "id": "CVE-2024-40794",
+                    "credit": "Matthew Butler"
+                }
+            ]
+        }
+    ]
+}

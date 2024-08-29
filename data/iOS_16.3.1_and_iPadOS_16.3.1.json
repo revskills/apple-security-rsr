@@ -1,0 +1,46 @@
+{
+    "name": "iOS 16.3.1 and iPadOS 16.3.1",
+    "url": "https://support.apple.com/kb/HT213635",
+    "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+    "released": "13 Feb 2023",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23514",
+                    "credit": "Xinru Chi of Pangu Lab, Ned Williamson of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, iPad mini 5th generation and later",
+            "impact": "Processing a maliciously crafted certificate may lead to a denial-of-service",
+            "description": "A denial-of-service issue was addressed with improved input validation.",
+            "added": "February 20, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-23524",
+                    "credit": "David Benjamin of Google Chrome"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, iPad mini 5th generation and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "251944",
+                    "id": "CVE-2023-23529",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

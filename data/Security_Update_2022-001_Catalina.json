@@ -1,0 +1,77 @@
+{
+    "name": "Security Update 2022-001 Catalina",
+    "url": "https://support.apple.com/kb/HT213056",
+    "available": "macOS Catalina",
+    "released": "26 Jan 2022",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22593",
+                    "credit": "Peter Nguy\u1ec5n V\u0169 Ho\u00e0ng of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted STL file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22579",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to access restricted files",
+            "description": "A permissions issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22583",
+                    "credit": "Ron Hass (@ronhass7) of Perception Point, Mickey Jin (@patch1t)"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to bypass certain Privacy preferences",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30946",
+                    "credit": "@gorelics"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to bypass certain Privacy preferences",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30972",
+                    "credit": "Xuxiang Yang (@another1024), Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com), Csaba Fitzl (@theevilbit) of Offensive Security, jhftss (@patch1t), Wojciech Regu\u0142a (@_r3ggi)"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "GarageBand for macOS 10.4.8",
+    "url": "https://support.apple.com/kb/HT213650",
+    "available": "macOS Monterey 12.3 and later",
+    "released": "07 Mar 2023",
+    "advisories": [
+        {
+            "module": "GarageBand",
+            "available": "macOS Monterey 12.3 and later",
+            "impact": "An app may be able to gain elevated privileges during the installation of GarageBand",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27960",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "GarageBand",
+            "available": "macOS Monterey 12.3 and later",
+            "impact": "Parsing a maliciously crafted MIDI file may lead to an unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27938",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ],
+            "updated": [
+                "March 9, 2023"
+            ]
+        }
+    ]
+}

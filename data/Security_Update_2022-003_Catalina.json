@@ -1,0 +1,312 @@
+{
+    "name": "Security Update 2022-003 Catalina",
+    "url": "https://support.apple.com/kb/HT213185",
+    "available": "macOS Catalina",
+    "released": "14 Mar 2022",
+    "advisories": [
+        {
+            "module": "AppKit",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22665",
+                    "credit": "Lockheed Martin Red Team"
+                }
+            ]
+        },
+        {
+            "module": "AppleGraphicsControl",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22631",
+                    "credit": "Wang Yu of cyberserval"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to read restricted memory",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22648",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted AppleScript binary may result in unexpected application termination or disclosure of process memory",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22627",
+                    "credit": "Qi Sun and Robert Ai of Trend Micro"
+                },
+                {
+                    "id": "CVE-2022-22626",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted AppleScript binary may result in unexpected application termination or disclosure of process memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22625",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted file may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22597",
+                    "credit": "Qi Sun and Robert Ai of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "BOM",
+            "available": "macOS Catalina",
+            "impact": "A maliciously crafted ZIP archive may bypass Gatekeeper checks",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22616",
+                    "credit": "Ferdous Saljooki (@malwarezoo) and Jaron Bradley (@jbradley89) of Jamf Software, Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "CUPS",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-26691",
+                    "credit": "Joshua Mason of Mandiant"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "added": "June 8, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46706",
+                    "credit": "Wang Yu of cyberserval, and Pan ZhenPeng (@Peterpan0927) of Alibaba Security Pandora Lab"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22661",
+                    "credit": "Wang Yu of cyberserval, and Pan ZhenPeng (@Peterpan0927) of Alibaba Security Pandora Lab"
+                }
+            ],
+            "updated": [
+                "May 25, 2022",
+                "June 8, 2023"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22613",
+                    "credit": "an anonymous researcher, Alex"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22615",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-22614",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "An attacker in a privileged position may be able to perform a denial of service attack",
+            "description": "A null pointer dereference was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22638",
+                    "credit": "derrek (@derrekr6)"
+                }
+            ]
+        },
+        {
+            "module": "Login Window",
+            "available": "macOS Catalina",
+            "impact": "A person with access to a Mac may be able to bypass Login Window",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22647",
+                    "credit": "Yuto Ikeda of Kyushu University"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "LoginWindow",
+            "available": "macOS Catalina",
+            "impact": "A local attacker may be able to view the previous logged in user\u2019s desktop from the fast user switching screen",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22656"
+                }
+            ]
+        },
+        {
+            "module": "MobileAccessoryUpdater",
+            "available": "macOS Catalina",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22672",
+                    "credit": "Siddharth Aeri (@b1n4r1b01)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Catalina",
+            "impact": "A malicious app with root privileges may be able to modify the contents of system files",
+            "description": "An issue in the handling of symlinks was addressed with improved validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-26688",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Catalina",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22617",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "QuickTime Player",
+            "available": "macOS Catalina",
+            "impact": "A plug-in may be able to inherit the application's permissions and access user data",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22650",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A cookie management issue was addressed with improved state management.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22662",
+                    "credit": "Prakash (@1lastBr3ath) of Threat Nix"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted mail message may lead to running arbitrary javascript",
+            "description": "A validation issue was addressed with improved input sanitization.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22589",
+                    "credit": "Heige of KnownSec 404 Team (knownsec.com) and Bo Qu of Palo Alto Networks (paloaltonetworks.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A cookie management issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "232748",
+                    "id": "CVE-2022-22662",
+                    "credit": "Prakash (@1lastBr3ath) of Threat Nix"
+                }
+            ]
+        },
+        {
+            "module": "xar",
+            "available": "macOS Catalina",
+            "impact": "A local user may be able to write arbitrary files",
+            "description": "A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22582",
+                    "credit": "Richard Warren of NCC Group"
+                }
+            ]
+        }
+    ]
+}

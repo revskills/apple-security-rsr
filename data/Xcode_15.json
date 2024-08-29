@@ -1,0 +1,44 @@
+{
+    "name": "Xcode 15",
+    "url": "https://support.apple.com/kb/HT213939",
+    "available": "macOS Ventura 13.5 and later",
+    "released": "18 Sep 2023",
+    "advisories": [
+        {
+            "module": "Dev Tools",
+            "available": "macOS Ventura 13.5 and later",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32396",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "GPU Drivers",
+            "available": "macOS Ventura 13.5 and later",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40391",
+                    "credit": "Antonio Zekic (@antoniozekic) of Dataflow Security"
+                }
+            ]
+        },
+        {
+            "module": "iTMSTransporter",
+            "available": "macOS Ventura 13.5 and later",
+            "impact": "An app may be able to access App Store credentials",
+            "description": "This issue was addressed by enabling hardened runtime.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40435",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        }
+    ]
+}

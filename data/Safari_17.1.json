@@ -1,0 +1,77 @@
+{
+    "name": "Safari 17.1",
+    "url": "https://support.apple.com/kb/HT213986",
+    "available": "macOS Monterey and macOS Ventura",
+    "released": "25 Oct 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "259836",
+                    "id": "CVE-2023-40447",
+                    "credit": "\uc774\uc900\uc131(Junsung Lee) of Cross Republic"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "259890",
+                    "id": "CVE-2023-41976",
+                    "credit": "\uc774\uc900\uc131(Junsung Lee)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "260173",
+                    "id": "CVE-2023-42852",
+                    "credit": "Pedro Ribeiro (@pedrib1337) and Vitor Pedreira (@0xvhp_) of Agile Information Security"
+                }
+            ],
+            "updated": [
+                "February 16, 2024"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "An inconsistent user interface issue was addressed with improved state management.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "bugzilla": "260046",
+                    "id": "CVE-2023-42843",
+                    "credit": "Kacper Kwapisz (@KKKas_)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Process Model",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to a denial-of-service",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "260757",
+                    "id": "CVE-2023-41983",
+                    "credit": "\uc774\uc900\uc131(Junsung Lee)"
+                }
+            ]
+        }
+    ]
+}

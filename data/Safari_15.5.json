@@ -1,0 +1,57 @@
+{
+    "name": "Safari 15.5",
+    "url": "https://support.apple.com/kb/HT213260",
+    "available": "macOS Big Sur and macOS Catalina",
+    "released": "16 May 2022",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "238178",
+                    "id": "CVE-2022-26700",
+                    "credit": "ryuzaki"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "236950",
+                    "id": "CVE-2022-26709",
+                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab"
+                },
+                {
+                    "bugzilla": "238171",
+                    "id": "CVE-2022-26717",
+                    "credit": "Jeonghoon Shin of Theori"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "238183",
+                    "id": "CVE-2022-26716",
+                    "credit": "SorryMybad (@S0rryMybad) of Kunlun Lab"
+                },
+                {
+                    "bugzilla": "238699",
+                    "id": "CVE-2022-26719",
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech"
+                }
+            ]
+        }
+    ]
+}

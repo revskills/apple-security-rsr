@@ -1,0 +1,98 @@
+{
+    "name": "iCloud for Windows 7.17",
+    "url": "https://support.apple.com/kb/HT210948",
+    "available": "Windows 7 and later",
+    "released": "28 Jan 2020",
+    "advisories": [
+        {
+            "module": "ImageIO",
+            "available": "Windows 7 and later",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3826",
+                    "credit": "Samuel Gro\u00df of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted XML may lead to an unexpected application termination or arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved size validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3846",
+                    "credit": "Ranier Vilela"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3867",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "Multiple memory corruption issues were addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3825",
+                    "credit": "Przemys\u0142aw Sporysz of Euvic"
+                },
+                {
+                    "id": "CVE-2020-3868",
+                    "credit": "Marcin Towalski of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "A malicious website may be able to cause a denial of service",
+            "description": "A denial of service issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3862",
+                    "credit": "Srikanth Gatta of Google Chrome"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "Windows 7 and later",
+            "impact": "A top-level DOM object context may have incorrectly been considered secure",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "February 11, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3865",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "Windows 7 and later",
+            "impact": "A DOM object context may not have had a unique security origin",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "February 11, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3864",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        }
+    ]
+}

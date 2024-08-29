@@ -1,0 +1,206 @@
+{
+    "name": "visionOS 1.1",
+    "url": "https://support.apple.com/kb/HT214087",
+    "available": "Apple Vision Pro",
+    "released": "07 Mar 2024",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to spoof system notifications and UI",
+            "description": "This issue was addressed with additional entitlement checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23262",
+                    "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple Vision Pro",
+            "impact": "Processing an image may result in disclosure of process memory",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23257",
+                    "credit": "Junsung Lee working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple Vision Pro",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23258",
+                    "credit": "Zhenjiang Zhao of pangu team, Qianxin, and Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations"
+                }
+            ],
+            "updated": [
+                "May 31, 2024"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple Vision Pro",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23286",
+                    "credit": "Junsung Lee working with Trend Micro Zero Day Initiative, Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations, Dohyun Lee (@l33d0hyun), and Lyutoon and Mr.R"
+                }
+            ],
+            "updated": [
+                "May 31, 2024"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23235"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to cause unexpected system termination or write kernel memory",
+            "description": "A memory corruption vulnerability was addressed with improved locking.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23265",
+                    "credit": "Xinru Chi of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Vision Pro",
+            "impact": "An attacker with arbitrary kernel read and write capability may be able to bypass kernel memory protections. Apple is aware of a report that this issue may have been exploited.",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23225"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "Apple Vision Pro",
+            "impact": "An application may be able to read restricted memory",
+            "description": "A validation issue was addressed with improved input sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23264",
+                    "credit": "Meysam Firouzi @R00tkitsmm working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Persona",
+            "available": "Apple Vision Pro",
+            "impact": "An unauthenticated user may be able to use an unprotected Persona",
+            "description": "A permissions issue was addressed to help ensure Personas are always protected",
+            "cves": [
+                {
+                    "id": "CVE-2024-23295",
+                    "credit": "Patrick Reardon"
+                }
+            ]
+        },
+        {
+            "module": "RTKit",
+            "available": "Apple Vision Pro",
+            "impact": "An attacker with arbitrary kernel read and write capability may be able to bypass kernel memory protections. Apple is aware of a report that this issue may have been exploited.",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23296"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to fingerprint the user",
+            "description": "The issue was addressed with improved handling of caches.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23220"
+                }
+            ]
+        },
+        {
+            "module": "UIKit",
+            "available": "Apple Vision Pro",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23246",
+                    "credit": "Deutsche Telekom Security GmbH sponsored by Bundesamt f\u00fcr Sicherheit in der Informationstechnik"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "259694",
+                    "id": "CVE-2024-23226",
+                    "credit": "Pwn2car"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "A malicious website may exfiltrate audio data cross-origin",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "bugzilla": "263795",
+                    "id": "CVE-2024-23254",
+                    "credit": "James Lee (@Windowsrcer)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "A logic issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "bugzilla": "264811",
+                    "id": "CVE-2024-23263",
+                    "credit": "Johan Carlsson (joaxcar)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "267241",
+                    "id": "CVE-2024-23284",
+                    "credit": "Georg Felber and Marco Squarcina"
+                }
+            ]
+        }
+    ]
+}

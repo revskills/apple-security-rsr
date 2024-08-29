@@ -1,0 +1,282 @@
+{
+    "name": "iCloud for Windows 11.3",
+    "url": "https://support.apple.com/kb/HT211294",
+    "available": "Windows 10 and later via the Microsoft Store",
+    "released": "10 Aug 2020",
+    "advisories": [
+        {
+            "module": "CoreGraphics",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "added": "September 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9883",
+                    "credit": "an anonymous researcher, Mickey Jin of Trend Micro"
+                }
+            ],
+            "updated": [
+                "December 15, 2020"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "added": "March 16, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-27933",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Multiple buffer overflow issues existed in openEXR",
+            "description": "Multiple issues in openEXR were addressed with improved checks.",
+            "added": "September 8, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-11758",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11759",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11760",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11761",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11762",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11763",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11764",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11765",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9871",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9872",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9874",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9879",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9936",
+                    "credit": "Mickey Jin of Trend Micro"
+                },
+                {
+                    "id": "CVE-2020-9937",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9873",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9938",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9984",
+                    "credit": "an anonymous researcher"
+                }
+            ],
+            "updated": [
+                "September 21, 2020"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9919",
+                    "credit": "Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Opening a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9876",
+                    "credit": "Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9877",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9875",
+                    "credit": "Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing maliciously crafted XML may lead to an unexpected application termination or arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "March 16, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-9926",
+                    "credit": "Found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9894",
+                    "credit": "0011 working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "An access issue existed in Content Security Policy. This issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9915",
+                    "credit": "Ayoub AIT ELMOKHTAR of Noon"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9925",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9893",
+                    "credit": "0011 working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2020-9895",
+                    "credit": "Wen Xu of SSLab, Georgia Tech"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "A malicious attacker with arbitrary read and write capability may be able to bypass Pointer Authentication",
+            "description": "Multiple issues were addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9910",
+                    "credit": "Samuel Gro\u00df of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "A malicious attacker may be able to conceal the destination of a URL",
+            "description": "A URL Unicode encoding issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9916",
+                    "credit": "Rakesh Mane (@RakeshMane10)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Web Inspector",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Copying a URL from Web Inspector may lead to command injection",
+            "description": "A command injection issue existed in Web Inspector. This issue was addressed with improved escaping.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9862",
+                    "credit": "Ophir Lojkine (@lovasoa)"
+                }
+            ]
+        }
+    ]
+}

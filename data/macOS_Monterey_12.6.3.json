@@ -1,0 +1,231 @@
+{
+    "name": "macOS Monterey 12.6.3",
+    "url": "https://support.apple.com/kb/HT213604",
+    "available": "macOS Monterey",
+    "released": "23 Jan 2023",
+    "advisories": [
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed by enabling hardened runtime.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23499",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Monterey",
+            "impact": "Multiple issues in curl",
+            "description": "Multiple issues were addressed by updating to curl version 7.86.0.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42915"
+                },
+                {
+                    "id": "CVE-2022-42916"
+                },
+                {
+                    "id": "CVE-2022-32221"
+                },
+                {
+                    "id": "CVE-2022-35260"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Monterey",
+            "impact": "Multiple issues in curl",
+            "description": "Multiple issues were addressed by updating to curl version 7.85.0.",
+            "cves": [
+                {
+                    "id": "CVE-2022-35252"
+                }
+            ]
+        },
+        {
+            "module": "dcerpc",
+            "available": "macOS Monterey",
+            "impact": "Mounting a maliciously crafted Samba network share may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23513",
+                    "credit": "Dimitrios Tatsis and Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "DiskArbitration",
+            "available": "macOS Monterey",
+            "impact": "An encrypted volume may be unmounted and remounted by a different user without prompting for the password",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23493",
+                    "credit": "Oliver Norpoth (@norpoth) of KLIXX GmbH (klixx.com)"
+                }
+            ]
+        },
+        {
+            "module": "DriverKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32915",
+                    "credit": "Tommy Muir (@Muirey03)"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved bounds checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23507",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-23516",
+                    "credit": "Jordy Zomer (@pwningsystems)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23504",
+                    "credit": "Adam Doup\u00e9 of ASU SEFCOM"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to determine kernel memory layout",
+            "description": "An information disclosure issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23502",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. (@starlabs_sg)"
+                }
+            ]
+        },
+        {
+            "module": "Mail",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access mail folder attachments through a temporary directory used during compression",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-42834",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23497",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Screen Time",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access information about a user\u2019s contacts",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23505",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog) and Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ],
+            "updated": [
+                "May 11, 2023"
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-27931",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Weather",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23511",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog), an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "248268",
+                    "id": "CVE-2023-23518",
+                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE"
+                },
+                {
+                    "bugzilla": "248268",
+                    "id": "CVE-2023-23517",
+                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE"
+                }
+            ]
+        },
+        {
+            "module": "Windows Installer",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23508",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        }
+    ]
+}

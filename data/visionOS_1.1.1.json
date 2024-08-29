@@ -1,0 +1,32 @@
+{
+    "name": "visionOS 1.1.1",
+    "url": "https://support.apple.com/kb/HT214093",
+    "available": "Apple Vision Pro",
+    "released": "21 Mar 2024",
+    "advisories": [
+        {
+            "module": "CoreMedia",
+            "available": "Apple Vision Pro",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-1580",
+                    "credit": "Nick Galloway of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "Apple Vision Pro",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-1580",
+                    "credit": "Nick Galloway of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

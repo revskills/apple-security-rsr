@@ -1,0 +1,510 @@
+{
+    "name": "iOS 17.4 and iPadOS 17.4",
+    "url": "https://support.apple.com/kb/HT214081",
+    "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+    "released": "05 Mar 2024",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23243",
+                    "credit": "Cristian Dinca of \"Tudor Vianu\" National High School of Computer Science, Romania"
+                }
+            ]
+        },
+        {
+            "module": "Accessibility",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to spoof system notifications and UI",
+            "description": "This issue was addressed with additional entitlement checks.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23262",
+                    "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)"
+                }
+            ]
+        },
+        {
+            "module": "Accessibility",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "A malicious app may be able to observe user data in log entries related to accessibility notifications",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23291"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to elevate privileges",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23288",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog) and Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An attacker in a privileged network position may be able to inject keystrokes by spoofing a keyboard",
+            "description": "The issue was addressed with improved checks.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23277",
+                    "credit": "Marc Newlin of SkySafe"
+                }
+            ]
+        },
+        {
+            "module": "CoreBluetooth - LE",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to access Bluetooth-connected microphones without user permission",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23250",
+                    "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)"
+                }
+            ]
+        },
+        {
+            "module": "ExtensionKit",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23205"
+                }
+            ]
+        },
+        {
+            "module": "file",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing a file may lead to a denial-of-service or potentially disclose memory contents",
+            "description": "This issue was addressed with improved checks.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2022-48554"
+                }
+            ]
+        },
+        {
+            "module": "Image Processing",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23270",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23286",
+                    "credit": "Junsung Lee working with Trend Micro Zero Day Initiative, Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations, Dohyun Lee (@l33d0hyun), and Lyutoon and Mr.R"
+                }
+            ],
+            "updated": [
+                "May 29, 2024"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An attacker with arbitrary kernel read and write capability may be able to bypass kernel memory protections. Apple is aware of a report that this issue may have been exploited.",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23225"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A race condition was addressed with additional validation.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23235"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to cause unexpected system termination or write kernel memory",
+            "description": "A memory corruption vulnerability was addressed with improved locking.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23265",
+                    "credit": "Xinru Chi of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "The issue was addressed with improved checks.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23278",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to execute arbitrary code out of its sandbox or with certain elevated privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-0258",
+                    "credit": "ali yabuz"
+                }
+            ]
+        },
+        {
+            "module": "MediaRemote",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "A malicious application may be able to access private information",
+            "description": "The issue was addressed with improved checks.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23297",
+                    "credit": "scj643"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A privacy issue was addressed with improved handling of temporary files.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23287",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An application may be able to read restricted memory",
+            "description": "A validation issue was addressed with improved input sanitization.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23264",
+                    "credit": "Meysam Firouzi @R00tkitsmm working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Photos",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Shake-to-undo may allow a deleted photo to be re-surfaced without authentication",
+            "description": "The issue was addressed with improved checks.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23240",
+                    "credit": "Harsh Tyagi"
+                }
+            ]
+        },
+        {
+            "module": "Photos",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Photos in the Hidden Photos Album may be viewed without authentication",
+            "description": "An authentication issue was addressed with improved state management.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23255",
+                    "credit": "Harsh Tyagi"
+                }
+            ]
+        },
+        {
+            "module": "RTKit",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An attacker with arbitrary kernel read and write capability may be able to bypass kernel memory protections. Apple is aware of a report that this issue may have been exploited.",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23296"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to fingerprint the user",
+            "description": "The issue was addressed with improved handling of caches.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23220"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing web content may lead to a denial-of-service",
+            "description": "The issue was addressed with improved checks.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23259",
+                    "credit": "Lyra Rebane (rebane2001)"
+                }
+            ]
+        },
+        {
+            "module": "Safari Private Browsing",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "A user's locked tabs may be briefly visible while switching tab groups when Locked Private Browsing is enabled",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23256",
+                    "credit": "Om Kothawade"
+                }
+            ]
+        },
+        {
+            "module": "Safari Private Browsing",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Private Browsing tabs may be accessed without authentication",
+            "description": "This issue was addressed through improved state management.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23273",
+                    "credit": "Matej Rabzelj"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to leak sensitive user information",
+            "description": "A race condition was addressed with improved state handling.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23239",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23290",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "Share Sheet",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23231",
+                    "credit": "Kirin (@Pwnrin) and luckyu (@uuulucky)"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to access information about a user's contacts",
+            "description": "This issue was addressed with improved data protection.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23292",
+                    "credit": "K\u5b9d and LFY@secsys from Fudan University"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "A person with physical access to a device may be able to use Siri to access private calendar information",
+            "description": "A lock screen issue was addressed with improved state management.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23289",
+                    "credit": "Lewis Hardy"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An attacker with physical access may be able to use Siri to access sensitive user data",
+            "description": "This issue was addressed through improved state management.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23293",
+                    "credit": "Bistrit Dahal"
+                }
+            ]
+        },
+        {
+            "module": "Spotlight",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to leak sensitive user information",
+            "description": "This issue was addressed through improved state management.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23241"
+                }
+            ]
+        },
+        {
+            "module": "Synapse",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to view Mail data",
+            "description": "A privacy issue was addressed by not logging contents of text fields.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23242"
+                }
+            ]
+        },
+        {
+            "module": "UIKit",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23246",
+                    "credit": "Deutsche Telekom Security GmbH sponsored by Bundesamt f\u00fcr Sicherheit in der Informationstechnik"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "bugzilla": "259694",
+                    "id": "CVE-2024-23226",
+                    "credit": "Pwn2car"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "A malicious website may exfiltrate audio data cross-origin",
+            "description": "The issue was addressed with improved UI handling.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "bugzilla": "263795",
+                    "id": "CVE-2024-23254",
+                    "credit": "James Lee (@Windowsrcer)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "bugzilla": "264811",
+                    "id": "CVE-2024-23263",
+                    "credit": "Johan Carlsson (joaxcar)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "An injection issue was addressed with improved validation.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "bugzilla": "266703",
+                    "id": "CVE-2024-23280",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "bugzilla": "267241",
+                    "id": "CVE-2024-23284",
+                    "credit": "Georg Felber and Marco Squarcina"
+                }
+            ]
+        }
+    ]
+}

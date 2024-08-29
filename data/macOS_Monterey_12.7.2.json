@@ -1,0 +1,311 @@
+{
+    "name": "macOS Monterey 12.7.2",
+    "url": "https://support.apple.com/kb/HT214037",
+    "available": "macOS Monterey",
+    "released": "11 Dec 2023",
+    "advisories": [
+        {
+            "module": "Accounts",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42919",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "AppleEvents",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access information about a user's contacts",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42894",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)"
+                }
+            ]
+        },
+        {
+            "module": "Assets",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "An issue was addressed with improved handling of temporary files.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42896",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "CoreServices",
+            "available": "macOS Monterey",
+            "impact": "A user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42886",
+                    "credit": "Koh M. Nakagawa (@tsunek0h)"
+                }
+            ]
+        },
+        {
+            "module": "DiskArbitration",
+            "available": "macOS Monterey",
+            "impact": "A process may gain admin privileges without proper authentication",
+            "description": "The issue was addressed with improved checks.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42931",
+                    "credit": "Yann GASCUEL of Alter Solutions"
+                }
+            ]
+        },
+        {
+            "module": "Emoji",
+            "available": "macOS Monterey",
+            "impact": "An attacker may be able to execute arbitrary code as root from the Lock Screen",
+            "description": "The issue was addressed by restricting options offered on a locked device.",
+            "added": "July 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-41989",
+                    "credit": "Jewel Lambert"
+                }
+            ]
+        },
+        {
+            "module": "FileURL",
+            "available": "macOS Monterey",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42892",
+                    "credit": "Anthony Cruz @App Tyrant Corp"
+                }
+            ]
+        },
+        {
+            "module": "Find My",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42922",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "Find My",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved handling of files.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42834",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Monterey",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42899",
+                    "credit": "Meysam Firouzi @R00tkitSMM and Junsung Lee"
+                }
+            ]
+        },
+        {
+            "module": "IOKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to monitor keystrokes without user permission",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42891",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "IOUSBDeviceFamily",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42974",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42914",
+                    "credit": "Eloi Benoist-Vanderbeken (@elvanderb) of Synacktiv (@Synacktiv)"
+                }
+            ]
+        },
+        {
+            "module": "Libsystem",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access protected user data",
+            "description": "A permissions issue was addressed by removing vulnerable code and adding additional checks.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42893"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-3618"
+                }
+            ]
+        },
+        {
+            "module": "ncurses",
+            "available": "macOS Monterey",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-19185"
+                },
+                {
+                    "id": "CVE-2020-19186"
+                },
+                {
+                    "id": "CVE-2020-19187"
+                },
+                {
+                    "id": "CVE-2020-19188"
+                },
+                {
+                    "id": "CVE-2020-19189"
+                },
+                {
+                    "id": "CVE-2020-19190"
+                }
+            ]
+        },
+        {
+            "module": "quarantine",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code out of its sandbox or with certain elevated privileges",
+            "description": "An access issue was addressed with improvements to the sandbox.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42838",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit), and Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Monterey",
+            "impact": "An attacker may be able to access connected network volumes mounted in the home directory",
+            "description": "A logic issue was addressed with improved checks.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42836",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42936",
+                    "credit": "Csaba Fitzl (@theevilbit) of OffSec"
+                }
+            ],
+            "updated": [
+                "July 16, 2024"
+            ]
+        },
+        {
+            "module": "Shell",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "This issue was addressed with improved checks.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42930",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access protected user data",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42932",
+                    "credit": "Zhongquan Li (@Guluisacat)"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "A path handling issue was addressed with improved validation.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42947",
+                    "credit": "Zhongquan Li (@Guluisacat) of Dawn Security Lab of JingDong"
+                }
+            ]
+        },
+        {
+            "module": "Vim",
+            "available": "macOS Monterey",
+            "impact": "Opening a maliciously crafted file may lead to unexpected application termination or arbitrary code execution",
+            "description": "This issue was addressed by updating to Vim version 9.0.1969.",
+            "cves": [
+                {
+                    "id": "CVE-2023-5344"
+                }
+            ]
+        }
+    ]
+}

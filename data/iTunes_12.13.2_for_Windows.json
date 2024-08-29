@@ -1,0 +1,20 @@
+{
+    "name": "iTunes 12.13.2 for Windows",
+    "url": "https://support.apple.com/kb/HT214099",
+    "available": "Windows 10 and later",
+    "released": "08 May 2024",
+    "advisories": [
+        {
+            "module": "CoreMedia",
+            "available": "Windows 10 and later",
+            "impact": "Parsing a file may lead to an unexpected app termination or arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27793",
+                    "credit": "Willy R. Vasquez of The University of Texas at Austin"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "name": "macOS Big Sur 11.7.1",
+    "url": "https://support.apple.com/kb/HT213493",
+    "available": "macOS Big Sur",
+    "released": "24 Oct 2022",
+    "advisories": [
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "This issue was addressed by removing additional entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42825",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "macOS Big Sur",
+            "impact": "Parsing a maliciously crafted audio file may lead to disclosure of user information",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-42798",
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Boot Camp",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "This issue was addressed with improved checks to prevent unauthorized actions.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-42860",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Calendar",
+            "available": "macOS Big Sur",
+            "impact": "A remote user may be able to write arbitrary files",
+            "description": "This issue was addressed with improved checks.",
+            "added": "February 20, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46723",
+                    "credit": "Mikko Kentt\u00e4l\u00e4 (@Turmio_) of SensorFu"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32944",
+                    "credit": "Tim Michaud (@TimGMichaud) of Moveworks.ai"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A race condition was addressed with additional validation.",
+            "added": "February 20, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46713",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "ppp",
+            "available": "macOS Big Sur",
+            "impact": "A buffer overflow may result in arbitrary code execution",
+            "description": "The issue was addressed with improved bounds checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32941",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Ruby",
+            "available": "macOS Big Sur",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "A memory corruption issue was addressed by updating Ruby to version 2.6.10.",
+            "cves": [
+                {
+                    "id": "CVE-2022-28739"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Big Sur",
+            "impact": "An app with root privileges may be able to access private information",
+            "description": "This issue was addressed with improved data protection.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32862",
+                    "credit": "Rohit Chatterjee of University of Illinois Urbana-Champaign"
+                }
+            ],
+            "updated": [
+                "May 11, 2023"
+            ]
+        },
+        {
+            "module": "zlib",
+            "available": "macOS Big Sur",
+            "impact": "A user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-37434",
+                    "credit": "Evgeny Legerov"
+                },
+                {
+                    "id": "CVE-2022-42800",
+                    "credit": "Evgeny Legerov"
+                }
+            ]
+        }
+    ]
+}

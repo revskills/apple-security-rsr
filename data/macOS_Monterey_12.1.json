@@ -1,0 +1,659 @@
+{
+    "name": "macOS Monterey 12.1",
+    "url": "https://support.apple.com/kb/HT212978",
+    "available": "macOS Monterey",
+    "released": "13 Dec 2021",
+    "advisories": [
+        {
+            "module": "Airport",
+            "available": "macOS Monterey",
+            "impact": "A device may be passively tracked via BSSIDs",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30987",
+                    "credit": "Jason Meller, Fritz Ifert-Miller, and Joseph Sokol-Margolis of Kolide"
+                }
+            ]
+        },
+        {
+            "module": "Archive Utility",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30950",
+                    "credit": "@gorelics"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "macOS Monterey",
+            "impact": "Parsing a maliciously crafted audio file may lead to disclosure of user information",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30960",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "macOS Monterey",
+            "impact": "A device may be passively tracked by its Bluetooth MAC address",
+            "description": "A device configuration issue was addressed with an updated configuration.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30986",
+                    "credit": "Min (Spark) Zheng, Xiaolong Bai of Alibaba Inc."
+                }
+            ]
+        },
+        {
+            "module": "CFNetwork Proxies",
+            "available": "macOS Monterey",
+            "impact": "User traffic might unexpectedly be leaked to a proxy server despite PAC configurations",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30966",
+                    "credit": "Michal Rajcan of Jamf, Matt Vlasach of Jamf (Wandera)"
+                }
+            ]
+        },
+        {
+            "module": "ColorSync",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A memory corruption issue in the processing of ICC profiles was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30926",
+                    "credit": "Jeremy Brown"
+                },
+                {
+                    "id": "CVE-2021-30942",
+                    "credit": "Mateusz Jurczyk of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30957",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "macOS Monterey",
+            "impact": "Playing a malicious audio file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30958",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreBluetooth",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30935",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Crash Reporter",
+            "available": "macOS Monterey",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30945",
+                    "credit": "Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "File Provider",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to bypass Privacy preferences",
+            "description": "A permissions issue was addressed with improved validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-31007",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted font may result in the disclosure of process memory",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "September 16, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-31013",
+                    "credit": "Daniel Lim Wee Soong of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "Game Center",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to read sensitive contact information",
+            "description": "A permissions issue was addressed with improved validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-31000",
+                    "credit": "Denis Tokarev (@illusionofcha0s)"
+                }
+            ]
+        },
+        {
+            "module": "Graphics Drivers",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30977",
+                    "credit": "Jack Dates of RET2 Systems, Inc."
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30939",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro, Jaewon Min of Cisco Talos, Rui Yang and Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30981",
+                    "credit": "Liu Long of Ant Security Light-Year Lab, Jack Dates of RET2 Systems, Inc."
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "IOMobileFrameBuffer",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30996",
+                    "credit": "Saar Amar (@AmarSaar)"
+                }
+            ]
+        },
+        {
+            "module": "IOUSBHostFamily",
+            "available": "macOS Monterey",
+            "impact": "A remote attacker may be able to cause unexpected application termination or heap corruption",
+            "description": "A race condition was addressed with improved locking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30982",
+                    "credit": "Weiteng Chen, Zheng Zhang, and Zhiyun Qian of UC Riverside, and Yu Wang of Didi Research America"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption vulnerability was addressed with improved locking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30937",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30927",
+                    "credit": "Xinru Chi of Pangu Lab"
+                },
+                {
+                    "id": "CVE-2021-30980",
+                    "credit": "Xinru Chi of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30949",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An attacker in a privileged network position may be able to execute arbitrary code",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30993",
+                    "credit": "OSS-Fuzz, Ned Williamson of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30955",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30976",
+                    "credit": "chenyuwang (@mzzzz__) and Kirin (@Pwnrin) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30990",
+                    "credit": "Ron Masas of BreakPoint.sh"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "macOS Monterey",
+            "impact": "A malicious user may be able to leave a messages group but continue to receive messages in that group",
+            "description": "An issue in the handling of group membership was resolved with improved logic.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30943",
+                    "credit": "Joshua Sardella"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Multiple issues in HDF5",
+            "description": "Multiple issues were addressed by removing HDF5.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-31009",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30971",
+                    "credit": "Ye Zhang (@co0py_Cat) of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted file may disclose user information",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30973",
+                    "credit": "Ye Zhang (@co0py_Cat) of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30929",
+                    "credit": "Rui Yang and Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30979",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30940",
+                    "credit": "Rui Yang and Xingwei Lin of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2021-30941",
+                    "credit": "Rui Yang and Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Preferences",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to elevate privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30995",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro, Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to bypass certain Privacy preferences",
+            "description": "A validation issue related to hard link behavior was addressed with improved sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30968",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to bypass certain Privacy preferences",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30946",
+                    "credit": "@gorelics, and Ron Masas of BreakPoint.sh"
+                }
+            ],
+            "updated": [
+                "May 11, 2023"
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to access a user's files",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30947",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Script Editor",
+            "available": "macOS Monterey",
+            "impact": "A malicious OSAX scripting addition may bypass Gatekeeper checks and circumvent sandbox restrictions",
+            "description": "This issue was addressed by disabling execution of JavaScript when viewing a scripting dictionary.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30975",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "macOS Monterey",
+            "impact": "A malicious app may be able to access data from other apps by enabling additional logging",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30944",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to bypass certain Privacy preferences",
+            "description": "This issue was addressed with improved checks.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30972",
+                    "credit": "Xuxiang Yang (@another1024), Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com), Csaba Fitzl (@theevilbit) of Offensive Security, jhftss (@patch1t), Wojciech Regu\u0142a (@_r3ggi)"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "A local user may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30767",
+                    "credit": "@gorelics"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to bypass Privacy preferences",
+            "description": "An inherited permissions issue was addressed with additional restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30964",
+                    "credit": "Andy Grant of Zoom Video Communications"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to bypass Privacy preferences",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30970",
+                    "credit": "Jonathan Bar Or of Microsoft"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to cause a denial of service to Endpoint Security clients",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30965",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30934",
+                    "credit": "Dani Biro"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30936",
+                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab"
+                },
+                {
+                    "id": "CVE-2021-30951",
+                    "credit": "Pangu via Tianfu Cup"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30952",
+                    "credit": "@18f and @jq0904 of DBAPP Security\u2018s weibin lab via Tianfu Cup"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30984",
+                    "credit": "Kunlun Lab via Tianfu Cup"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30953",
+                    "credit": "Jianjun Dai of 360 Vulnerability Research Institute via Tianfu Cup"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30954",
+                    "credit": "Kunlun Lab Kunlun Lab via Tianfu Cup"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Monterey",
+            "impact": "A local user may be able to cause unexpected system termination or read kernel memory",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30938",
+                    "credit": "Xinru Chi of Pangu Lab"
+                }
+            ]
+        }
+    ]
+}

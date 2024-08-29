@@ -1,0 +1,21 @@
+{
+    "name": "iOS 12.5.6",
+    "url": "https://support.apple.com/kb/HT213428",
+    "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+    "released": "31 Aug 2022",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "bugzilla": "243557",
+                    "id": "CVE-2022-32893",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Rapid Security Response\n macOS Ventura 13.4.1 (a)",
+    "url": "https://support.apple.com/kb/HT213825",
+    "available": "macOS Ventura 13.4.1",
+    "released": "10 Jul 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Ventura 13.4.1",
+            "impact": "Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "The issue was addressed with improved checks.",
+            "rsr": "Rapid Security Response macOS Ventura 13.4.1 (c) includes the security content of Rapid Security Response macOS Ventura 13.4.1 (a) and fixes an issue that prevents some websites from displaying properly.",
+            "cves": [
+                {
+                    "id": "CVE-2023-37450",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

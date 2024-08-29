@@ -1,0 +1,381 @@
+{
+    "name": "Security Update 2021-003 Mojave",
+    "url": "https://support.apple.com/kb/HT212327",
+    "available": "macOS Mojave",
+    "released": "26 Apr 2021",
+    "advisories": [
+        {
+            "module": "APFS",
+            "available": "macOS Mojave",
+            "impact": "A local user may be able to read arbitrary files",
+            "description": "The issue was addressed with improved permissions logic.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1797",
+                    "credit": "Thomas Tempelmann"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "macOS Mojave",
+            "impact": "An application may be able to read restricted memory",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1808",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CFNetwork",
+            "available": "macOS Mojave",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1857",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may be able to read restricted memory",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1809",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreGraphics",
+            "available": "macOS Mojave",
+            "impact": "Opening a maliciously crafted file may lead to unexpected application termination or arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1847",
+                    "credit": "Xuwei Liu of Purdue University"
+                }
+            ]
+        },
+        {
+            "module": "CoreText",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted font may result in the disclosure of process memory",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1811",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Catalina",
+            "impact": "A malicious server may be able to disclose active services",
+            "description": "This issue was addressed with improved checks.",
+            "added": "May 6, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-8284",
+                    "credit": "Marian Rehak"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Mojave",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "A buffer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-8285",
+                    "credit": "xnynx"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Mojave",
+            "impact": "An attacker may provide a fraudulent OCSP response that would appear valid",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-8286",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "DiskArbitration",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may be able to modify protected parts of the file system",
+            "description": "A permissions issue existed in DiskArbitration. This was addressed with additional ownership checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1784",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security, an anonymous researcher, and Mikko Kentt\u00e4l\u00e4 (@Turmio_) of SensorFu"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1881",
+                    "credit": "Hou JingYi (@hjy79425575) of Qihoo 360, an anonymous researcher, Xingwei Lin of Ant Security Light-Year Lab, and Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27942",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Foundation",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A validation issue was addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1813",
+                    "credit": "Cees Elzinga"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1843",
+                    "credit": "Ye Zhang of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Mojave",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1805",
+                    "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Mojave",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1806",
+                    "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1834",
+                    "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may be able to disclose kernel memory",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1860",
+                    "credit": "@0xalsr"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Mojave",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1851",
+                    "credit": "@0xalsr"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Mojave",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1840",
+                    "credit": "Zuozhi Fan (@pattern_F_) of Ant Group Tianqiong Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30652",
+                    "credit": "James Hutchins"
+                }
+            ]
+        },
+        {
+            "module": "libxslt",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted file may lead to heap corruption",
+            "description": "A double free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1875",
+                    "credit": "Found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "NSRemoteView",
+            "available": "macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1876",
+                    "credit": "Matthew Denton of Google Chrome"
+                }
+            ]
+        },
+        {
+            "module": "Preferences",
+            "available": "macOS Mojave",
+            "impact": "A local user may be able to modify protected parts of the file system",
+            "description": "A parsing issue in the handling of directory paths was addressed with improved path validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1739",
+                    "credit": "Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Mojave",
+            "impact": "An attacker in a privileged network position may be able to leak sensitive user information",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1878",
+                    "credit": "Aleksandar Nikolic of Cisco Talos (talosintelligence.com)"
+                }
+            ]
+        },
+        {
+            "module": "Tailspin",
+            "available": "macOS Mojave",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1868",
+                    "credit": "Tim Michaud of Zoom Communications"
+                }
+            ]
+        },
+        {
+            "module": "tcpdump",
+            "available": "macOS Mojave",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-8037",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Time Machine",
+            "available": "macOS Mojave",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "The issue was addressed with improved permissions logic.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1839",
+                    "credit": "Tim Michaud(@TimGMichaud) of Zoom Video Communications and Gary Nield of ECSC Group plc"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Mojave",
+            "impact": "An application may be able to cause unexpected system termination or write kernel memory",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1828",
+                    "credit": "Zuozhi Fan (@pattern_F_) of Ant Group Tianqiong Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "wifivelocityd",
+            "available": "macOS Mojave",
+            "impact": "An application may be able to execute arbitrary code with system privileges",
+            "description": "The issue was addressed with improved permissions logic.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3838",
+                    "credit": "Dayton Pidhirney (@_watbulb)"
+                }
+            ]
+        },
+        {
+            "module": "WindowServer",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may be able to unexpectedly leak a user's credentials from secure text fields",
+            "description": "An API issue in Accessibility TCC permissions was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1873",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "iOS 15.7.9 and iPadOS 15.7.9",
+    "url": "https://support.apple.com/kb/HT213913",
+    "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+    "released": "11 Sep 2023",
+    "advisories": [
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-41064",
+                    "credit": "The Citizen Lab at The University of Toronto\u02bcs Munk School"
+                }
+            ]
+        }
+    ]
+}

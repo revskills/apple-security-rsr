@@ -1,0 +1,77 @@
+{
+    "name": "Safari 15.4",
+    "url": "https://support.apple.com/kb/HT213187",
+    "available": "macOS Big Sur and macOS Catalina",
+    "released": "15 Mar 2022",
+    "advisories": [
+        {
+            "module": "Safari",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "A user interface issue was addressed.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22654",
+                    "credit": "Abdullah Md Shaleh of take0ver"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "232812",
+                    "id": "CVE-2022-22610",
+                    "credit": "Quan Yin of Bigo Technology Live Client Team"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "233172",
+                    "id": "CVE-2022-22624",
+                    "credit": "Kirin (@Pwnrin) of Tencent Security Xuanwu Lab"
+                },
+                {
+                    "bugzilla": "234147",
+                    "id": "CVE-2022-22628",
+                    "credit": "Kirin (@Pwnrin) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "234966",
+                    "id": "CVE-2022-22629",
+                    "credit": "Jeonghoon Shin at Theori working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "A malicious website may cause unexpected cross-origin behavior",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "235294",
+                    "id": "CVE-2022-22637",
+                    "credit": "Tom McKee of Google"
+                }
+            ]
+        }
+    ]
+}

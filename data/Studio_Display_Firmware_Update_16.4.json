@@ -1,0 +1,20 @@
+{
+    "name": "Studio Display Firmware Update 16.4",
+    "url": "https://support.apple.com/kb/HT213672",
+    "available": "macOS Ventura 13.3 and later",
+    "released": "27 Mar 2023",
+    "advisories": [
+        {
+            "module": "Display",
+            "available": "macOS Ventura 13.3 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27965",
+                    "credit": "Proteas of Pangu Lab"
+                }
+            ]
+        }
+    ]
+}

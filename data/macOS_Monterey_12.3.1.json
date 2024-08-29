@@ -1,0 +1,32 @@
+{
+    "name": "macOS Monterey 12.3.1",
+    "url": "https://support.apple.com/kb/HT213220",
+    "available": "macOS Monterey",
+    "released": "31 Mar 2022",
+    "advisories": [
+        {
+            "module": "AppleAVD",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking. Apple is aware of a report that this issue may have been actively exploited.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22675",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to read kernel memory",
+            "description": "An out-of-bounds read issue may lead to the disclosure of kernel memory and was addressed with improved input validation. Apple is aware of a report that this issue may have been actively exploited.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22674",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

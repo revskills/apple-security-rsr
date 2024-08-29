@@ -1,0 +1,32 @@
+{
+    "name": "AirPods Firmware Update 5E133",
+    "url": "https://support.apple.com/102783",
+    "available": "AirPods (2nd generation and later), AirPods Pro (all models), AirPods Max",
+    "released": "11 Apr 2023",
+    "advisories": [
+        {
+            "module": "Bluetooth",
+            "available": "Powerbeats Pro, Beats Fit Pro",
+            "impact": "When your headphones are seeking a connection request to one of your previously paired devices, an attacker in Bluetooth range might be able to spoof the intended source device and gain access to your headphones.",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27964",
+                    "credit": "Yun-hao Chung and Archie Pusaka of Google ChromeOS"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "AirPods (2nd generation and later), AirPods Pro (all models), AirPods Max",
+            "impact": "When your headphones are seeking a connection request to one of your previously paired devices, an attacker in Bluetooth range might be able to spoof the intended source device and gain access to your headphones.",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27964",
+                    "credit": "Yun-hao Chung and Archie Pusaka of Google ChromeOS"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Safari 16.3",
+    "url": "https://support.apple.com/kb/HT213600",
+    "available": "macOS Big Sur and macOS Monterey",
+    "released": "23 Jan 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "245464",
+                    "id": "CVE-2023-23496",
+                    "credit": "ChengGang Wu, Yan Kang, YuHao Hu, Yue Sun, Jiming Wang, JiKai Ren and Hang Shu of Institute of Computing Technology, Chinese Academy of Sciences"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "248268",
+                    "id": "CVE-2023-23518",
+                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE"
+                },
+                {
+                    "bugzilla": "248268",
+                    "id": "CVE-2023-23517",
+                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE"
+                }
+            ]
+        }
+    ]
+}

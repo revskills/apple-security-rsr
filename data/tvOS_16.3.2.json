@@ -1,0 +1,20 @@
+{
+    "name": "tvOS 16.3.2",
+    "url": "https://support.apple.com/kb/HT213632",
+    "available": "Apple TV 4K (all models) and Apple TV HD",
+    "released": "13 Feb 2023",
+    "advisories": [
+        {
+            "module": "Security",
+            "available": "Apple TV 4K (all models) and Apple TV HD",
+            "impact": "Processing a maliciously crafted certificate may lead to a denial-of-service",
+            "description": "A denial-of-service issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23524",
+                    "credit": "David Benjamin of Google Chrome"
+                }
+            ]
+        }
+    ]
+}

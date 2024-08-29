@@ -1,0 +1,62 @@
+{
+    "name": "Xcode 13.3",
+    "url": "https://support.apple.com/kb/HT213189",
+    "available": "macOS Monterey 12 and later",
+    "released": "14 Mar 2022",
+    "advisories": [
+        {
+            "module": "iTMSTransporter",
+            "available": "macOS Monterey 12 and later",
+            "impact": "Multiple issues in iTMSTransporter",
+            "description": "Multiple issues were addressed with updating FasterXML jackson-databind and Apache Log4j2.",
+            "cves": [
+                {
+                    "id": "CVE-2019-14379"
+                },
+                {
+                    "id": "CVE-2021-44228"
+                }
+            ]
+        },
+        {
+            "module": "otool",
+            "available": "macOS Monterey 12 and later",
+            "impact": "Opening a maliciously crafted file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22601",
+                    "credit": "hjy79425575"
+                },
+                {
+                    "id": "CVE-2022-22602",
+                    "credit": "hjy79425575"
+                },
+                {
+                    "id": "CVE-2022-22603",
+                    "credit": "hjy79425575"
+                },
+                {
+                    "id": "CVE-2022-22604",
+                    "credit": "hjy79425575"
+                },
+                {
+                    "id": "CVE-2022-22605",
+                    "credit": "hjy79425575"
+                },
+                {
+                    "id": "CVE-2022-22606",
+                    "credit": "hjy79425575"
+                },
+                {
+                    "id": "CVE-2022-22607",
+                    "credit": "hjy79425575"
+                },
+                {
+                    "id": "CVE-2022-22608",
+                    "credit": "hjy79425575"
+                }
+            ]
+        }
+    ]
+}

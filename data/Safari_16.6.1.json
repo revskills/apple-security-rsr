@@ -1,0 +1,21 @@
+{
+    "name": "Safari 16.6.1",
+    "url": "https://support.apple.com/kb/HT213930",
+    "available": "macOS Big Sur and Monterey",
+    "released": "21 Sep 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and Monterey",
+            "impact": "Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "261544",
+                    "id": "CVE-2023-41993",
+                    "credit": "Bill Marczak of The Citizen Lab at The University of Toronto's Munk School and Maddie Stone of Google's Threat Analysis Group"
+                }
+            ]
+        }
+    ]
+}

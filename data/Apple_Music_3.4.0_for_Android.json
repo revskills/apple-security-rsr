@@ -1,0 +1,20 @@
+{
+    "name": "Apple Music 3.4.0 for Android",
+    "url": "https://support.apple.com/kb/HT211898",
+    "available": "Android version 5.0 and later",
+    "released": "26 Oct 2020",
+    "advisories": [
+        {
+            "module": "Apple Music",
+            "available": "Android version 5.0 and later",
+            "impact": "A malicious application may be able to leak a user's credentials",
+            "description": "This issue was addressed with improved checks to prevent unauthorized actions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9982",
+                    "credit": "Pratik B. R"
+                }
+            ]
+        }
+    ]
+}

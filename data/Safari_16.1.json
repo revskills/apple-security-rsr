@@ -1,0 +1,88 @@
+{
+    "name": "Safari 16.1",
+    "url": "https://support.apple.com/kb/HT213495",
+    "available": "macOS Big Sur and macOS Monterey",
+    "released": "24 Oct 2022",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "December 22, 2022",
+            "cves": [
+                {
+                    "bugzilla": "246669",
+                    "id": "CVE-2022-42826",
+                    "credit": "Francisco Alonso (@revskills)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Visiting a malicious website may lead to user interface spoofing",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "bugzilla": "243693",
+                    "id": "CVE-2022-42799",
+                    "credit": "Jihwan Kim (@gPayl0ad), Dohyun Lee (@l33d0hyun)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "244622",
+                    "id": "CVE-2022-42823",
+                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Labs"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "245058",
+                    "id": "CVE-2022-42824",
+                    "credit": "Abdulrahman Alqabandi of Microsoft Browser Vulnerability Research, Ryan Shin of IAAI SecLab at Korea University, Dohyun Lee (@l33d0hyun) of DNSLab at Korea University"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may disclose internal states of the app",
+            "description": "A correctness issue in the JIT was addressed with improved checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "bugzilla": "242964",
+                    "id": "CVE-2022-32923",
+                    "credit": "Wonyoung Jung (@nonetype_pwn) of KAIST Hacking Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit PDF",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "242781",
+                    "id": "CVE-2022-32922",
+                    "credit": "Yonghwi Jin (@jinmo123) at Theori working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        }
+    ]
+}

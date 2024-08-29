@@ -1,0 +1,44 @@
+{
+    "name": "watchOS 6.2.9",
+    "url": "https://support.apple.com/kb/HT211944",
+    "available": "Apple Watch Series 1 and Apple Watch Series 2",
+    "released": "05 Nov 2020",
+    "advisories": [
+        {
+            "module": "FontParser",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "Processing a maliciously crafted font may lead to arbitrary code execution. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27930",
+                    "credit": "Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A malicious application may be able to disclose kernel memory. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A memory initialization issue was addressed.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27950",
+                    "credit": "Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27932",
+                    "credit": "Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

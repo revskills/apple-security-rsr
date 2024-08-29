@@ -1,0 +1,20 @@
+{
+    "name": "AirPods Firmware Update 6A326, AirPods Firmware Update 6F8, and Beats Firmware Update 6F8",
+    "url": "https://support.apple.com/kb/HT214111",
+    "available": "AirPods (2nd generation and later), AirPods Pro (all models), AirPods Max, Powerbeats Pro, and Beats Fit Pro",
+    "released": "25 Jun 2024",
+    "advisories": [
+        {
+            "module": "Bluetooth",
+            "available": "AirPods (2nd generation and later), AirPods Pro (all models), AirPods Max, Powerbeats Pro, and Beats Fit Pro",
+            "impact": "When your headphones are seeking a connection request to one of your previously paired devices, an attacker in Bluetooth range might be able to spoof the intended source device and gain access to your headphones",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27867",
+                    "credit": "Jonas Dre\u00dfler"
+                }
+            ]
+        }
+    ]
+}

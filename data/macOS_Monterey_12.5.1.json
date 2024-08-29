@@ -1,0 +1,33 @@
+{
+    "name": "macOS Monterey 12.5.1",
+    "url": "https://support.apple.com/kb/HT213413",
+    "available": "macOS Monterey",
+    "released": "17 Aug 2022",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32894",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "bugzilla": "243557",
+                    "id": "CVE-2022-32893",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "name": "Safari 17.5",
+    "url": "https://support.apple.com/kb/HT214103",
+    "available": "macOS Monterey and macOS Ventura",
+    "released": "13 May 2024",
+    "advisories": [
+        {
+            "module": "Safari",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A website's permission dialog may persist after navigation away from the site",
+            "description": "The issue was addressed with improved checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27844",
+                    "credit": "Narendra Bhati of Suma Soft Pvt. Ltd in Pune (India), Shaheen Fazim"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "272750",
+                    "id": "CVE-2024-27834",
+                    "credit": "Manfred Paul (@_manfp) working with Trend Micro's Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "The issue was addressed by adding additional logic.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "262337",
+                    "id": "CVE-2024-27838",
+                    "credit": "Emilio Cobos of Mozilla"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "268221",
+                    "id": "CVE-2024-27808",
+                    "credit": "Lukas Bernhard of CISPA Helmholtz Center for Information Security"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "This issue was addressed with improvements to the noise injection algorithm.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "270767",
+                    "id": "CVE-2024-27850",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "271491",
+                    "id": "CVE-2024-27833",
+                    "credit": "Manfred Paul (@_manfp) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved bounds checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "272106",
+                    "id": "CVE-2024-27851",
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Canvas",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "This issue was addressed through improved state management.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "271159",
+                    "id": "CVE-2024-27830",
+                    "credit": "Joe Rutkowski (@Joe12387) of Crawless and @abrahamjuliot"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Web Inspector",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "bugzilla": "270139",
+                    "id": "CVE-2024-27820",
+                    "credit": "Jeff Johnson of underpassapp.com"
+                }
+            ]
+        }
+    ]
+}

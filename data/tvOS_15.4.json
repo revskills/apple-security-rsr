@@ -1,0 +1,319 @@
+{
+    "name": "tvOS 15.4",
+    "url": "https://support.apple.com/kb/HT213186",
+    "available": "Apple TV 4K and Apple TV HD",
+    "released": "14 Mar 2022",
+    "advisories": [
+        {
+            "module": "Accelerate Framework",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Opening a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22633",
+                    "credit": "ryuzaki"
+                }
+            ]
+        },
+        {
+            "module": "Accelerate Framework",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Opening a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22633",
+                    "credit": "ryuzaki"
+                }
+            ]
+        },
+        {
+            "module": "AppleAVD",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing a maliciously crafted image may lead to heap corruption",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22666",
+                    "credit": "Marc Schoenefeld, Dr. rer. nat."
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22634",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22635",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22636",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22611",
+                    "credit": "Xingyu Jin of Google"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing a maliciously crafted image may lead to heap corruption",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22612",
+                    "credit": "Xingyu Jin of Google"
+                }
+            ]
+        },
+        {
+            "module": "IOGPUFamily",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22641",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22613",
+                    "credit": "Alex, an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22614",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-22615",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A malicious application may be able to elevate privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22632",
+                    "credit": "Keegan Saunders"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An attacker in a privileged position may be able to perform a denial of service attack",
+            "description": "A null pointer dereference was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22638",
+                    "credit": "derrek (@derrekr6)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22640",
+                    "credit": "sqrtpwn"
+                }
+            ]
+        },
+        {
+            "module": "LLVM",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to delete files for which it does not have permission",
+            "description": "A race condition was addressed with additional validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-21658",
+                    "credit": "Florian Weimer (@fweimer)"
+                }
+            ]
+        },
+        {
+            "module": "MediaRemote",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A malicious application may be able to identify what other applications a user has installed",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22670",
+                    "credit": "Brandon Azad"
+                }
+            ]
+        },
+        {
+            "module": "Preferences",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A malicious application may be able to read other applications' settings",
+            "description": "The issue was addressed with additional permissions checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22609",
+                    "credit": "Mickey Jin (@patch1t), and Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ],
+            "updated": [
+                "June 7, 2023"
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A malicious application may be able to bypass certain Privacy preferences",
+            "description": "The issue was addressed with improved permissions logic.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22600",
+                    "credit": "Sudhakar Muthumani (@sudhakarmuthu04) of Primefort Private Limited, Khiem Tran"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "UIKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A person with physical access to an iOS device may be able to see sensitive information via keyboard suggestions",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22621",
+                    "credit": "Joey Hewitt"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A cookie management issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "232748",
+                    "id": "CVE-2022-22662",
+                    "credit": "Prakash (@1lastBr3ath) of Threat Nix"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "232812",
+                    "id": "CVE-2022-22610",
+                    "credit": "Quan Yin of Bigo Technology Live Client Team"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "233172",
+                    "id": "CVE-2022-22624",
+                    "credit": "Kirin (@Pwnrin) of Tencent Security Xuanwu Lab"
+                },
+                {
+                    "bugzilla": "234147",
+                    "id": "CVE-2022-22628",
+                    "credit": "Kirin (@Pwnrin) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "234966",
+                    "id": "CVE-2022-22629",
+                    "credit": "Jeonghoon Shin at Theori working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A malicious website may cause unexpected cross-origin behavior",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "235294",
+                    "id": "CVE-2022-22637",
+                    "credit": "Tom McKee of Google"
+                }
+            ]
+        }
+    ]
+}

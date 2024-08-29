@@ -1,0 +1,20 @@
+{
+    "name": "iOS 12.5.2",
+    "url": "https://support.apple.com/kb/HT212257",
+    "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+    "released": "26 Mar 2021",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "This issue was addressed by improved management of object lifetimes.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1879",
+                    "credit": "Clement Lecigne of Google Threat Analysis Group and Billy Leonard of Google Threat Analysis Group"
+                }
+            ]
+        }
+    ]
+}

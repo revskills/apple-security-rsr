@@ -1,0 +1,32 @@
+{
+    "name": "iOS 17.4.1 and iPadOS 17.4.1",
+    "url": "https://support.apple.com/kb/HT214097",
+    "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+    "released": "21 Mar 2024",
+    "advisories": [
+        {
+            "module": "CoreMedia",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-1580",
+                    "credit": "Nick Galloway of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-1580",
+                    "credit": "Nick Galloway of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

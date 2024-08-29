@@ -1,0 +1,115 @@
+{
+    "name": "Safari 14.1.1",
+    "url": "https://support.apple.com/kb/HT212534",
+    "available": "macOS Catalina and macOS Mojave",
+    "released": "24 May 2021",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "Multiple memory corruption issues were addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30749",
+                    "credit": "an anonymous researcher and mipu94 of SEFCOM lab, ASU. working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2021-30734",
+                    "credit": "Jack Dates of RET2 Systems, Inc. (@ret2systems) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A cross-origin issue with iframe elements was addressed with improved tracking of security origins.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30744",
+                    "credit": "Dan Hite of jsontop"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "A malicious website may be able to access restricted ports on arbitrary servers",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30720",
+                    "credit": "David Sch\u00fctz (@xdavidhu)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "A malicious application may be able to leak sensitive user information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30682",
+                    "credit": "Prakash (@1lastBr3ath)"
+                }
+            ],
+            "updated": [
+                "July 21, 2021"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-21779",
+                    "credit": "Marcin Towalski of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30689",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30663",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "A null pointer dereference was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-23841",
+                    "credit": "Tavis Ormandy of Google"
+                },
+                {
+                    "id": "CVE-2021-30698",
+                    "credit": "Tavis Ormandy of Google"
+                }
+            ]
+        }
+    ]
+}

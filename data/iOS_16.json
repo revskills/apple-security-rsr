@@ -1,0 +1,645 @@
+{
+    "name": "iOS 16",
+    "url": "https://support.apple.com/kb/HT213446",
+    "available": "iPhone 8 and later",
+    "released": "12 Sep 2022",
+    "advisories": [
+        {
+            "module": "Accelerate Framework",
+            "available": "iPhone 8 and later",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-42795",
+                    "credit": "ryuzaki"
+                }
+            ]
+        },
+        {
+            "module": "AppleAVD",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to cause a denial-of-service",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32827",
+                    "credit": "Antonio Zekic (@antoniozekic), Natalie Silvanovich of Google Project Zero, and an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "AppleAVD",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "This issue was addressed with improved checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32907",
+                    "credit": "Natalie Silvanovich of Google Project Zero, Antonio Zekic (@antoniozekic) and John Aakerblom (@jaakerblom), ABC Research s.r.o, Yinyi Wu, Tommaso Bianco (@cutesmilee__)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A configuration issue was addressed with additional restrictions.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-32877",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to leak sensitive kernel state",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32858",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32898",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                },
+                {
+                    "id": "CVE-2022-32899",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                },
+                {
+                    "id": "CVE-2022-32889",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "Apple TV",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "The issue was addressed with improved handling of caches.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32909",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Contacts",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32854",
+                    "credit": "Holger Fuhrmannek of Deutsche Telekom Security"
+                }
+            ]
+        },
+        {
+            "module": "Crash Reporter",
+            "available": "iPhone 8 and later",
+            "impact": "A user with physical access to an iOS device may be able to read past diagnostic logs",
+            "description": "This issue was addressed with improved data protection.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32867",
+                    "credit": "Kshitij Kumar and Jai Musunuri of Crowdstrike"
+                }
+            ]
+        },
+        {
+            "module": "DriverKit",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32865",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Exchange",
+            "available": "iPhone 8 and later",
+            "impact": "A user in a privileged network position may be able to intercept mail credentials",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32928",
+                    "credit": "Ji\u0159\u00ed Vinopal (@vinopaljiri) of Check Point Research"
+                }
+            ],
+            "updated": [
+                "March 16, 2023"
+            ]
+        },
+        {
+            "module": "FaceTime",
+            "available": "iPhone 8 and later",
+            "impact": "A user may send audio and video in a FaceTime call without knowing that they have done so",
+            "description": "This issue was addressed with improved checks.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-22643",
+                    "credit": "Sonali Luthar of the University of Virginia, Michael Liao of the University of Illinois at Urbana-Champaign, Rohan Pahwa of Rutgers University, and Bao Nguyen of University of Florida"
+                }
+            ]
+        },
+        {
+            "module": "GPU Drivers",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "Multiple out-of-bounds write issues were addressed with improved bounds checking.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-32793",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "GPU Drivers",
+            "available": "iPhone 8 and later",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-26744",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "GPU Drivers",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32903",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 8 and later",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "A denial-of-service issue was addressed with improved validation.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-1622"
+                }
+            ]
+        },
+        {
+            "module": "Image Processing",
+            "available": "iPhone 8 and later",
+            "impact": "A sandboxed app may be able to determine which app is currently using the camera",
+            "description": "The issue was addressed with additional restrictions on the observability of app states.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32913",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ]
+        },
+        {
+            "module": "IOGPUFamily",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32887",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "An out-of-bounds read issue existed that led to the disclosure of kernel memory. This was addressed with improved input validation.",
+            "added": "November 9, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32916",
+                    "credit": "Pan ZhenPeng of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32914",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32866",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                },
+                {
+                    "id": "CVE-2022-32911",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ],
+            "updated": [
+                "October 27, 2022"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32864",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges.",
+            "description": "The issue was addressed with improved bounds checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32917",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Maps",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32883",
+                    "credit": "Ron Masas, breakpointhq.com"
+                }
+            ]
+        },
+        {
+            "module": "MediaLibrary",
+            "available": "iPhone 8 and later",
+            "impact": "A user may be able to elevate privileges",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32908",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Notifications",
+            "available": "iPhone 8 and later",
+            "impact": "A user with physical access to a device may be able to access contacts from the lock screen",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32879",
+                    "credit": "Ubeydullah S\u00fcmer"
+                }
+            ]
+        },
+        {
+            "module": "Photos",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved data protection.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32918",
+                    "credit": "Ashwani Rajput of Nagarro Software Pvt. Ltd, Srijan Shivam Mishra of The Hack Report, Jugal Goradia of Aastha Technologies, Evan Ricafort (evanricafort.com) of Invalid Web Security, Shesha Sai C (linkedin.com/in/shesha-sai-c-18585b125), Amod Raghunath Patwardhan of Pune, India"
+                }
+            ],
+            "updated": [
+                "March 16, 2023"
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "iPhone 8 and later",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32795",
+                    "credit": "Narendra Bhati of Suma Soft Pvt. Ltd. Pune (India) @imnarendrabhati"
+                }
+            ]
+        },
+        {
+            "module": "Safari Extensions",
+            "available": "iPhone 8 and later",
+            "impact": "A website may be able to track users through Safari web extensions",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "242278",
+                    "id": "CVE-2022-32868",
+                    "credit": "Michael"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32881",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to bypass code signing checks",
+            "description": "An issue in code signature validation was addressed with improved checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-42793",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "iPhone 8 and later",
+            "impact": "A person with physical access to an iOS device may be able to access photos from the lock screen",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32872",
+                    "credit": "Elite Tech Guru"
+                }
+            ]
+        },
+        {
+            "module": "Sidecar",
+            "available": "iPhone 8 and later",
+            "impact": "A user may be able to view restricted content from the lock screen",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-42790",
+                    "credit": "Om kothawade of Zaprico Digital"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "iPhone 8 and later",
+            "impact": "A person with physical access to a device may be able to use Siri to access private calendar information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-32871",
+                    "credit": "Amit Prajapat of Payatu Security Consulting Private Limited"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "iPhone 8 and later",
+            "impact": "A user with physical access to a device may be able to use Siri to obtain some call history information",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32870",
+                    "credit": "Andrew Goldberg of The McCombs School of Business, The University of Texas at Austin (linkedin.com/andrew-goldberg-/)"
+                }
+            ]
+        },
+        {
+            "module": "Software Update",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "added": "November 9, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-42791",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "iPhone 8 and later",
+            "impact": "A remote user may be able to cause a denial-of-service",
+            "description": "This issue was addressed with improved checks.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-36690"
+                }
+            ]
+        },
+        {
+            "module": "Time Zone",
+            "available": "iPhone 8 and later",
+            "impact": "Deleted contacts may still appear in spotlight search results",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32859"
+                }
+            ]
+        },
+        {
+            "module": "Watch app",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to read a persistent device identifier",
+            "description": "This issue was addressed with improved entitlements.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32835",
+                    "credit": "Guilherme Rambo of Best Buddy Apps (rambo.codes)"
+                }
+            ]
+        },
+        {
+            "module": "Weather",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32875",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later",
+            "impact": "An unauthorized user may be able to access browsing history",
+            "description": "An issue existed with the file paths used to store website data. The issue was resolved by improving how website data is stored.",
+            "added": "November 9, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32833",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security, Jeff Johnson"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "bugzilla": "242047",
+                    "id": "CVE-2022-32888",
+                    "credit": "P1umer (@p1umer)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later",
+            "impact": "Visiting a website that frames malicious content may lead to UI spoofing",
+            "description": "The issue was addressed with improved UI handling.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "bugzilla": "243236",
+                    "id": "CVE-2022-32891",
+                    "credit": "@real_as3617, and an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "241969",
+                    "id": "CVE-2022-32886",
+                    "credit": "P1umer, afang5472, xmzyshypnc"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "bugzilla": "242762",
+                    "id": "CVE-2022-32912",
+                    "credit": "Jeonghoon Shin (@singi21a) at Theori working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Sandboxing",
+            "available": "iPhone 8 and later",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "An access issue was addressed with improvements to the sandbox.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "bugzilla": "243181",
+                    "id": "CVE-2022-32892",
+                    "credit": "@18\u697c\u68a6\u60f3\u6539\u9020\u5bb6 and @jq0904 of DBAppSecurity's WeBin lab"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46709",
+                    "credit": "Wang Yu of Cyberserval"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "iPhone 8 and later",
+            "impact": "An app may be able to cause unexpected system termination or write kernel memory",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32925",
+                    "credit": "Wang Yu of Cyberserval"
+                }
+            ]
+        }
+    ]
+}

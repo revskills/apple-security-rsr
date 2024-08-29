@@ -1,0 +1,20 @@
+{
+    "name": "iOS 14.7.1 and iPadOS 14.7.1",
+    "url": "https://support.apple.com/kb/HT212623",
+    "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+    "released": "26 Jul 2021",
+    "advisories": [
+        {
+            "module": "IOMobileFrameBuffer",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30807",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

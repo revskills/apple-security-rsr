@@ -1,0 +1,32 @@
+{
+    "name": "iOS 16.1.1 and iPadOS 16.1.1",
+    "url": "https://support.apple.com/kb/HT213505",
+    "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+    "released": "09 Nov 2022",
+    "advisories": [
+        {
+            "module": "libxml2",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40303",
+                    "credit": "Maddie Stone of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40304",
+                    "credit": "Ned Williamson and Nathan Wachholz of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "name": "macOS Big Sur 11.6.3",
+    "url": "https://support.apple.com/kb/HT213055",
+    "available": "macOS Big Sur",
+    "released": "26 Jan 2022",
+    "advisories": [
+        {
+            "module": "Audio",
+            "available": "macOS Big Sur",
+            "impact": "Parsing a maliciously crafted audio file may lead to disclosure of user information",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30960",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "iCloud",
+            "available": "macOS Big Sur",
+            "impact": "An application may be able to access a user's files",
+            "description": "An issue existed within the path validation logic for symlinks. This issue was addressed with improved path sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22585",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab (https://xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "IOMobileFrameBuffer",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22587",
+                    "credit": "an anonymous researcher, Meysam Firouzi (@R00tkitSMM) of MBition - Mercedes-Benz Innovation Lab, Siddharth Aeri (@b1n4r1b01)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22593",
+                    "credit": "Peter Nguy\u1ec5n V\u0169 Ho\u00e0ng of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted STL file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22579",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Big Sur",
+            "impact": "An application may be able to access restricted files",
+            "description": "A permissions issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22583",
+                    "credit": "Ron Hass (@ronhass7) of Perception Point, Mickey Jin (@patch1t)"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Big Sur",
+            "impact": "A malicious application may be able to bypass certain Privacy preferences",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30972",
+                    "credit": "CVE-2021-30972: Xuxiang Yang (@another1024), Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com), Csaba Fitzl (@theevilbit) of Offensive Security, jhftss (@patch1t), Wojciech Regu\u0142a (@_r3ggi)"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        }
+    ]
+}

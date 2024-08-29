@@ -1,0 +1,20 @@
+{
+    "name": "iTunes 12.13.1 for Windows",
+    "url": "https://support.apple.com/kb/HT214091",
+    "available": "Windows 10 and later",
+    "released": "14 Dec 2023",
+    "advisories": [
+        {
+            "module": "Mobile Device Service",
+            "available": "Windows 10 and later",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42938",
+                    "credit": "Gee Sung"
+                }
+            ]
+        }
+    ]
+}

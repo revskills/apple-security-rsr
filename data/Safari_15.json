@@ -1,0 +1,137 @@
+{
+    "name": "Safari 15",
+    "url": "https://support.apple.com/kb/HT212816",
+    "available": "macOS Big Sur and macOS Catalina",
+    "released": "20 Sep 2021",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing a maliciously crafted audio file may disclose restricted memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "November 18, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30836",
+                    "credit": "Peter Nguyen Vu Hoang of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "A malicious application may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "November 18, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30861",
+                    "credit": "Ryan Pickren (ryanpickren.com), Wojciech Regu\u0142a (@_r3ggi)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30818",
+                    "credit": "Amar Menezes (@amarekano) of Zon8Research"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "An attacker in a privileged network position may be able to bypass HSTS",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30823",
+                    "credit": "David Gullasch of Recurity Labs"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30809",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30846",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30848",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "Multiple memory corruption issues were addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30849",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A memory corruption vulnerability was addressed with improved locking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30851",
+                    "credit": "Samuel Gro\u00df of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "An attacker may be able to track users through their IP address",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30930",
+                    "credit": "Oguz K\u0131rat, Matthias Keller (m-keller.com)"
+                }
+            ],
+            "updated": [
+                "September 16, 2022"
+            ]
+        }
+    ]
+}

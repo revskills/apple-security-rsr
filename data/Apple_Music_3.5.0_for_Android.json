@@ -1,0 +1,20 @@
+{
+    "name": "Apple Music 3.5.0 for Android",
+    "url": "https://support.apple.com/kb/HT213472",
+    "available": "Android version 5.0 and later",
+    "released": "26 Apr 2021",
+    "advisories": [
+        {
+            "module": "Apple Music on Android",
+            "available": "Android version 5.0 and later",
+            "impact": "An attacker in a privileged network position can track a user's activity",
+            "description": "This issue was addressed by using HTTPS when sending information over the network.",
+            "cves": [
+                {
+                    "id": "CVE-2021-46841",
+                    "credit": "Sourav Newatia (linkedin.com/in/sourav-newatia-5b0848a8)"
+                }
+            ]
+        }
+    ]
+}

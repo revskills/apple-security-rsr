@@ -1,0 +1,62 @@
+{
+    "name": "Safari 17.2",
+    "url": "https://support.apple.com/kb/HT214039",
+    "available": "macOS Monterey and macOS Ventura",
+    "released": "11 Dec 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "259830",
+                    "id": "CVE-2023-42890",
+                    "credit": "Pwn2car"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "263349",
+                    "id": "CVE-2023-42883",
+                    "credit": "Zoom Offensive Security Team"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "bugzilla": "263682",
+                    "id": "CVE-2023-42950",
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute and rushikesh nandedkar"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to a denial-of-service",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "bugzilla": "263989",
+                    "id": "CVE-2023-42956",
+                    "credit": "SungKwon Lee (Demon.Team)"
+                }
+            ]
+        }
+    ]
+}

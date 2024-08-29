@@ -1,0 +1,167 @@
+{
+    "name": "macOS Big Sur 11.7.2",
+    "url": "https://support.apple.com/kb/HT213534",
+    "available": "macOS Big Sur",
+    "released": "13 Dec 2022",
+    "advisories": [
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed by enabling hardened runtime.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-42865",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "BOM",
+            "available": "macOS Big Sur",
+            "impact": "An app may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42821",
+                    "credit": "Jonathan Bar Or of Microsoft"
+                }
+            ]
+        },
+        {
+            "module": "DriverKit",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32942",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "IOHIDFamily",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42864",
+                    "credit": "Tommy Muir (@Muirey03)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46689",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app with root privileges may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42845",
+                    "credit": "Adam Doup\u00e9 of ASU SEFCOM"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "A remote user may be able to cause kernel code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42842",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "macOS Big Sur",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40303",
+                    "credit": "Maddie Stone of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "macOS Big Sur",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40304",
+                    "credit": "Ned Williamson and Nathan Wachholz of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "December 22, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-46704",
+                    "credit": "Mickey Jin (@patch1t), Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "ppp",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42840",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46718",
+                    "credit": "Michael (Biscuit) Thomas"
+                }
+            ]
+        },
+        {
+            "module": "xar",
+            "available": "macOS Big Sur",
+            "impact": "Processing a maliciously crafted package may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42841",
+                    "credit": "Thijs Alkemade (@xnyhps) of Computest Sector 7"
+                }
+            ]
+        }
+    ]
+}

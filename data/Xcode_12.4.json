@@ -1,0 +1,20 @@
+{
+    "name": "Xcode 12.4",
+    "url": "https://support.apple.com/kb/HT212153",
+    "available": "macOS Catalina 10.15.4 and later",
+    "released": "26 Jan 2021",
+    "advisories": [
+        {
+            "module": "Xcode IDE",
+            "available": "macOS Catalina 10.15.4 and later",
+            "impact": "A malicious application may be able to access arbitrary files on the host device while running an app that uses on-demand resources with Xcode",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1800",
+                    "credit": "Theodore Dubois (@tblodt)"
+                }
+            ]
+        }
+    ]
+}

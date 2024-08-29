@@ -1,0 +1,20 @@
+{
+    "name": "macOS Catalina 10.15.5 Supplemental Update, Security Update 2020-003 High Sierra",
+    "url": "https://support.apple.com/kb/HT211215",
+    "available": "macOS High Sierra 10.13.6, macOS Catalina 10.15.5",
+    "released": "01 Jun 2020",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "macOS High Sierra 10.13.6, macOS Catalina 10.15.5",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9859",
+                    "credit": "unc0ver"
+                }
+            ]
+        }
+    ]
+}

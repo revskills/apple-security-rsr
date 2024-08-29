@@ -1,0 +1,20 @@
+{
+    "name": "Windows Migration Assistant 2.2.0.0 (v. 1A11)",
+    "url": "https://support.apple.com/103794",
+    "available": "macOS Catalina",
+    "released": "26 May 2020",
+    "advisories": [
+        {
+            "module": "Windows Installer",
+            "available": "macOS Catalina",
+            "impact": "Running the installer in an untrusted directory may result in arbitrary code execution",
+            "description": "A dynamic library loading issue was addressed with improved path searching.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9858",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        }
+    ]
+}

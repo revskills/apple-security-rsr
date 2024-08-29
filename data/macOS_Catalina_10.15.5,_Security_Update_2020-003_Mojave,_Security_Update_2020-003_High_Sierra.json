@@ -1,0 +1,644 @@
+{
+    "name": "macOS Catalina 10.15.5, Security Update 2020-003 Mojave, Security Update 2020-003 High Sierra",
+    "url": "https://support.apple.com/kb/HT211170",
+    "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+    "released": "26 May 2020",
+    "advisories": [
+        {
+            "module": "Accounts",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "A denial of service issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9827",
+                    "credit": "Jannik Lorenz of SEEMOO @ TU Darmstadt"
+                }
+            ]
+        },
+        {
+            "module": "Accounts",
+            "available": "macOS Mojave 10.14.6, macOS High Sierra 10.13.6",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9772",
+                    "credit": "Allison Husain of UC Berkeley"
+                }
+            ]
+        },
+        {
+            "module": "AirDrop",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "A denial of service issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9826",
+                    "credit": "Dor Hadad of Palo Alto Networks"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS High Sierra 10.13.6, macOS Catalina 10.15.4",
+            "impact": "A malicious application could interact with system processes to access private information and perform privileged actions",
+            "description": "An entitlement parsing issue was addressed with improved parsing.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9842",
+                    "credit": "Linus Henze (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "AppleUSBNetworking",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "Inserting a USB device that sends invalid messages may cause a kernel panic",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9804",
+                    "credit": "Andy Davis of NCC Group"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9815",
+                    "credit": "Yu Zhou (@yuzhou6666) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9791",
+                    "credit": "Yu Zhou (@yuzhou6666) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to determine kernel memory layout",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9831",
+                    "credit": "Yu Wang of Didi Research America"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "macOS Mojave 10.14.6, macOS High Sierra 10.13.6",
+            "impact": "A local user may be able to cause unexpected system termination or read kernel memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "September 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9779",
+                    "credit": "Yu Wang of Didi Research America"
+                }
+            ]
+        },
+        {
+            "module": "Calendar",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "Importing a maliciously crafted calendar invitation may exfiltrate user information",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3882",
+                    "credit": "Andy Grant of NCC Group"
+                }
+            ]
+        },
+        {
+            "module": "CoreBluetooth",
+            "available": "macOS Mojave 10.14.6, macOS High Sierra 10.13.6",
+            "impact": "A remote attacker may be able to leak sensitive user information",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9828",
+                    "credit": "Jianjun Dai of Qihoo 360 Alpha Lab"
+                }
+            ]
+        },
+        {
+            "module": "CVMS",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9856",
+                    "credit": "@jinmo123, @setuid0x0_, and @insu_yun_en of @SSLab_Gatech working with Trend Micro\u2019s Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "DiskArbitration",
+            "available": "macOS Mojave 10.14.6, macOS High Sierra 10.13.6, macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to break out of its sandbox",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9847",
+                    "credit": "Zhuo Liang of Qihoo 360 Vulcan Team working with 360 BugCloud (bugcloud.360.cn)"
+                }
+            ]
+        },
+        {
+            "module": "Find My",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9855",
+                    "credit": "Zhongcheng Li(CK01) of Topsec Alpha Team"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "Opening a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9816",
+                    "credit": "Peter Nguyen Vu Hoang of STAR Labs working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3878",
+                    "credit": "Samuel Gro\u00df of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9789",
+                    "credit": "Wenchao Li of VARAS@IIE"
+                },
+                {
+                    "id": "CVE-2020-9790",
+                    "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9822",
+                    "credit": "ABC Research s.r.o"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "added": "July 28, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9796",
+                    "credit": "ABC Research s.r.o."
+                }
+            ]
+        },
+        {
+            "module": "IPSec",
+            "available": "macOS High Sierra 10.13.6, macOS Catalina 10.15.4",
+            "impact": "A remote attacker may be able to leak memory",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9837",
+                    "credit": "Thijs Alkemade of Computest"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9821",
+                    "credit": "Xinru Chi and Tielei Wang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to determine another application's memory layout",
+            "description": "An information disclosure issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9797",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9852",
+                    "credit": "Tao Huang and Tielei Wang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9795",
+                    "credit": "Zhuo Liang of Qihoo 360 Vulcan Team"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "An application may be able to cause unexpected system termination or write kernel memory",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9808",
+                    "credit": "Xinru Chi and Tielei Wang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Mojave 10.14.6, macOS High Sierra 10.13.6, macOS Catalina 10.15.4",
+            "impact": "A local user may be able to read kernel memory",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9811",
+                    "credit": "Tielei Wang of Pangu Lab"
+                },
+                {
+                    "id": "CVE-2020-9812",
+                    "credit": "derrek (@derrekr6)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue existed resulting in memory corruption. This was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9813",
+                    "credit": "Xinru Chi of Pangu Lab"
+                },
+                {
+                    "id": "CVE-2020-9814",
+                    "credit": "Xinru Chi and Tielei Wang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to determine kernel memory layout",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9809",
+                    "credit": "Benjamin Randazzo (@____benjamin)"
+                }
+            ]
+        },
+        {
+            "module": "ksh",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A local user may be able to execute arbitrary shell commands",
+            "description": "An issue existed in the handling of environment variables. This issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2019-14868"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to overwrite arbitrary files",
+            "description": "A path handling issue was addressed with improved validation.",
+            "added": "September 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9994",
+                    "credit": "Apple"
+                }
+            ]
+        },
+        {
+            "module": "NSURL",
+            "available": "macOS Mojave 10.14.6",
+            "impact": "A malicious website may be able to exfiltrate autofilled data in Safari",
+            "description": "An issue existed in the parsing of URLs. This issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9857",
+                    "credit": "Dlive of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A permissions issue existed. This issue was addressed with improved permission validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9817",
+                    "credit": "Andy Grant of NCC Group"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to modify protected parts of the file system",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9851",
+                    "credit": "an anonymous researcher, Linus Henze (pinauten.de)"
+                }
+            ],
+            "updated": [
+                "July 15, 2020"
+            ]
+        },
+        {
+            "module": "Python",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9793"
+                }
+            ]
+        },
+        {
+            "module": "rsync",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A remote attacker may be able to overwrite existing files",
+            "description": "A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks.",
+            "added": "July 28, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2014-9512",
+                    "credit": "gaojianfeng"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to bypass Privacy preferences",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9825",
+                    "credit": "Sreejith Krishnan R (@skr0x1C0)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Mojave 10.14.6",
+            "impact": "A user may gain access to protected parts of the file system",
+            "description": "This issue was addressed with a new entitlement.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9771",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A file may be incorrectly rendered to execute JavaScript",
+            "description": "A validation issue was addressed with improved input sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9788",
+                    "credit": "Wojciech Regu\u0142a of SecuRing (wojciechregula.blog)"
+                }
+            ],
+            "updated": [
+                "July 15, 2020"
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "July 28, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9854",
+                    "credit": "Ilias Morad (A2nkF)"
+                }
+            ]
+        },
+        {
+            "module": "SIP",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A non-privileged user may be able to modify restricted network settings",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9824",
+                    "credit": "@jamestraynor, Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ],
+            "updated": [
+                "June 10, 2020"
+            ]
+        },
+        {
+            "module": "Software Update",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A person with physical access to a Mac may be able to bypass Login Window",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "July 15, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9810",
+                    "credit": "Francis @francisschmaltz"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A malicious application may cause a denial of service or potentially disclose memory contents",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9794"
+                }
+            ]
+        },
+        {
+            "module": "System Preferences",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9839",
+                    "credit": "@jinmo123, @setuid0x0_, and @insu_yun_en of @SSLab_Gatech working with Trend Micro\u2019s Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "USB Audio",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A USB device may be able to cause a denial of service",
+            "description": "A validation issue was addressed with improved input sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9792",
+                    "credit": "Andy Davis of NCC Group"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Catalina 10.15.4",
+            "impact": "A remote attacker may be able to cause unexpected system termination or corrupt kernel memory",
+            "description": "A double free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9844",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9830",
+                    "credit": "Tielei Wang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9834",
+                    "credit": "Yu Wang of Didi Research America"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A local user may be able to read kernel memory",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9833",
+                    "credit": "Yu Wang of Didi Research America"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A malicious application may be able to determine kernel memory layout",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9832",
+                    "credit": "Yu Wang of Didi Research America"
+                }
+            ]
+        },
+        {
+            "module": "WindowServer",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9841",
+                    "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "zsh",
+            "available": "macOS High Sierra 10.13.6, macOS Mojave 10.14.6, macOS Catalina 10.15.4",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "An authorization issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2019-20044",
+                    "credit": "Sam Foxman"
+                }
+            ]
+        }
+    ]
+}

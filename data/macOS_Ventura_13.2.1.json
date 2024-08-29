@@ -1,0 +1,58 @@
+{
+    "name": "macOS Ventura 13.2.1",
+    "url": "https://support.apple.com/kb/HT213633",
+    "available": "macOS Ventura",
+    "released": "13 Feb 2023",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges.",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23514",
+                    "credit": "Xinru Chi of Pangu Lab, Ned Williamson of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Ventura",
+            "impact": "Processing a maliciously crafted certificate may lead to a denial-of-service",
+            "description": "A denial-of-service issue was addressed with improved input validation.",
+            "added": "February 20, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-23524",
+                    "credit": "David Benjamin of Google Chrome"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to observe unprotected user data.",
+            "description": "A privacy issue was addressed with improved handling of temporary files.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23522",
+                    "credit": "Wenchao Li and Xiaolong Bai of Alibaba Group"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "251944",
+                    "id": "CVE-2023-23529",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

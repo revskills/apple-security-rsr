@@ -1,0 +1,384 @@
+{
+    "name": "macOS Monterey 12.6.6",
+    "url": "https://support.apple.com/kb/HT213759",
+    "available": "macOS Monterey",
+    "released": "18 May 2023",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32388",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "AppleEvents",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-28191",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32411",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to inject code into sensitive binaries bundled with Xcode",
+            "description": "This issue was addressed by forcing hardened runtime on the affected binaries at the system level.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32383",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        },
+        {
+            "module": "Contacts",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to observe unprotected user data",
+            "description": "A privacy issue was addressed with improved handling of temporary files.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32386",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "CUPS",
+            "available": "macOS Monterey",
+            "impact": "An unauthenticated user may be able to access recently printed documents",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32360",
+                    "credit": "Gerhard Muth"
+                }
+            ]
+        },
+        {
+            "module": "dcerpc",
+            "available": "macOS Monterey",
+            "impact": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32387",
+                    "credit": "Dimitrios Tatsis of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "Dev Tools",
+            "available": "macOS Monterey",
+            "impact": "A sandboxed app may be able to collect system logs",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27945",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "GeoServices",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32392",
+                    "credit": "Adam M."
+                }
+            ],
+            "updated": [
+                "December 21, 2023"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted image may result in disclosure of process memory",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23535",
+                    "credit": "ryuzaki"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Monterey",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32384",
+                    "credit": "Meysam Firouzi @R00tkitsmm working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "IOSurface",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to leak sensitive kernel state",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32410",
+                    "credit": "hou xuewei (@p1ay8y3ar) vmk msu"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "A sandboxed app may be able to observe system-wide network connections",
+            "description": "The issue was addressed with additional permissions checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27940",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32413",
+                    "credit": "Eloi Benoist-Vanderbeken (@elvanderb) from Synacktiv (@Synacktiv) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32398",
+                    "credit": "Adam Doup\u00e9 of ASU SEFCOM"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Monterey",
+            "impact": "An app may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32352",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32369",
+                    "credit": "Jonathan Bar Or of Microsoft, Anurag Bohra of Microsoft, and Michael Pearse of Microsoft"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32405",
+                    "credit": "Thijs Alkemade (@xnyhps) from Computest Sector 7"
+                }
+            ]
+        },
+        {
+            "module": "MallocStackLogging",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to gain root privileges",
+            "description": "This issue was addressed with improved file handling.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32428",
+                    "credit": "Gergely Kalman (@gergely_kalman)"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32407",
+                    "credit": "Gergely Kalman (@gergely_kalman)"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing a 3D model may result in disclosure of process memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32375",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2023-32382",
+                    "credit": "Mickey Jin (@patch1t)"
+                },
+                {
+                    "id": "CVE-2023-32368",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing a 3D model may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32380",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "NetworkExtension",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32403",
+                    "credit": "Adam M."
+                }
+            ],
+            "updated": [
+                "December 21, 2023"
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32355",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Perl",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32395",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "Quick Look",
+            "available": "macOS Monterey",
+            "impact": "Parsing an office document may lead to an unexpected app termination or arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32401",
+                    "credit": "Holger Fuhrmannek of Deutsche Telekom Security GmbH on behalf of BSI (German Federal Office for Information Security)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to retain access to system configuration files even after its permission is revoked",
+            "description": "An authorization issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32357",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit), Jeff Johnson, Koh M. Nakagawa of FFRI Security, Inc., Kirin (@Pwnrin), and Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Shell",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32397",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "Telephony",
+            "available": "macOS Monterey",
+            "impact": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32412",
+                    "credit": "Ivan Fratric of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "TV App",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "The issue was addressed with improved handling of caches.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32408",
+                    "credit": "Adam M."
+                }
+            ]
+        }
+    ]
+}

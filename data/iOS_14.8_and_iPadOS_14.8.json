@@ -1,0 +1,316 @@
+{
+    "name": "iOS 14.8 and iPadOS 14.8",
+    "url": "https://support.apple.com/kb/HT212807",
+    "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+    "released": "13 Sep 2021",
+    "advisories": [
+        {
+            "module": "Apple Neural Engine",
+            "available": "devices with Apple Neural Engine: iPhone 8 and later, iPad Pro (3rd generation) and later, iPad Air (3rd generation) and later, and iPad mini (5th generation)",
+            "impact": "A malicious application may be able to execute arbitrary code with system privileges",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30838",
+                    "credit": "proteas wang"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30820",
+                    "credit": "Jianjun Dai of Qihoo 360 Alpha Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted file may disclose user information",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30905",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a malicious audio file may result in unexpected application termination or arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30834",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreGraphics",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30928",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "CoreGraphics",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted PDF may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30860",
+                    "credit": "The Citizen Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreServices",
+            "available": "Available for devices with Apple Neural Engine: iPhone 8 and later, iPad Pro (3rd generation) and later, iPad Air (3rd generation) and later, and iPad mini (5th generation)",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30864",
+                    "credit": "Ron Hass (@ronhass7) of Perception Point, Ron Waisberg (@epsilan)"
+                }
+            ]
+        },
+        {
+            "module": "Core Telephony",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions. Apple was aware of a report that this issue may have been actively exploited at the time of release.",
+            "description": "A deserialization issue was addressed through improved validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-31010",
+                    "credit": "Citizen Lab and Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted dfont file may lead to arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30841",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2021-30843",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2021-30842",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Foundation",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30852",
+                    "credit": "Yinyi Wu (@3ndy1) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30847",
+                    "credit": "Mike Zhang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved locking.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30857",
+                    "credit": "Manish Bhatt of Red Team X @Meta, Zweig of Kunlun Lab"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30859",
+                    "credit": "Apple"
+                }
+            ]
+        },
+        {
+            "module": "libexpat",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "This issue was addressed by updating expat to version 2.4.1.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2013-0340",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Preferences",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to access restricted files",
+            "description": "A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30855",
+                    "credit": "Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "Telephony",
+            "available": "iPhone SE (1st generation), iPad Pro 12.9-inch, iPad Air 2, iPad (5th generation), and iPad mini 4",
+            "impact": "In certain situations, the baseband would fail to enable integrity and ciphering protection",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "January 19, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30826",
+                    "credit": "CheolJun Park, Sangwook Bae and BeomSeok Oh of KAIST SysSec Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30818",
+                    "credit": "Amar Menezes (@amarekano) of Zon8Research"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An attacker in a privileged network position may be able to bypass HSTS",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30823",
+                    "credit": "David Gullasch of Recurity Labs"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted audio file may disclose restricted memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30836",
+                    "credit": "Peter Nguyen Vu Hoang of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30858",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30848",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "Multiple memory corruption issues were addressed with improved memory handling.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30849",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "added": "September 20, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30846",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

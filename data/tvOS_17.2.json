@@ -1,0 +1,171 @@
+{
+    "name": "tvOS 17.2",
+    "url": "https://support.apple.com/kb/HT214040",
+    "available": "Apple TV HD and Apple TV 4K (all models)",
+    "released": "11 Dec 2023",
+    "advisories": [
+        {
+            "module": "AVEVideoEncoder",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42884",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42898",
+                    "credit": "Zhenjiang Zhao of Pangu Team, Qianxin and Junsung Lee"
+                },
+                {
+                    "id": "CVE-2023-42899",
+                    "credit": "Meysam Firouzi @R00tkitSMM and Junsung Lee"
+                }
+            ],
+            "updated": [
+                "March 22, 2024"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42914",
+                    "credit": "Eloi Benoist-Vanderbeken (@elvanderb) of Synacktiv (@Synacktiv)"
+                }
+            ]
+        },
+        {
+            "module": "Libsystem",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to access protected user data",
+            "description": "A permissions issue was addressed by removing vulnerable code and adding additional checks.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42893"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42936",
+                    "credit": "Csaba Fitzl (@theevilbit) of OffSec"
+                }
+            ],
+            "updated": [
+                "July 16, 2024"
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "A path handling issue was addressed with improved validation.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42947",
+                    "credit": "Zhongquan Li (@Guluisacat) of Dawn Security Lab of JingDong"
+                }
+            ]
+        },
+        {
+            "module": "Transparency",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "The issue was addressed with improved restriction of data container access.",
+            "added": "July 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-40389",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security and Joshua Jewett (@JoshJewett33)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "259830",
+                    "id": "CVE-2023-42890",
+                    "credit": "Pwn2car"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "263349",
+                    "id": "CVE-2023-42883",
+                    "credit": "Zoom Offensive Security Team"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing web content may disclose sensitive information. Apple is aware of a report that this issue may have been exploited against versions of iOS before iOS 16.7.1.",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "265041",
+                    "id": "CVE-2023-42916",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited against versions of iOS before iOS 16.7.1.",
+            "description": "A memory corruption vulnerability was addressed with improved locking.",
+            "cves": [
+                {
+                    "bugzilla": "265067",
+                    "id": "CVE-2023-42917",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV HD and Apple TV 4K (all models)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "bugzilla": "263682",
+                    "id": "CVE-2023-42950",
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute and rushikesh nandedkar"
+                }
+            ]
+        }
+    ]
+}

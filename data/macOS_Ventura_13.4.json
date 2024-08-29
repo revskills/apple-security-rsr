@@ -1,0 +1,781 @@
+{
+    "name": "macOS Ventura 13.4",
+    "url": "https://support.apple.com/kb/HT213758",
+    "available": "macOS Ventura",
+    "released": "18 May 2023",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32388",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Accessibility",
+            "available": "macOS Ventura",
+            "impact": "Entitlements and privacy permissions granted to this app may be used by a malicious app",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32400",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Accounts",
+            "available": "macOS Ventura",
+            "impact": "An attacker may be able to leak user account emails",
+            "description": "A permissions issue was addressed with improved redaction of sensitive information.",
+            "added": "September 5, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-34352",
+                    "credit": "Sergii Kryvoblotskyi of MacPaw Inc."
+                }
+            ]
+        },
+        {
+            "module": "AMD",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "added": "September 5, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32379",
+                    "credit": "ABC Research s.r.o."
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32411",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to inject code into sensitive binaries bundled with Xcode",
+            "description": "This issue was addressed by forcing hardened runtime on the affected binaries at the system level.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32383",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        },
+        {
+            "module": "Associated Domains",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32371",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        },
+        {
+            "module": "Contacts",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to observe unprotected user data",
+            "description": "A privacy issue was addressed with improved handling of temporary files.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32386",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Core Location",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "The issue was addressed with improved handling of caches.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32399",
+                    "credit": "Adam M."
+                }
+            ],
+            "updated": [
+                "September 5, 2023"
+            ]
+        },
+        {
+            "module": "CoreServices",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-28191",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "CUPS",
+            "available": "macOS Ventura",
+            "impact": "An unauthenticated user may be able to access recently printed documents",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32360",
+                    "credit": "Gerhard Muth"
+                }
+            ]
+        },
+        {
+            "module": "dcerpc",
+            "available": "macOS Ventura",
+            "impact": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32387",
+                    "credit": "Dimitrios Tatsis of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "DesktopServices",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32414",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Face Gallery",
+            "available": "macOS Ventura",
+            "impact": "An attacker with physical access to a locked Apple Watch may be able to view user photos or contacts via accessibility features",
+            "description": "This issue was addressed by restricting options offered on a locked device.",
+            "added": "September 5, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32417",
+                    "credit": "Zitong Wu (\u5434\u6893\u6850) from Zhuhai No.1 High School (\u73e0\u6d77\u5e02\u7b2c\u4e00\u4e2d\u5b66)"
+                }
+            ]
+        },
+        {
+            "module": "GeoServices",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32392",
+                    "credit": "Adam M."
+                }
+            ],
+            "updated": [
+                "September 5, 2023"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Ventura",
+            "impact": "Processing an image may result in disclosure of process memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32372",
+                    "credit": "Meysam Firouzi @R00tkitSMM of Mbition Mercedes-Benz Innovation Lab working with Trend Micro Zero Day Initiative"
+                }
+            ],
+            "updated": [
+                "September 5, 2023"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Ventura",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32384",
+                    "credit": "Meysam Firouzi @R00tkitsmm working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "IOSurface",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to leak sensitive kernel state",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32410",
+                    "credit": "hou xuewei (@p1ay8y3ar) vmk msu"
+                }
+            ]
+        },
+        {
+            "module": "IOSurfaceAccelerator",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to cause unexpected system termination or read kernel memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32420",
+                    "credit": "CertiK SkyFall Team and Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ],
+            "updated": [
+                "September 5, 2023"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27930",
+                    "credit": "08Tc3wBB of Jamf"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Ventura",
+            "impact": "A sandboxed app may be able to observe system-wide network connections",
+            "description": "The issue was addressed with additional permissions checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27940",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32398",
+                    "credit": "Adam Doup\u00e9 of ASU SEFCOM"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32413",
+                    "credit": "Eloi Benoist-Vanderbeken (@elvanderb) from Synacktiv (@Synacktiv) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Ventura",
+            "impact": "An app may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32352",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "macOS Ventura",
+            "impact": "Multiple issues in libxml2",
+            "description": "Multiple memory corruption issues were addressed with improved input validation.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-29469",
+                    "credit": "OSS-Fuzz, Ned Williamson of Google Project Zero"
+                },
+                {
+                    "id": "CVE-2023-42869",
+                    "credit": "OSS-Fuzz, Ned Williamson of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32369",
+                    "credit": "Jonathan Bar Or of Microsoft, Anurag Bohra of Microsoft, and Michael Pearse of Microsoft"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32405",
+                    "credit": "Thijs Alkemade (@xnyhps) from Computest Sector 7"
+                }
+            ]
+        },
+        {
+            "module": "MallocStackLogging",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to gain root privileges",
+            "description": "This issue was addressed with improved file handling.",
+            "added": "September 5, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32428",
+                    "credit": "Gergely Kalman (@gergely_kalman)"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32407",
+                    "credit": "Gergely Kalman (@gergely_kalman)"
+                }
+            ]
+        },
+        {
+            "module": "MobileStorageMounter",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "A permissions issue was addressed with additional restrictions.",
+            "added": "July 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42958",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Ventura",
+            "impact": "Processing a 3D model may result in disclosure of process memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32368",
+                    "credit": "Mickey Jin (@patch1t)"
+                },
+                {
+                    "id": "CVE-2023-32375",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2023-32382",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Ventura",
+            "impact": "Processing a 3D model may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32380",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "NetworkExtension",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32403",
+                    "credit": "Adam M."
+                }
+            ],
+            "updated": [
+                "September 5, 2023"
+            ]
+        },
+        {
+            "module": "NSURLSession",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "The issue was addressed with improvements to the file handling protocol.",
+            "added": "September 5, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32437",
+                    "credit": "Thijs Alkemade from Computest Sector 7"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32355",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PDFKit",
+            "available": "macOS Ventura",
+            "impact": "Opening a PDF file may lead to unexpected app termination",
+            "description": "A denial-of-service issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32385",
+                    "credit": "Jonathan Fritz"
+                }
+            ]
+        },
+        {
+            "module": "Perl",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32395",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "Photos",
+            "available": "macOS Ventura",
+            "impact": "Photos belonging to the Hidden Photos Album could be viewed without authentication through Visual Lookup",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32390",
+                    "credit": "Julian Szulc"
+                }
+            ]
+        },
+        {
+            "module": "Quick Look",
+            "available": "macOS Ventura",
+            "impact": "Parsing an office document may lead to an unexpected app termination or arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32401",
+                    "credit": "Holger Fuhrmannek of Deutsche Telekom Security GmbH on behalf of BSI (German Federal Office for Information Security)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to retain access to system configuration files even after its permission is revoked",
+            "description": "An authorization issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32357",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit), Koh M. Nakagawa of FFRI Security, Inc., Kirin (@Pwnrin), Jeff Johnson (underpassapp.com), and Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Screen Saver",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A permissions issue was addressed by removing vulnerable code and adding additional checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32363",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32367",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        },
+        {
+            "module": "Share Sheet",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A privacy issue was addressed with improved handling of temporary files.",
+            "added": "September 5, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32432",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Shell",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32397",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Ventura",
+            "impact": "A shortcut may be able to use sensitive data with certain actions without prompting the user",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32391",
+                    "credit": "Wenchao Li and Xiaolong Bai of Alibaba Group"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32404",
+                    "credit": "Mickey Jin (@patch1t), Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab (xlab.tencent.com), and an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "macOS Ventura",
+            "impact": "A person with physical access to a device may be able to view contact information from the lock screen",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32394",
+                    "credit": "Khiem Tran"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed by adding additional SQLite logging restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32422",
+                    "credit": "Gergely Kalman (@gergely_kalman), and Wojciech Regu\u0142a of SecuRing (wojciechregula.blog)"
+                }
+            ],
+            "updated": [
+                "June 2, 2023"
+            ]
+        },
+        {
+            "module": "StorageKit",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32376",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ]
+        },
+        {
+            "module": "sudo",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to elevate privileges",
+            "description": "This issue was addressed by updating sudo.",
+            "added": "September 5, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-22809"
+                }
+            ]
+        },
+        {
+            "module": "System Settings",
+            "available": "macOS Ventura",
+            "impact": "An app firewall setting may not take effect after exiting the Settings app",
+            "description": "This issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-28202",
+                    "credit": "Satish Panduranga and an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Telephony",
+            "available": "macOS Ventura",
+            "impact": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32412",
+                    "credit": "Ivan Fratric of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "TV App",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "The issue was addressed with improved handling of caches.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32408",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "Weather",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32415",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog) and Adam M."
+                }
+            ],
+            "updated": [
+                "July 16, 2024"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Ventura",
+            "impact": "Processing web content may disclose sensitive information",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "255075",
+                    "id": "CVE-2023-32402",
+                    "credit": "Ignacio Sanmillan (@ulexec)"
+                }
+            ],
+            "updated": [
+                "December 21, 2023"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Ventura",
+            "impact": "Processing web content may disclose sensitive information",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "254781",
+                    "id": "CVE-2023-32423",
+                    "credit": "Ignacio Sanmillan (@ulexec)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Ventura",
+            "impact": "A remote attacker may be able to break out of Web Content sandbox. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "The issue was addressed with improved bounds checks.",
+            "cves": [
+                {
+                    "bugzilla": "255350",
+                    "id": "CVE-2023-32409",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group and Donncha \u00d3 Cearbhaill of Amnesty International\u2019s Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Ventura",
+            "impact": "Processing web content may disclose sensitive information. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "rsr": "This issue was first addressed in Rapid Security Response macOS 13.3.1 (a).",
+            "cves": [
+                {
+                    "bugzilla": "254930",
+                    "id": "CVE-2023-28204",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "rsr": "This issue was first addressed in Rapid Security Response macOS 13.3.1 (a).",
+            "cves": [
+                {
+                    "bugzilla": "254840",
+                    "id": "CVE-2023-32373",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32389",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        }
+    ]
+}

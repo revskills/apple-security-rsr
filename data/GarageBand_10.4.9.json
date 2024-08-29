@@ -1,0 +1,20 @@
+{
+    "name": "GarageBand 10.4.9",
+    "url": "https://support.apple.com/kb/HT214042",
+    "available": "macOS Ventura and macOS Sonoma",
+    "released": "06 Nov 2023",
+    "advisories": [
+        {
+            "module": "GarageBand",
+            "available": "macOS Ventura and macOS Sonoma",
+            "impact": "An app may be able to gain root privileges",
+            "description": "This issue was addressed with improved validation of the process entitlement and Team ID.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42867",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        }
+    ]
+}

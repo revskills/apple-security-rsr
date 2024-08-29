@@ -1,0 +1,20 @@
+{
+    "name": "Xcode 12.5",
+    "url": "https://support.apple.com/kb/HT212320",
+    "available": "macOS Big Sur 11 and later",
+    "released": "26 Apr 2021",
+    "advisories": [
+        {
+            "module": "Git",
+            "available": "macOS Big Sur 11 and later",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-21300",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

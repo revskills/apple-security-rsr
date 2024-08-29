@@ -1,0 +1,181 @@
+{
+    "name": "watchOS 10.3",
+    "url": "https://support.apple.com/kb/HT214060",
+    "available": "Apple Watch Series 4 and later",
+    "released": "22 Jan 2024",
+    "advisories": [
+        {
+            "module": "Apple Neural Engine",
+            "available": "devices with Apple Neural Engine: Apple Watch Series 9 and Apple Watch Ultra 2",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23212",
+                    "credit": "Ye Zhang of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "CoreCrypto",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An attacker may be able to decrypt legacy RSA PKCS#1 v1.5 ciphertexts without having the private key",
+            "description": "A timing side-channel issue was addressed with improvements to constant-time computation in cryptographic functions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23218",
+                    "credit": "Clemens Lang"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23208",
+                    "credit": "fmyy(@binary_fmyy) and lime From TIANGONG Team of Legendsec at QI-ANXIN Group"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to cause a denial-of-service",
+            "description": "A permissions issue was addressed with additional restrictions.",
+            "added": "March 7, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-23201",
+                    "credit": "Koh M. Nakagawa of FFRI Security, Inc. and an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Mail Search",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23207",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab), and Ian de Marcellus"
+                }
+            ]
+        },
+        {
+            "module": "NSSpellChecker",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved handling of files.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23223",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A user's private browsing activity may be visible in Settings",
+            "description": "A privacy issue was addressed with improved handling of user preferences.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23211",
+                    "credit": "Mark Bowers"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A shortcut may be able to use sensitive data with certain actions without prompting the user",
+            "description": "The issue was addressed with additional permissions checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23204",
+                    "credit": "Jubaer Alnazi (@h33tjubaer)"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to bypass certain Privacy preferences",
+            "description": "A privacy issue was addressed with improved handling of temporary files.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23217",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "An issue was addressed with improved handling of temporary files.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23215",
+                    "credit": "Zhongquan Li (@Guluisacat)"
+                }
+            ]
+        },
+        {
+            "module": "Time Zone",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to view a user's phone number in system logs",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23210",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "bugzilla": "262699",
+                    "id": "CVE-2024-23206",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "266619",
+                    "id": "CVE-2024-23213",
+                    "credit": "Wangtaiyu of Zhongfu info"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A malicious website may cause unexpected cross-origin behavior",
+            "description": "A logic issue was addressed with improved checks.",
+            "added": "April 24, 2024",
+            "cves": [
+                {
+                    "bugzilla": "265812",
+                    "id": "CVE-2024-23271",
+                    "credit": "James Lee (@Windowsrcer)"
+                }
+            ]
+        }
+    ]
+}

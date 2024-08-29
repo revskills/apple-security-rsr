@@ -1,0 +1,77 @@
+{
+    "name": "iOS 15.7.3 and iPadOS 15.7.3",
+    "url": "https://support.apple.com/kb/HT213598",
+    "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+    "released": "23 Jan 2023",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to leak sensitive kernel state",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23500",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. (@starlabs_sg)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23504",
+                    "credit": "Adam Doup\u00e9 of ASU SEFCOM"
+                }
+            ]
+        },
+        {
+            "module": "Mail Exchange",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "The quoted original message may be selected from the wrong email when forwarding an email from an Exchange account",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23498",
+                    "credit": "Jose Lizandro Luevano"
+                }
+            ],
+            "updated": [
+                "March 16, 2023"
+            ]
+        },
+        {
+            "module": "Maps",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23503",
+                    "credit": "Adam M."
+                }
+            ],
+            "updated": [
+                "May 31, 2024"
+            ]
+        },
+        {
+            "module": "Screen Time",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Air 2, iPad mini (4th generation), and iPod touch (7th generation)",
+            "impact": "An app may be able to access information about a user\u2019s contacts",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23505",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog) and Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ],
+            "updated": [
+                "March 16, 2023"
+            ]
+        }
+    ]
+}

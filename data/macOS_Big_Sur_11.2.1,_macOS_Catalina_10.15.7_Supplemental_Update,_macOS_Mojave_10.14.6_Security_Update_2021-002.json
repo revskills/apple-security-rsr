@@ -1,0 +1,45 @@
+{
+    "name": "macOS Big Sur 11.2.1, macOS Catalina 10.15.7 Supplemental Update, macOS Mojave 10.14.6 Security Update 2021-002",
+    "url": "https://support.apple.com/kb/HT212177",
+    "available": "macOS Big Sur 11.2, macOS Catalina 10.15.7, and macOS Mojave 10.14.6",
+    "released": "09 Feb 2021",
+    "advisories": [
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Big Sur 11.2, macOS Catalina 10.15.7",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1805",
+                    "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Big Sur 11.2, macOS Catalina 10.15.7",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1806",
+                    "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Sudo",
+            "available": "macOS Big Sur 11.2, macOS Catalina 10.15.7, macOS Mojave 10.14.6",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "This issue was addressed by updating to sudo version 1.9.5p2.",
+            "note": "After installing this update, the build number for macOS Catalina 10.15.7 is 19H524.",
+            "cves": [
+                {
+                    "id": "CVE-2021-3156",
+                    "credit": "Qualys"
+                }
+            ]
+        }
+    ]
+}

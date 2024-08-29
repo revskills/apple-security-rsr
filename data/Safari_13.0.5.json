@@ -1,0 +1,130 @@
+{
+    "name": "Safari 13.0.5",
+    "url": "https://support.apple.com/kb/HT210922",
+    "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+    "released": "28 Jan 2020",
+    "advisories": [
+        {
+            "module": "Safari",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "Processing a maliciously crafted URL may lead to arbitrary javascript code execution",
+            "description": "A custom URL scheme handling issue was addressed with improved input validation.",
+            "added": "June 25, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9860",
+                    "credit": "CodeColorist of Ant-Financial LightYear Labs"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "An inconsistent user interface issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3833",
+                    "credit": "Nikhil Mittal (@c0d3G33k) of Payatu Labs (payatu.com)"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A URL scheme may be incorrectly ignored when determining multimedia permission for a website",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "February 6, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3852",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "Safari Login AutoFill",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A local user may unknowingly send a password unencrypted over the network",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3841",
+                    "credit": "Sebastian Bicchi (@secresDoge) from Sec-Research"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "January 29, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3867",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "Multiple memory corruption issues were addressed with improved memory handling.",
+            "added": "January 29, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3825",
+                    "credit": "Przemys\u0142aw Sporysz of Euvic"
+                },
+                {
+                    "id": "CVE-2020-3868",
+                    "credit": "Marcin Towalski of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A malicious website may be able to cause a denial of service",
+            "description": "A denial of service issue was addressed with improved memory handling.",
+            "added": "January 29, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3862",
+                    "credit": "Srikanth Gatta of Google Chrome"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A top-level DOM object context may have incorrectly been considered secure",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "January 29, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3865",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ],
+            "updated": [
+                "February 6, 2020"
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A DOM object context may not have had a unique security origin",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "February 6, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3864",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        }
+    ]
+}

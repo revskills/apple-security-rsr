@@ -1,0 +1,135 @@
+{
+    "name": "iCloud for Windows 7.19",
+    "url": "https://support.apple.com/kb/HT211181",
+    "available": "Windows 7 and later",
+    "released": "26 May 2020",
+    "advisories": [
+        {
+            "module": "ImageIO",
+            "available": "Windows 7 and later",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9789",
+                    "credit": "Wenchao Li of VARAS@IIE"
+                },
+                {
+                    "id": "CVE-2020-9790",
+                    "credit": "Xingwei Lin of Ant-financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 7 and later",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3878",
+                    "credit": "Samuel Gro\u00df of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "Windows 7 and later",
+            "impact": "A malicious application may cause a denial of service or potentially disclose memory contents",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9794"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9802",
+                    "credit": "Samuel Gro\u00df of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9805",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9800",
+                    "credit": "Brendan Draper (@6r3nd4n) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9806",
+                    "credit": "Wen Xu of SSLab at Georgia Tech"
+                },
+                {
+                    "id": "CVE-2020-9807",
+                    "credit": "Wen Xu of SSLab at Georgia Tech"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9850",
+                    "credit": "@jinmo123, @setuid0x0_, and @insu_yun_en of @SSLab_Gatech working with Trend Micro\u2019s Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack",
+            "description": "An input validation issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9843",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9803",
+                    "credit": "Wen Xu of SSLab at Georgia Tech"
+                }
+            ]
+        }
+    ]
+}

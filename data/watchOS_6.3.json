@@ -1,0 +1,20 @@
+{
+    "name": "watchOS 6.3",
+    "url": "https://support.apple.com/kb/HT212006",
+    "available": "Apple Watch Series 1 and Apple Watch Series 2",
+    "released": "14 Dec 2020",
+    "advisories": [
+        {
+            "module": "Security",
+            "available": "Apple Watch Series 1 and Apple Watch Series 2",
+            "impact": "Unauthorized code execution may lead to an authentication policy violation",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27951",
+                    "credit": "Apple"
+                }
+            ]
+        }
+    ]
+}

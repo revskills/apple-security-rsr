@@ -1,0 +1,23 @@
+{
+    "name": "iMovie 10.2.4",
+    "url": "https://support.apple.com/kb/HT212549",
+    "available": "macOS Catalina 10.15.6 and later",
+    "released": "17 Jun 2021",
+    "advisories": [
+        {
+            "module": "iMovie",
+            "available": "macOS Catalina 10.15.6 and later",
+            "impact": "Entitlements and privacy permissions granted to this app may be used by a malicious app",
+            "description": "This issue was addressed by enabling hardened runtime.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30757",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi), Gerg\u0151 Pap of Quadron Cybersecurity Services, Csaba Fitzl (@theevilbit), Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ],
+            "updated": [
+                "December 17, 2021"
+            ]
+        }
+    ]
+}

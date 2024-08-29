@@ -1,0 +1,20 @@
+{
+    "name": "iOS 15.2.1 and iPadOS 15.2.1",
+    "url": "https://support.apple.com/kb/HT213043",
+    "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+    "released": "12 Jan 2022",
+    "advisories": [
+        {
+            "module": "HomeKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted HomeKit accessory name may cause a denial of service",
+            "description": "A resource exhaustion issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22588",
+                    "credit": "Trevor Spiniolas (@TrevorSpiniolas)"
+                }
+            ]
+        }
+    ]
+}

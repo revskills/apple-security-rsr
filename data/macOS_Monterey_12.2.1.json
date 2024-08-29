@@ -1,0 +1,20 @@
+{
+    "name": "macOS Monterey 12.2.1",
+    "url": "https://support.apple.com/kb/HT213092",
+    "available": "macOS Monterey",
+    "released": "10 Feb 2022",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22620",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

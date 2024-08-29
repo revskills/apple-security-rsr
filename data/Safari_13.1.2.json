@@ -1,0 +1,161 @@
+{
+    "name": "Safari 13.1.2",
+    "url": "https://support.apple.com/kb/HT211292",
+    "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+    "released": "15 Jul 2020",
+    "advisories": [
+        {
+            "module": "Safari",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "An inconsistent user interface issue was addressed with improved state management.",
+            "added": "November 12, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9942",
+                    "credit": "an anonymous researcher, Rahul d Kankrale (servicenger.com), Rayyan Bijoora (@Bijoora) of The City School, PAF Chapter, Ruilin Yang of Tencent Security Xuanwu Lab, YoKo Kho (@YoKoAcc) of PT Telekomunikasi Indonesia (Persero) Tbk, Zhiyang Zeng(@Wester) of OPPO ZIWU Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "Safari Downloads",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A malicious attacker may be able to change the origin of a frame for a download in Safari Reader mode",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9912",
+                    "credit": "Nikhil Mittal (@c0d3G33k) of Payatu Labs (payatu.com)"
+                }
+            ]
+        },
+        {
+            "module": "Safari Login AutoFill",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A malicious attacker may cause Safari to suggest a password for the wrong domain",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9903",
+                    "credit": "Nikhil Mittal (@c0d3G33k) of Payatu Labs (payatu.com)"
+                }
+            ]
+        },
+        {
+            "module": "Safari Reader",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "An issue in Safari Reader mode may allow a remote attacker to bypass the Same Origin Policy",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9911",
+                    "credit": "Nikhil Mittal (@c0d3G33k) of Payatu Labs (payatu.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9894",
+                    "credit": "0011 working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "An access issue existed in Content Security Policy. This issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9915",
+                    "credit": "Ayoub AIT ELMOKHTAR of Noon"
+                }
+            ],
+            "updated": [
+                "July 28, 2020"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9925",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9893",
+                    "credit": "0011 working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2020-9895",
+                    "credit": "Wen Xu of SSLab, Georgia Tech"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A malicious attacker with arbitrary read and write capability may be able to bypass Pointer Authentication",
+            "description": "Multiple issues were addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9910",
+                    "credit": "Samuel Gro\u00df of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "A malicious attacker may be able to conceal the destination of a URL",
+            "description": "A URL Unicode encoding issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9916",
+                    "credit": "Rakesh Mane (@RakeshMane10)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Web Inspector",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "Copying a URL from Web Inspector may lead to command injection",
+            "description": "A command injection issue existed in Web Inspector. This issue was addressed with improved escaping.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9862",
+                    "credit": "Ophir Lojkine (@lovasoa)"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "macOS Mojave and macOS High Sierra, and included in macOS Catalina",
+            "impact": "An attacker in a privileged network position may be able to cause heap corruption via a crafted SCTP stream",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "September 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-6514",
+                    "credit": "natashenka of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

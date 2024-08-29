@@ -1,0 +1,31 @@
+{
+    "name": "iOS 17.0.3 and iPadOS 17.0.3",
+    "url": "https://support.apple.com/kb/HT213961",
+    "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+    "released": "04 Oct 2023",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "A local attacker may be able to elevate their privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.6.",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42824"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "iPhone XS and later, iPad Pro 12.9-inch 2nd generation and later, iPad Pro 10.5-inch, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 6th generation and later, and iPad mini 5th generation and later",
+            "impact": "A buffer overflow may result in arbitrary code execution",
+            "description": "The issue was addressed by updating to libvpx 1.13.1.",
+            "cves": [
+                {
+                    "bugzilla": "262365",
+                    "id": "CVE-2023-5217"
+                }
+            ]
+        }
+    ]
+}

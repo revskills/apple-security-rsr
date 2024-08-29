@@ -1,0 +1,262 @@
+{
+    "name": "tvOS 13.4",
+    "url": "https://support.apple.com/kb/HT211101",
+    "available": "Apple TV 4K and Apple TV HD",
+    "released": "24 Mar 2020",
+    "advisories": [
+        {
+            "module": "Accounts",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9772",
+                    "credit": "Allison Husain of UC Berkeley"
+                }
+            ]
+        },
+        {
+            "module": "ActionKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to use an SSH client provided by private frameworks",
+            "description": "This issue was addressed with a new entitlement.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3917",
+                    "credit": "Steven Troughton-Smith (@stroughtonsmith)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to use arbitrary entitlements",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3883",
+                    "credit": "Linus Henze (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Image Processing",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with system privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9768",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "IOHIDFamily",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3919",
+                    "credit": "Alex Plaskett of F-Secure Consulting"
+                }
+            ],
+            "updated": [
+                "May 21, 2020"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to read restricted memory",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3914",
+                    "credit": "pattern-f (@pattern_F_) of WaCai"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "Multiple memory corruption issues were addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9785",
+                    "credit": "Proteas of Qihoo 360 Nirvan Team"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Multiple issues in libxml2",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3909",
+                    "credit": "LGTM.com"
+                },
+                {
+                    "id": "CVE-2020-3911",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Multiple issues in libxml2",
+            "description": "A buffer overflow was addressed with improved size validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3910",
+                    "credit": "LGTM.com"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A local user may be able to view sensitive user information",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "added": "May 1, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3918",
+                    "credit": "Augusto Alvarez of Outcourse Limited"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Some websites may not have appeared in Safari Preferences",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 1, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9787",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3895",
+                    "credit": "grigoritchy"
+                },
+                {
+                    "id": "CVE-2020-3900",
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "An application may be able to read restricted memory",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3894",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3899",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack",
+            "description": "An input validation issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3902",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3901",
+                    "credit": "Benjamin Randazzo (@____benjamin)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A download's origin may be incorrectly associated",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3887",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9783",
+                    "credit": "Apple"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3897",
+                    "credit": "Brendan Draper (@6r3nd4n) working with Trend Micro\u2019s Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "Apple TV 4K and Apple TV HD",
+            "impact": "A file URL may be incorrectly processed",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3885",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        }
+    ]
+}

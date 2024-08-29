@@ -1,0 +1,239 @@
+{
+    "name": "watchOS 6.2",
+    "url": "https://support.apple.com/kb/HT211103",
+    "available": "Apple Watch Series 1 and later",
+    "released": "24 Mar 2020",
+    "advisories": [
+        {
+            "module": "Accounts",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9772",
+                    "credit": "Allison Husain of UC Berkeley"
+                }
+            ]
+        },
+        {
+            "module": "ActionKit",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "An application may be able to use an SSH client provided by private frameworks",
+            "description": "This issue was addressed with a new entitlement.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3917",
+                    "credit": "Steven Troughton-Smith (@stroughtonsmith)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "An application may be able to use arbitrary entitlements",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3883",
+                    "credit": "Linus Henze (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "CoreFoundation",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A malicious application may be able to elevate privileges",
+            "description": "A permissions issue existed. This issue was addressed with improved permission validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3913",
+                    "credit": "Timo Christ of Avira Operations GmbH & Co. KG"
+                }
+            ]
+        },
+        {
+            "module": "Icons",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "Setting an alternate app icon may disclose a photo without needing permission to access photos",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3916",
+                    "credit": "Vitaliy Alekseev (@villy21)"
+                }
+            ]
+        },
+        {
+            "module": "Image Processing",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "An application may be able to execute arbitrary code with system privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9768",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "IOHIDFamily",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3919",
+                    "credit": "Alex Plaskett of F-Secure Consulting"
+                }
+            ],
+            "updated": [
+                "May 21, 2020"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "An application may be able to read restricted memory",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3914",
+                    "credit": "pattern-f (@pattern_F_) of WaCai"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "Multiple memory corruption issues were addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9785",
+                    "credit": "Proteas of Qihoo 360 Nirvan Team"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "Multiple issues in libxml2",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3909",
+                    "credit": "LGTM.com"
+                },
+                {
+                    "id": "CVE-2020-3911",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "Multiple issues in libxml2",
+            "description": "A buffer overflow was addressed with improved size validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3910",
+                    "credit": "LGTM.com"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A person with physical access to a locked iOS device may be able to respond to messages even when replies are disabled",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3891",
+                    "credit": "Peter Scott"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A local user may be able to view sensitive user information",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "added": "May 1, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3918",
+                    "credit": "Augusto Alvarez of Outcourse Limited"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "Some websites may not have appeared in Safari Preferences",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 1, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9787",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "added": "May 1, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3899",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3895",
+                    "credit": "grigoritchy"
+                },
+                {
+                    "id": "CVE-2020-3900",
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3901",
+                    "credit": "Benjamin Randazzo (@____benjamin)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 1 and later",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3897",
+                    "credit": "Brendan Draper (@6r3nd4n) working with Trend Micro\u2019s Zero Day Initiative"
+                }
+            ]
+        }
+    ]
+}

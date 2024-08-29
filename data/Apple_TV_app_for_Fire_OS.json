@@ -1,0 +1,20 @@
+{
+    "name": "Apple TV app for Fire OS",
+    "url": "https://support.apple.com/kb/HT212197",
+    "available": "Apple TV version 5.1 and later",
+    "released": "09 Nov 2020",
+    "advisories": [
+        {
+            "module": "Apple TV app",
+            "available": "Apple TV version 5.1 and later",
+            "impact": "An attacker with file system access may modify scripts used by the app",
+            "description": "This issue was addressed with improved file handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27940",
+                    "credit": "Razvan Sima (0xraaz)"
+                }
+            ]
+        }
+    ]
+}

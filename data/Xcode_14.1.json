@@ -1,0 +1,56 @@
+{
+    "name": "Xcode 14.1",
+    "url": "https://support.apple.com/kb/HT213496",
+    "available": "macOS Monterey 12.5 and later",
+    "released": "01 Nov 2022",
+    "advisories": [
+        {
+            "module": "Git",
+            "available": "macOS Monterey 12.5 and later",
+            "impact": "Multiple issues in git",
+            "description": "Multiple issues were addressed by updating to git version 2.32.3.",
+            "cves": [
+                {
+                    "id": "CVE-2022-29187",
+                    "credit": "Carlo Marcelo Arenas Bel\u00f3n and Johannes Schindelin"
+                }
+            ]
+        },
+        {
+            "module": "Git",
+            "available": "macOS Monterey 12.5 and later",
+            "impact": "Cloning a malicious repository may result in the disclosure of sensitive information",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-39253",
+                    "credit": "Cory Snider of Mirantis"
+                }
+            ]
+        },
+        {
+            "module": "Git",
+            "available": "macOS Monterey 12.5 and later",
+            "impact": "A remote user may cause an unexpected app termination or arbitrary code execution if git shell is allowed as a login shell",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-39260",
+                    "credit": "Kevin Backhouse of the GitHub Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "IDE Xcode Server",
+            "available": "macOS Monterey 12.5 and later",
+            "impact": "An app may be able to gain root privileges",
+            "description": "An injection issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42797",
+                    "credit": "Tim Michaud (@TimGMichaud) of Moveworks.ai"
+                }
+            ]
+        }
+    ]
+}

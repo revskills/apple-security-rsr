@@ -1,0 +1,139 @@
+{
+    "name": "macOS Big Sur 11.7.3",
+    "url": "https://support.apple.com/kb/HT213603",
+    "available": "macOS Big Sur",
+    "released": "23 Jan 2023",
+    "advisories": [
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed by enabling hardened runtime.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23499",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Big Sur",
+            "impact": "Multiple issues in curl",
+            "description": "Multiple issues were addressed by updating to curl version 7.85.0.",
+            "cves": [
+                {
+                    "id": "CVE-2022-35252"
+                }
+            ]
+        },
+        {
+            "module": "dcerpc",
+            "available": "macOS Big Sur",
+            "impact": "Mounting a maliciously crafted Samba network share may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23513",
+                    "credit": "Dimitrios Tatsis and Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-23516",
+                    "credit": "Jordy Zomer (@pwningsystems)"
+                }
+            ]
+        },
+        {
+            "module": "Mail",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to access mail folder attachments through a temporary directory used during compression",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-42834",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23497",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Screen Time",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to access information about a user\u2019s contacts",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23505",
+                    "credit": "Wojciech Regu\u0142a of SecuRing (wojciechregula.blog) and Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ],
+            "updated": [
+                "May 11, 2023"
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-27931",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "248268",
+                    "id": "CVE-2023-23518",
+                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE"
+                },
+                {
+                    "bugzilla": "248268",
+                    "id": "CVE-2023-23517",
+                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE"
+                }
+            ]
+        },
+        {
+            "module": "Windows Installer",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-23508",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        }
+    ]
+}

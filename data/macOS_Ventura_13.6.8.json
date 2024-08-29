@@ -1,0 +1,469 @@
+{
+    "name": "macOS Ventura 13.6.8",
+    "url": "https://support.apple.com/kb/HT214120",
+    "available": "macOS Ventura",
+    "released": "29 Jul 2024",
+    "advisories": [
+        {
+            "module": "APFS",
+            "available": "macOS Ventura",
+            "impact": "A malicious application may be able to bypass Privacy preferences",
+            "description": "The issue was addressed with improved restriction of data container access.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40783",
+                    "credit": "Csaba Fitzl (@theevilbit) of Kandji"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27826",
+                    "credit": "Minghao Lin, and Ye Zhang (@VAR10CK) of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "A downgrade issue was addressed with additional code-signing restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40774",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to leak sensitive user information",
+            "description": "A downgrade issue was addressed with additional code-signing restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40775",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "AppleVA",
+            "available": "macOS Ventura",
+            "impact": "Processing a maliciously crafted file may lead to a denial-of-service or potentially disclose memory contents",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27877",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "CoreGraphics",
+            "available": "macOS Ventura",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40799",
+                    "credit": "D4m0n"
+                }
+            ]
+        },
+        {
+            "module": "CoreMedia",
+            "available": "macOS Ventura",
+            "impact": "Processing a maliciously crafted video file may lead to unexpected app termination",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27873",
+                    "credit": "Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Ventura",
+            "impact": "Multiple issues in curl",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "id": "CVE-2024-2004"
+                },
+                {
+                    "id": "CVE-2024-2379"
+                },
+                {
+                    "id": "CVE-2024-2398"
+                },
+                {
+                    "id": "CVE-2024-2466"
+                }
+            ]
+        },
+        {
+            "module": "DesktopServices",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to overwrite arbitrary files",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40827",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "dyld",
+            "available": "macOS Ventura",
+            "impact": "A malicious attacker with arbitrary read and write capability may be able to bypass Pointer Authentication",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40815",
+                    "credit": "w0wbox"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Ventura",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "id": "CVE-2023-6277"
+                },
+                {
+                    "id": "CVE-2023-52356"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Ventura",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40806",
+                    "credit": "Yisumi"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Ventura",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40784",
+                    "credit": "Junsung Lee working with Trend Micro Zero Day Initiative and Gandalf4a"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Ventura",
+            "impact": "A local attacker may be able to cause unexpected system shutdown",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40816",
+                    "credit": "sqrtpwn"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Ventura",
+            "impact": "A local attacker may be able to cause unexpected system shutdown",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40788",
+                    "credit": "Minghao Lin and Jiaxun Zhu from Zhejiang University"
+                }
+            ]
+        },
+        {
+            "module": "Keychain Access",
+            "available": "macOS Ventura",
+            "impact": "An attacker may be able to cause unexpected app termination",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40803",
+                    "credit": "Patrick Wardle of DoubleYou & the Objective-See Foundation"
+                }
+            ]
+        },
+        {
+            "module": "NetworkExtension",
+            "available": "macOS Ventura",
+            "impact": "Private browsing may leak some browsing history",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40796",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "OpenSSH",
+            "available": "macOS Ventura",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "id": "CVE-2024-6387"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Ventura",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40781",
+                    "credit": "Mickey Jin (@patch1t)"
+                },
+                {
+                    "id": "CVE-2024-40802",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40823",
+                    "credit": "Zhongquan Li (@Guluisacat) from Dawn Security Lab of JingDong"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A permissions issue was addressed with additional restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27882",
+                    "credit": "Mickey Jin (@patch1t)"
+                },
+                {
+                    "id": "CVE-2024-27883",
+                    "credit": "Csaba Fitzl (@theevilbit) of Kandji and Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Restore Framework",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "An input validation issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40800",
+                    "credit": "Claudio Bozzato and Francesco Benvenuto of Cisco Talos."
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "macOS Ventura",
+            "impact": "Visiting a website that frames malicious content may lead to UI spoofing",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40817",
+                    "credit": "Yadhu Krishna M and Narendra Bhati, Manager of Cyber Security At Suma Soft Pvt. Ltd, Pune (India)"
+                }
+            ]
+        },
+        {
+            "module": "Scripting Bridge",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to access information about a user\u2019s contacts",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27881",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Ventura",
+            "impact": "Third party app extensions may not receive the correct sandbox restrictions",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40821",
+                    "credit": "Joshua Jones"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to read Safari's browsing history",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40798",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Ventura",
+            "impact": "A shortcut may be able to use sensitive data with certain actions without prompting the user",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40833",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40807",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40835",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Ventura",
+            "impact": "A shortcut may be able to bypass sensitive Shortcuts app settings",
+            "description": "This issue was addressed by adding an additional prompt for user consent.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40834",
+                    "credit": "Marcio Almeida from Tanto Security"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Ventura",
+            "impact": "A shortcut may be able to bypass Internet permission requirements",
+            "description": "This issue was addressed by adding an additional prompt for user consent.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40787",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Ventura",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40793",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "macOS Ventura",
+            "impact": "A shortcut may be able to bypass Internet permission requirements",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40809",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40812",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "macOS Ventura",
+            "impact": "An attacker with physical access may be able to use Siri to access sensitive user data",
+            "description": "This issue was addressed by restricting options offered on a locked device.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40818",
+                    "credit": "Bistrit Dahal and Srijan Poudel"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "macOS Ventura",
+            "impact": "An attacker may be able to view sensitive user information",
+            "description": "This issue was addressed through improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40786",
+                    "credit": "Bistrit Dahal"
+                }
+            ]
+        },
+        {
+            "module": "StorageKit",
+            "available": "macOS Ventura",
+            "impact": "A malicious app may be able to gain root privileges",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40828",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Time Zone",
+            "available": "macOS Ventura",
+            "impact": "An attacker may be able to read information belonging to another user",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23261",
+                    "credit": "Matthew Loewen"
+                }
+            ]
+        },
+        {
+            "module": "VoiceOver",
+            "available": "macOS Ventura",
+            "impact": "A user may be able to view restricted content from the lock screen",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40829",
+                    "credit": "Abhay Kailasia (@abhay_kailasia) of Lakshmi Narain College of Technology Bhopal India"
+                }
+            ]
+        }
+    ]
+}

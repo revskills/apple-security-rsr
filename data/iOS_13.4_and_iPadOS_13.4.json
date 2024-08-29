@@ -1,0 +1,387 @@
+{
+    "name": "iOS 13.4 and iPadOS 13.4",
+    "url": "https://support.apple.com/kb/HT211102",
+    "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+    "released": "24 Mar 2020",
+    "advisories": [
+        {
+            "module": "Accounts",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9772",
+                    "credit": "Allison Husain of UC Berkeley"
+                }
+            ]
+        },
+        {
+            "module": "ActionKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "An application may be able to use an SSH client provided by private frameworks",
+            "description": "This issue was addressed with a new entitlement.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3917",
+                    "credit": "Steven Troughton-Smith (@stroughtonsmith)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "An application may be able to use arbitrary entitlements",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3883",
+                    "credit": "Linus Henze (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "An attacker in a privileged network position may be able to intercept Bluetooth traffic",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9770",
+                    "credit": "Jianliang Wu of PurSec Lab of Purdue University, Xinwen Fu and Yue Zhang of the University of Central Florida"
+                }
+            ]
+        },
+        {
+            "module": "CoreFoundation",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A malicious application may be able to elevate privileges",
+            "description": "A permissions issue existed. This issue was addressed with improved permission validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3913",
+                    "credit": "Timo Christ of Avira Operations GmbH & Co. KG"
+                }
+            ]
+        },
+        {
+            "module": "Icons",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Setting an alternate app icon may disclose a photo without needing permission to access photos",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3916",
+                    "credit": "Vitaliy Alekseev (@villy21)"
+                }
+            ]
+        },
+        {
+            "module": "Image Processing",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "An application may be able to execute arbitrary code with system privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9768",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "IOHIDFamily",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3919",
+                    "credit": "Alex Plaskett of F-Secure Consulting"
+                }
+            ],
+            "updated": [
+                "May 21, 2020"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "An application may be able to read restricted memory",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3914",
+                    "credit": "pattern-f (@pattern_F_) of WaCai"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "Multiple memory corruption issues were addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9785",
+                    "credit": "Proteas of Qihoo 360 Nirvan Team"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Multiple issues in libxml2",
+            "description": "A buffer overflow was addressed with improved size validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3910",
+                    "credit": "LGTM.com"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Multiple issues in libxml2",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3909",
+                    "credit": "LGTM.com"
+                },
+                {
+                    "id": "CVE-2020-3911",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "Mail",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A local user may be able to view deleted content in the app switcher",
+            "description": "The issue was resolved by clearing application previews when content is deleted.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9780",
+                    "credit": "an anonymous researcher, Dimitris Chaintinis"
+                }
+            ]
+        },
+        {
+            "module": "Mail Attachments",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Cropped videos may not be shared properly via Mail",
+            "description": "An issue existed in the selection of video file by Mail. The issue was fixed by selecting the latest version of a video.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9777"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A person with physical access to a locked iOS device may be able to respond to messages even when replies are disabled",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3891",
+                    "credit": "Peter Scott"
+                }
+            ]
+        },
+        {
+            "module": "Messages Composition",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Deleted messages groups may still be suggested as an autocompletion",
+            "description": "The issue was addressed with improved deletion.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3890",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A user's private browsing activity may be unexpectedly saved in Screen Time",
+            "description": "An issue existed in the handling of tabs displaying picture in picture video. The issue was corrected with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9775",
+                    "credit": "Andrian (@retroplasma), Marat Turaev, Marek Wawro (futurefinance.com) and Sambor Wawro of STO64 School Krakow Poland"
+                }
+            ],
+            "updated": [
+                "May 1, 2020"
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A user may grant website permissions to a site they didn't intend to",
+            "description": "The issue was addressed by clearing website permission prompts after navigation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9781",
+                    "credit": "Nikhil Mittal (@c0d3G33k) of Payatu Labs (payatu.com)"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A local user may be able to view sensitive user information",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "added": "May 1, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-3918",
+                    "credit": "an anonymous researcher, Augusto Alvarez of Outcourse Limited"
+                }
+            ],
+            "updated": [
+                "May 21, 2020"
+            ]
+        },
+        {
+            "module": "Web App",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A maliciously crafted page may interfere with other web contexts",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3888",
+                    "credit": "Darren Jones of Dappological Ltd."
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Some websites may not have appeared in Safari Preferences",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 1, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9787",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "An application may be able to read restricted memory",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3894",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3899",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack",
+            "description": "An input validation issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3902",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3895",
+                    "credit": "grigoritchy"
+                },
+                {
+                    "id": "CVE-2020-3900",
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3901",
+                    "credit": "Benjamin Randazzo (@____benjamin)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A download's origin may be incorrectly associated",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3887",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9783",
+                    "credit": "Apple"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3897",
+                    "credit": "Brendan Draper (@6r3nd4n) working with Trend Micro\u2019s Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "A file URL may be incorrectly processed",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3885",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        }
+    ]
+}

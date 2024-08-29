@@ -1,0 +1,20 @@
+{
+    "name": "macOS Sonoma 14.2.1",
+    "url": "https://support.apple.com/kb/HT214048",
+    "available": "macOS Sonoma",
+    "released": "19 Dec 2023",
+    "advisories": [
+        {
+            "module": "WindowServer",
+            "available": "macOS Sonoma",
+            "impact": "A user who shares their screen may unintentionally share the incorrect content",
+            "description": "A session rendering issue was addressed with improved session tracking.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42940",
+                    "credit": "Craig Hockenberry"
+                }
+            ]
+        }
+    ]
+}

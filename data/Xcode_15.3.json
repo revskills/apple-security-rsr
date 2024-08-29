@@ -1,0 +1,20 @@
+{
+    "name": "Xcode 15.3",
+    "url": "https://support.apple.com/kb/HT214092",
+    "available": "macOS Sonoma 14 and later",
+    "released": "05 Mar 2024",
+    "advisories": [
+        {
+            "module": "Xcode",
+            "available": "macOS Sonoma 14 and later",
+            "impact": "An app may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23298",
+                    "credit": "Jacopo Carloni"
+                }
+            ]
+        }
+    ]
+}

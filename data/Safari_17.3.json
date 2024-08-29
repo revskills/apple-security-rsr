@@ -1,0 +1,72 @@
+{
+    "name": "Safari 17.3",
+    "url": "https://support.apple.com/kb/HT214056",
+    "available": "macOS Monterey and macOS Ventura",
+    "released": "22 Jan 2024",
+    "advisories": [
+        {
+            "module": "Safari",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A user's private browsing activity may be visible in Settings",
+            "description": "A privacy issue was addressed with improved handling of user preferences.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23211",
+                    "credit": "Mark Bowers"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "bugzilla": "262699",
+                    "id": "CVE-2024-23206",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "266619",
+                    "id": "CVE-2024-23213",
+                    "credit": "Wangtaiyu of Zhongfu info"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited.",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "267134",
+                    "id": "CVE-2024-23222"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A malicious website may cause unexpected cross-origin behavior",
+            "description": "A logic issue was addressed with improved checks.",
+            "added": "April 24, 2024",
+            "cves": [
+                {
+                    "bugzilla": "265812",
+                    "id": "CVE-2024-23271",
+                    "credit": "James Lee (@Windowsrcer)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,903 @@
+{
+    "name": "macOS Monterey 12.4",
+    "url": "https://support.apple.com/kb/HT213257",
+    "available": "macOS Monterey",
+    "released": "16 May 2022",
+    "advisories": [
+        {
+            "module": "AMD",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26772",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "AMD",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26741",
+                    "credit": "ABC Research s.r.o"
+                },
+                {
+                    "id": "CVE-2022-26742",
+                    "credit": "ABC Research s.r.o"
+                },
+                {
+                    "id": "CVE-2022-26749",
+                    "credit": "ABC Research s.r.o"
+                },
+                {
+                    "id": "CVE-2022-26750",
+                    "credit": "ABC Research s.r.o"
+                },
+                {
+                    "id": "CVE-2022-26752",
+                    "credit": "ABC Research s.r.o"
+                },
+                {
+                    "id": "CVE-2022-26753",
+                    "credit": "ABC Research s.r.o"
+                },
+                {
+                    "id": "CVE-2022-26754",
+                    "credit": "ABC Research s.r.o"
+                }
+            ]
+        },
+        {
+            "module": "apache",
+            "available": "macOS Monterey",
+            "impact": "Multiple issues in apache",
+            "description": "Multiple issues were addressed by updating apache to version 2.4.53.",
+            "cves": [
+                {
+                    "id": "CVE-2021-44224"
+                },
+                {
+                    "id": "CVE-2021-44790"
+                },
+                {
+                    "id": "CVE-2022-22719"
+                },
+                {
+                    "id": "CVE-2022-22720"
+                },
+                {
+                    "id": "CVE-2022-22721"
+                }
+            ]
+        },
+        {
+            "module": "AppleGraphicsControl",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26751",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Monterey",
+            "impact": "A user may be able to view sensitive user information",
+            "description": "An issue in the handling of environment variables was addressed with improved validation.",
+            "added": "July 6, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-26707",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted AppleScript binary may result in unexpected application termination or disclosure of process memory",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26697",
+                    "credit": "Qi Sun and Robert Ai of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted AppleScript binary may result in unexpected application termination or disclosure of process memory",
+            "description": "An out-of-bounds read issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26698",
+                    "credit": "Qi Sun of Trend Micro, Ye Zhang (@co0py_Cat) of Baidu Security"
+                }
+            ],
+            "updated": [
+                "July 6, 2022"
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26736",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-26737",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-26738",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-26739",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-26740",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "macOS Monterey",
+            "impact": "An app may gain unauthorized access to Bluetooth",
+            "description": "A logic issue was addressed with improved checks.",
+            "added": "July 6, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32783",
+                    "credit": "Jon Thompson of Evolve (Des Moines, IA)"
+                }
+            ]
+        },
+        {
+            "module": "Contacts",
+            "available": "macOS Monterey",
+            "impact": "A plug-in may be able to inherit the application's permissions and access user data",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26694",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "CVMS",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A memory initialization issue was addressed.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26721",
+                    "credit": "Yonghwi Jin (@jinmo123) of Theori"
+                },
+                {
+                    "id": "CVE-2022-26722",
+                    "credit": "Yonghwi Jin (@jinmo123) of Theori"
+                }
+            ]
+        },
+        {
+            "module": "DriverKit",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with system privileges",
+            "description": "An out-of-bounds access issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26763",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "FaceTime",
+            "available": "macOS Monterey",
+            "impact": "An app with root privileges may be able to access private information",
+            "description": "This issue was addressed by enabling hardened runtime.",
+            "added": "July 6, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32781",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Monterey",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An integer overflow issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26711",
+                    "credit": "actae0n of Blacksun Hackers Club working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Monterey",
+            "impact": "Photo location information may persist after it is removed with Preview Inspector",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26725",
+                    "credit": "Andrew Williams and Avi Drissman of Google"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26720",
+                    "credit": "Liu Long of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26769",
+                    "credit": "Antonio Zekic (@antoniozekic)"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26770",
+                    "credit": "Liu Long of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26748",
+                    "credit": "Jeonghoon Shin of Theori working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26756",
+                    "credit": "Jack Dates of RET2 Systems, Inc"
+                }
+            ]
+        },
+        {
+            "module": "IOKit",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved locking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26701",
+                    "credit": "chenyuwang (@mzzzz__) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "IOMobileFrameBuffer",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26768",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may cause unexpected changes in memory shared between processes",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-26758",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An attacker that has already achieved code execution in macOS Recovery may be able to escalate to kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26743",
+                    "credit": "Jordy Zomer (@pwningsystems)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26714",
+                    "credit": "Peter Nguy\u1ec5n V\u0169 Ho\u00e0ng (@peternguyen14) of STAR Labs (@starlabs_sg)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26757",
+                    "credit": "Ned Williamson of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An attacker that has already achieved kernel code execution may be able to bypass kernel memory mitigations",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26764",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "A malicious attacker with arbitrary read and write capability may be able to bypass Pointer Authentication",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26765",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Monterey",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "An access issue was addressed with additional sandbox restrictions on third-party applications.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26706",
+                    "credit": "Arsenii Kostromin (0x3c3e), Jonathan Bar Or of Microsoft"
+                }
+            ],
+            "updated": [
+                "July 6, 2022"
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to bypass Privacy preferences",
+            "description": "The issue was addressed with additional permissions checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26767",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "Libinfo",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved checks.",
+            "added": "September 16, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32882",
+                    "credit": "Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "libresolv",
+            "available": "macOS Monterey",
+            "impact": "A remote user may be able to cause a denial-of-service",
+            "description": "This issue was addressed with improved checks.",
+            "added": "June 21, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32790",
+                    "credit": "Max Shavrick (@_mxms) of the Google Security Team"
+                }
+            ]
+        },
+        {
+            "module": "libresolv",
+            "available": "macOS Monterey",
+            "impact": "An attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26776",
+                    "credit": "Zubair Ashraf of Crowdstrike, Max Shavrick (@_mxms) of the Google Security Team"
+                },
+                {
+                    "id": "CVE-2022-26708",
+                    "credit": "Max Shavrick (@_mxms) of the Google Security Team"
+                }
+            ]
+        },
+        {
+            "module": "libresolv",
+            "available": "macOS Monterey",
+            "impact": "An attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26775",
+                    "credit": "Max Shavrick (@_mxms) of the Google Security Team"
+                }
+            ]
+        },
+        {
+            "module": "LibreSSL",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted certificate may lead to a denial of service",
+            "description": "A denial of service issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-0778"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "macOS Monterey",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-23308"
+                }
+            ]
+        },
+        {
+            "module": "Login Window",
+            "available": "macOS Monterey",
+            "impact": "A person with access to a Mac may be able to bypass Login Window",
+            "description": "A consistency issue was addressed with improved state handling.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-48575",
+                    "credit": "Paul Walker of Bury and Nathaniel Ekoniak of Ennate Technologies"
+                }
+            ]
+        },
+        {
+            "module": "OpenSSL",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted certificate may lead to a denial of service",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-0778"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "October 4, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32794",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "July 6, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22617",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to modify protected parts of the file system",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26712",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to modify protected parts of the file system",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26727",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Photo Booth",
+            "available": "macOS Monterey",
+            "impact": "An app with root privileges may be able to access private information",
+            "description": "This issue was addressed by enabling hardened runtime.",
+            "added": "July 6, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32782",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "Preview",
+            "available": "macOS Monterey",
+            "impact": "A plug-in may be able to inherit the application's permissions and access user data",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26693",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "Printing",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to bypass Privacy preferences",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26746",
+                    "credit": "@gorelics"
+                }
+            ]
+        },
+        {
+            "module": "Safari Private Browsing",
+            "available": "macOS Monterey",
+            "impact": "A malicious website may be able to track users in Safari private browsing mode",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26731",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Monterey",
+            "impact": "A malicious app may be able to bypass signature validation",
+            "description": "A certificate parsing issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26766",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "SMB",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26715",
+                    "credit": "Peter Nguy\u1ec5n V\u0169 Ho\u00e0ng of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "SMB",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26718",
+                    "credit": "Peter Nguy\u1ec5n V\u0169 Ho\u00e0ng of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "SMB",
+            "available": "macOS Monterey",
+            "impact": "Mounting a maliciously crafted Samba network share may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26723",
+                    "credit": "Felix Poulin-Belanger"
+                }
+            ]
+        },
+        {
+            "module": "SoftwareUpdate",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to access restricted files",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26728",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Spotlight",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "A validation issue existed in the handling of symlinks and was addressed with improved validation of symlinks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26704",
+                    "credit": "Gergely Kalman (@gergely_kalman), and Joshua Mason of Mandiant"
+                }
+            ],
+            "updated": [
+                "October 31, 2023"
+            ]
+        },
+        {
+            "module": "System Preferences",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to create symlinks to protected regions of the disk",
+            "description": "This issue was addressed with improved validation of symlinks.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-42857",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to capture a user's screen",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26726",
+                    "credit": "Antonio Cheong Yu Xuan of YCISCQ"
+                }
+            ],
+            "updated": [
+                "May 11, 2023"
+            ]
+        },
+        {
+            "module": "Tcl",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to break out of its sandbox",
+            "description": "This issue was addressed with improved environment sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26755",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "Terminal",
+            "available": "macOS Monterey",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "This issue was addressed with improved environment sanitization.",
+            "added": "September 16, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-26696",
+                    "credit": "Ron Waisberg, an anonymous researcher, Wojciech Regu\u0142a (@_r3ggi) of SecuRing, and Ron Hass (@ronhass7) of Perception Point"
+                }
+            ],
+            "updated": [
+                "October 31, 2023"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "238178",
+                    "id": "CVE-2022-26700",
+                    "credit": "ryuzaki"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "236950",
+                    "id": "CVE-2022-26709",
+                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab"
+                },
+                {
+                    "bugzilla": "237475",
+                    "id": "CVE-2022-26710",
+                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab"
+                },
+                {
+                    "bugzilla": "238171",
+                    "id": "CVE-2022-26717",
+                    "credit": "Jeonghoon Shin of Theori"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "238183",
+                    "id": "CVE-2022-26716",
+                    "credit": "SorryMybad (@S0rryMybad) of Kunlun Lab"
+                },
+                {
+                    "bugzilla": "238699",
+                    "id": "CVE-2022-26719",
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "macOS Monterey",
+            "impact": "Video self-preview in a webRTC call may be interrupted if the user answers a phone call",
+            "description": "A logic issue in the handling of concurrent media was addressed with improved state handling.",
+            "cves": [
+                {
+                    "bugzilla": "237524",
+                    "id": "CVE-2022-22677",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may disclose restricted memory",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26745",
+                    "credit": "Scarlet Raine"
+                }
+            ],
+            "updated": [
+                "July 6, 2022"
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26761",
+                    "credit": "Wang Yu of Cyberserval"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with system privileges",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26762",
+                    "credit": "Wang Yu of Cyberserval"
+                }
+            ]
+        },
+        {
+            "module": "zip",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted file may lead to a denial of service",
+            "description": "A denial of service issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-0530"
+                }
+            ]
+        },
+        {
+            "module": "zlib",
+            "available": "macOS Monterey",
+            "impact": "An attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2018-25032",
+                    "credit": "Tavis Ormandy"
+                }
+            ]
+        },
+        {
+            "module": "zsh",
+            "available": "macOS Monterey",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "This issue was addressed by updating to zsh version 5.8.1.",
+            "cves": [
+                {
+                    "id": "CVE-2021-45444"
+                }
+            ]
+        }
+    ]
+}

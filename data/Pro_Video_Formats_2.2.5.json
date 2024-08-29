@@ -1,0 +1,20 @@
+{
+    "name": "Pro Video Formats 2.2.5",
+    "url": "https://support.apple.com/kb/HT213882",
+    "available": "macOS Mojave 10.14.5 and later",
+    "released": "23 May 2023",
+    "advisories": [
+        {
+            "module": "Pro Video Formats",
+            "available": "macOS 10.14.5 and later",
+            "impact": "A user may be able to elevate privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-29166",
+                    "credit": "Koh M. Nakagawa (@tsunek0h)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Safari 16.5.1",
+    "url": "https://support.apple.com/kb/HT213816",
+    "available": "macOS Big Sur and macOS Monterey",
+    "released": "21 Jun 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "256567",
+                    "id": "CVE-2023-32439",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

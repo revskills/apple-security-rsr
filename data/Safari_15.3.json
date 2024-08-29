@@ -1,0 +1,56 @@
+{
+    "name": "Safari 15.3",
+    "url": "https://support.apple.com/kb/HT213058",
+    "available": "macOS Big Sur and macOS Catalina",
+    "released": "26 Jan 2022",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22590",
+                    "credit": "Toan Pham from Team Orca of Sea Security (security.sea.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22592",
+                    "credit": "Prakash (@1lastBr3ath)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing a maliciously crafted mail message may lead to running arbitrary javascript",
+            "description": "A validation issue was addressed with improved input sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22589",
+                    "credit": "Heige of KnownSec 404 Team (knownsec.com) and Bo Qu of Palo Alto Networks (paloaltonetworks.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Storage",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "A website may be able to track sensitive user information",
+            "description": "A cross-origin issue in the IndexDB API was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22594",
+                    "credit": "Martin Bajanik of FingerprintJS"
+                }
+            ]
+        }
+    ]
+}

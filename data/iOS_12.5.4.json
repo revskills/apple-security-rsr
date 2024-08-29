@@ -1,0 +1,44 @@
+{
+    "name": "iOS 12.5.4",
+    "url": "https://support.apple.com/kb/HT212548",
+    "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+    "released": "14 Jun 2021",
+    "advisories": [
+        {
+            "module": "Security",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Processing a maliciously crafted certificate may lead to arbitrary code execution",
+            "description": "A memory corruption issue in the ASN.1 decoder was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30737",
+                    "credit": "xerub"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30761",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30762",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,439 @@
+{
+    "name": "Security Update 2022-005 Catalina",
+    "url": "https://support.apple.com/kb/HT213343",
+    "available": "macOS Catalina",
+    "released": "20 Jul 2022",
+    "advisories": [
+        {
+            "module": "APFS",
+            "available": "macOS Catalina",
+            "impact": "An app with root privileges may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32832",
+                    "credit": "Tommy Muir (@Muirey03)"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to gain root privileges",
+            "description": "An authorization issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32826",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted AppleScript binary may result in unexpected termination or disclosure of process memory",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32797",
+                    "credit": "Mickey Jin (@patch1t), Ye Zhang (@co0py_Cat) of Baidu Security, Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted AppleScript binary may result in unexpected termination or disclosure of process memory",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32853",
+                    "credit": "Ye Zhang(@co0py_Cat) of Baidu Security"
+                },
+                {
+                    "id": "CVE-2022-32851",
+                    "credit": "Ye Zhang (@co0py_Cat) of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted AppleScript binary may result in unexpected termination or disclosure of process memory",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32831",
+                    "credit": "Ye Zhang (@co0py_Cat) of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "Archive Utility",
+            "available": "macOS Catalina",
+            "impact": "An archive may be able to bypass Gatekeeper",
+            "description": "A logic issue was addressed with improved checks.",
+            "added": "October 4, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32910",
+                    "credit": "Ferdous Saljooki (@malwarezoo) of Jamf Software"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32820",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Calendar",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to access sensitive user information",
+            "description": "The issue was addressed with improved handling of caches.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32805",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Calendar",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "An information disclosure issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32849",
+                    "credit": "Joshua Jones"
+                }
+            ]
+        },
+        {
+            "module": "CoreText",
+            "available": "macOS Catalina",
+            "impact": "A remote user may cause an unexpected app termination or arbitrary code execution",
+            "description": "The issue was addressed with improved bounds checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32839",
+                    "credit": "STAR Labs (@starlabs_sg)"
+                }
+            ]
+        },
+        {
+            "module": "FaceTime",
+            "available": "macOS Catalina",
+            "impact": "An app with root privileges may be able to access private information",
+            "description": "This issue was addressed by enabling hardened runtime.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32781",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "File System Events",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32819",
+                    "credit": "Joshua Mason of Mandiant"
+                }
+            ]
+        },
+        {
+            "module": "ICU",
+            "available": "macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32787",
+                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Secure Disclosure Labs & DNSLab, Korea Univ."
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Catalina",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "A null pointer dereference was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32785",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32812",
+                    "credit": "Yinyi Wu (@3ndy1), ABC Research s.r.o."
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption vulnerability was addressed with improved locking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32811",
+                    "credit": "ABC Research s.r.o"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Catalina",
+            "impact": "An app with root privileges may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32815",
+                    "credit": "Xinru Chi of Pangu Lab"
+                },
+                {
+                    "id": "CVE-2022-32813",
+                    "credit": "Xinru Chi of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to bypass certain Privacy preferences",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "June 6, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2021-30946",
+                    "credit": "@gorelics, and Ron Masas of BreakPoint.sh"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to leak sensitive user information",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32823"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "An issue in the handling of environment variables was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32786",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32800",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PluginKit",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to read arbitrary files",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32838",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "PS Normalizer",
+            "available": "macOS Catalina",
+            "impact": "Processing a maliciously crafted Postscript file may result in unexpected app termination or disclosure of process memory",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32843",
+                    "credit": "Kai Lu of Zscaler's ThreatLabz"
+                }
+            ]
+        },
+        {
+            "module": "SMB",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32842",
+                    "credit": "Sreejith Krishnan R (@skr0x1c0)"
+                }
+            ]
+        },
+        {
+            "module": "SMB",
+            "available": "macOS Catalina",
+            "impact": "A user in a privileged network position may be able to leak sensitive information",
+            "description": "An out-of-bounds read issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32799",
+                    "credit": "Sreejith Krishnan R (@skr0x1c0)"
+                }
+            ]
+        },
+        {
+            "module": "Software Update",
+            "available": "macOS Catalina",
+            "impact": "A user in a privileged network position can track a user\u2019s activity",
+            "description": "This issue was addressed by using HTTPS when sending information over the network.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32857",
+                    "credit": "Jeffrey Paul (sneak.berlin)"
+                }
+            ]
+        },
+        {
+            "module": "Spindump",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to overwrite arbitrary files",
+            "description": "This issue was addressed with improved file handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32807",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Spotlight",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "A validation issue in the handling of symlinks was addressed with improved validation of symlinks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26704",
+                    "credit": "Joshua Mason of Mandiant"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to access sensitive user information",
+            "description": "An access issue was addressed with improvements to the sandbox.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32834",
+                    "credit": "Xuxiang Yang (@another1024) of Tencent Security Xuanwu Lab (xlab.tencent.com), Gordon Long, Thijs Alkemade (@xnyhps) of Computest Sector 7, Adam Chester from TrustedSec, Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com), Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ],
+            "updated": [
+                "September 16, 2022",
+                "June 6, 2023"
+            ]
+        },
+        {
+            "module": "Vim",
+            "available": "macOS Catalina",
+            "impact": "Multiple issues in Vim",
+            "description": "Multiple issues were addressed by updating Vim.",
+            "cves": [
+                {
+                    "id": "CVE-2021-4136"
+                },
+                {
+                    "id": "CVE-2021-4166"
+                },
+                {
+                    "id": "CVE-2021-4173"
+                },
+                {
+                    "id": "CVE-2021-4187"
+                },
+                {
+                    "id": "CVE-2021-4192"
+                },
+                {
+                    "id": "CVE-2021-4193"
+                },
+                {
+                    "id": "CVE-2021-46059"
+                },
+                {
+                    "id": "CVE-2022-0128"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "added": "June 6, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-32860",
+                    "credit": "Wang Yu of Cyberserval"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Catalina",
+            "impact": "An app may be able to cause unexpected system termination or write kernel memory",
+            "description": "This issue was addressed with improved checks.",
+            "added": "September 16, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32837",
+                    "credit": "Wang Yu of Cyberserval"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "macOS Catalina",
+            "impact": "A remote user may be able to cause unexpected system termination or corrupt kernel memory",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32847",
+                    "credit": "Wang Yu of Cyberserval"
+                }
+            ]
+        }
+    ]
+}

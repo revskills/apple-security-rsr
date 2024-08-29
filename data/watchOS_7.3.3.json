@@ -1,0 +1,20 @@
+{
+    "name": "watchOS 7.3.3",
+    "url": "https://support.apple.com/kb/HT212258",
+    "available": "Apple Watch Series 3 and later",
+    "released": "26 Mar 2021",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 3 and later",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "This issue was addressed by improved management of object lifetimes.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1879",
+                    "credit": "Clement Lecigne of Google Threat Analysis Group and Billy Leonard of Google Threat Analysis Group"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "macOS Big Sur 11.2.3",
+    "url": "https://support.apple.com/kb/HT212220",
+    "available": "macOS Big Sur",
+    "released": "08 Mar 2021",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1844",
+                    "credit": "Cl\u00e9ment Lecigne of Google\u2019s Threat Analysis Group, Alison Huffman of Microsoft Browser Vulnerability Research"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "name": "Safari 16.4",
+    "url": "https://support.apple.com/kb/HT213671",
+    "available": "macOS Big Sur and macOS Monterey",
+    "released": "27 Mar 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "June 21, 2023",
+            "cves": [
+                {
+                    "bugzilla": "251890",
+                    "id": "CVE-2023-32435",
+                    "credit": "Georgy Kucherin (@kucher1n), Leonid Bezvershenko (@bzvr_), and Boris Larin (@oct0xor) of Kaspersky"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may bypass Same Origin Policy",
+            "description": "This issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "248615",
+                    "id": "CVE-2023-27932",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "A website may be able to track sensitive user information",
+            "description": "The issue was addressed by removing origin information.",
+            "cves": [
+                {
+                    "bugzilla": "250837",
+                    "id": "CVE-2023-27954",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing a file may lead to a denial-of-service or potentially disclose memory contents",
+            "description": "The issue was addressed with improved checks.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "bugzilla": "249434",
+                    "id": "CVE-2014-1745",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "bugzilla": "250429",
+                    "id": "CVE-2023-28198",
+                    "credit": "hazbinhotel working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Content Security Policy to block domains with wildcards may fail",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "bugzilla": "250709",
+                    "id": "CVE-2023-32370",
+                    "credit": "Gertjan Franken of imec-DistriNet, KU Leuven"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Web Inspector",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved state management.",
+            "added": "May 1, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-28201",
+                    "credit": "Dohyun Lee (@l33d0hyun), crixer (@pwning_me) of SSD Labs"
+                }
+            ]
+        }
+    ]
+}

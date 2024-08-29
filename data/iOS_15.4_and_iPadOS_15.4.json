@@ -1,0 +1,556 @@
+{
+    "name": "iOS 15.4 and iPadOS 15.4",
+    "url": "https://support.apple.com/kb/HT213182",
+    "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+    "released": "14 Mar 2022",
+    "advisories": [
+        {
+            "module": "Accelerate Framework",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Opening a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22633",
+                    "credit": "ryuzaki"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "AppleAVD",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to heap corruption",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22666",
+                    "credit": "Marc Schoenefeld, Dr. rer. nat."
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22634",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22635",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22636",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Cellular",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A person with physical access may be able to view and modify the carrier account information and settings from the lock screen",
+            "description": "The GSMA authentication panel could be presented on the lock screen. The issue was resolved by requiring device unlock to interact with the GSMA authentication panel.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22652",
+                    "credit": "Ka\u011fan E\u011flence (linkedin.com/in/kaganeglence), O\u011fuz K\u0131rat (@oguzkirat)"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "CoreMedia",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to learn information about the current camera view before being granted camera access",
+            "description": "An issue with app access to camera metadata was addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22598",
+                    "credit": "Will Blaschko of Team Quasko"
+                }
+            ]
+        },
+        {
+            "module": "CoreTypes",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may bypass Gatekeeper checks",
+            "description": "This issue was addressed with improved checks to prevent unauthorized actions.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22663",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "FaceTime",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A user may be able to bypass the Emergency SOS passcode prompt",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22642",
+                    "credit": "Yicong Ding (@AntonioDing)"
+                }
+            ]
+        },
+        {
+            "module": "FaceTime",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A user may send audio and video in a FaceTime call without knowing that they have done so",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22643",
+                    "credit": "Sonali Luthar of the University of Virginia, Michael Liao of the University of Illinois at Urbana-Champaign, Rohan Pahwa of Rutgers University, and Bao Nguyen of the University of Florida"
+                }
+            ]
+        },
+        {
+            "module": "GPU Drivers",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22667",
+                    "credit": "Justin Sherman of the University of Maryland, Baltimore County"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22611",
+                    "credit": "Xingyu Jin of Google"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to heap corruption",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22612",
+                    "credit": "Xingyu Jin of Google"
+                }
+            ]
+        },
+        {
+            "module": "IOGPUFamily",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22641",
+                    "credit": "Mohamed Ghannam (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "iTunes",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious website may be able to access information about the user and their devices",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22653",
+                    "credit": "Aymeric Chaib of CERT Banque de France"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22596",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-22640",
+                    "credit": "sqrtpwn"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22613",
+                    "credit": "Alex, an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22614",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-22615",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to elevate privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22632",
+                    "credit": "Keegan Saunders"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An attacker in a privileged position may be able to perform a denial of service attack",
+            "description": "A null pointer dereference was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22638",
+                    "credit": "derrek (@derrekr6)"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to bypass certain Privacy preferences",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2021-30946",
+                    "credit": "@gorelics, and Ron Masas of BreakPoint.sh"
+                }
+            ]
+        },
+        {
+            "module": "libarchive",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Multiple issues in libarchive",
+            "description": "Multiple memory corruption issues existed in libarchive. These issues were addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-36976"
+                }
+            ]
+        },
+        {
+            "module": "LLVM",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to delete files for which it does not have permission",
+            "description": "A race condition was addressed with additional validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-21658",
+                    "credit": "Florian Weimer (@fweimer)"
+                }
+            ]
+        },
+        {
+            "module": "Markup",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A person with physical access to an iOS device may be able to see sensitive information via keyboard suggestions",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22622",
+                    "credit": "Ingyu Lim (@_kanarena)"
+                }
+            ]
+        },
+        {
+            "module": "MediaRemote",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to identify what other applications a user has installed",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22670",
+                    "credit": "Brandon Azad"
+                }
+            ]
+        },
+        {
+            "module": "MobileAccessoryUpdater",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22672",
+                    "credit": "Siddharth Aeri (@b1n4r1b01)"
+                }
+            ]
+        },
+        {
+            "module": "NetworkExtension",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An attacker in a privileged network position may be able to leak sensitive user information",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22659",
+                    "credit": "George Chen Kaidi of PayPal"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "Phone",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A user may be able to bypass the Emergency SOS passcode prompt",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22618",
+                    "credit": "Yicong Ding (@AntonioDing)"
+                }
+            ]
+        },
+        {
+            "module": "Preferences",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to read other applications' settings",
+            "description": "The issue was addressed with additional permissions checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22609",
+                    "credit": "Mickey Jin (@patch1t), and Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ],
+            "updated": [
+                "May 11, 2023"
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to leak sensitive user information",
+            "description": "An access issue was addressed with improvements to the sandbox.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-22655",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ],
+            "updated": [
+                "June 7, 2023"
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to bypass certain Privacy preferences",
+            "description": "The issue was addressed with improved permissions logic.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22600",
+                    "credit": "Sudhakar Muthumani (@sudhakarmuthu04) of Primefort Private Limited, Khiem Tran"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A person with physical access to a device may be able to use Siri to obtain some location information from the lock screen",
+            "description": "A permissions issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22599",
+                    "credit": "Andrew Goldberg of the University of Texas at Austin, McCombs School of Business (linkedin.com/andrew-goldberg-/)"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "SoftwareUpdate",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22639",
+                    "credit": "Mickey (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "UIKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A person with physical access to an iOS device may be able to see sensitive information via keyboard suggestions",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22621",
+                    "credit": "Joey Hewitt"
+                }
+            ]
+        },
+        {
+            "module": "VoiceOver",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A person with physical access to an iOS device may be able to access photos from the lock screen",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22671",
+                    "credit": "videosdebarraquito"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A cookie management issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "232748",
+                    "id": "CVE-2022-22662",
+                    "credit": "Prakash (@1lastBr3ath) of Threat Nix"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "232812",
+                    "id": "CVE-2022-22610",
+                    "credit": "Quan Yin of Bigo Technology Live Client Team"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "233172",
+                    "id": "CVE-2022-22624",
+                    "credit": "Kirin (@Pwnrin) of Tencent Security Xuanwu Lab"
+                },
+                {
+                    "bugzilla": "234147",
+                    "id": "CVE-2022-22628",
+                    "credit": "Kirin (@Pwnrin) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "234966",
+                    "id": "CVE-2022-22629",
+                    "credit": "Jeonghoon Shin at Theori working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious website may cause unexpected cross-origin behavior",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "235294",
+                    "id": "CVE-2022-22637",
+                    "credit": "Tom McKee of Google"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to leak sensitive user information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22668",
+                    "credit": "MrPhil17"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "iPhone 6s and later, iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to leak sensitive user information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22668",
+                    "credit": "MrPhil17"
+                }
+            ]
+        }
+    ]
+}

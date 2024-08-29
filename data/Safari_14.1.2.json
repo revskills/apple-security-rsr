@@ -1,0 +1,44 @@
+{
+    "name": "Safari 14.1.2",
+    "url": "https://support.apple.com/kb/HT212606",
+    "available": "macOS Catalina and macOS Mojave",
+    "released": "19 Jul 2021",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30758",
+                    "credit": "Christoph Guttandin of Media Codings"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30795",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30797",
+                    "credit": "Ivan Fratric of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

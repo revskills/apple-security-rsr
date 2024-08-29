@@ -1,0 +1,755 @@
+{
+    "name": "iOS 13.6 and iPadOS 13.6",
+    "url": "https://support.apple.com/kb/HT211288",
+    "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+    "released": "15 Jul 2020",
+    "advisories": [
+        {
+            "module": "Audio",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9888",
+                    "credit": "JunDong Xie and Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9890",
+                    "credit": "JunDong Xie and Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9891",
+                    "credit": "JunDong Xie and Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ],
+            "updated": [
+                "August 5, 2020"
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9884",
+                    "credit": "Yu Zhou(@yuzhou6666) of \u5c0f\u9e21\u5e2e working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2020-9889",
+                    "credit": "Anonymous working with Trend Micro\u2019s Zero Day Initiative, JunDong Xie and Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ],
+            "updated": [
+                "August 5, 2020"
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed by removing the vulnerable code.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9907",
+                    "credit": "08Tc3wBB working with ZecOps"
+                }
+            ],
+            "updated": [
+                "August 31, 2020"
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may cause an unexpected application termination",
+            "description": "A denial of service issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9931",
+                    "credit": "Dennis Heinze (@ttdennis) of TU Darmstadt, Secure Mobile Networking Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreFoundation",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A local user may be able to view sensitive user information",
+            "description": "An issue existed in the handling of environment variables. This issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9934",
+                    "credit": "Matt Shockley (linkedin.com/in/shocktop)"
+                }
+            ],
+            "updated": [
+                "August 5, 2020"
+            ]
+        },
+        {
+            "module": "CoreGraphics",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9883",
+                    "credit": "an anonymous researcher, Mickey Jin of Trend Micro"
+                }
+            ],
+            "updated": [
+                "December 15, 2020"
+            ]
+        },
+        {
+            "module": "Crash Reporter",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to break out of its sandbox",
+            "description": "A memory corruption issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9865",
+                    "credit": "Zhuo Liang of Qihoo 360 Vulcan Team working with 360 BugCloud"
+                }
+            ]
+        },
+        {
+            "module": "Crash Reporter",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "An issue existed within the path validation logic for symlinks. This issue was addressed with improved path sanitization.",
+            "added": "August 5, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9900",
+                    "credit": "Cees Elzinga, Zhongcheng Li (CK01) from Zero-dayits Team of Legendsec at Qi'anxin Group"
+                }
+            ],
+            "updated": [
+                "December 17, 2021"
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "added": "September 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9980",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ],
+            "updated": [
+                "October 19, 2020"
+            ]
+        },
+        {
+            "module": "GeoServices",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to read sensitive location information",
+            "description": "An authorization issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9933",
+                    "credit": "Min (Spark) Zheng and Xiaolong Bai of Alibaba Inc."
+                }
+            ]
+        },
+        {
+            "module": "iAP",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An attacker in a privileged network position may be able to perform denial of service attack using malformed Bluetooth packets",
+            "description": "An input validation issue existed in Bluetooth. This issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9914",
+                    "credit": "Andy Davis of NCC Group"
+                }
+            ],
+            "updated": [
+                "July 24, 2020"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "added": "March 16, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-27933",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Multiple buffer overflow issues existed in openEXR",
+            "description": "Multiple issues in openEXR were addressed with improved checks.",
+            "added": "September 8, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-11758",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11759",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11760",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11761",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11762",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11763",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11764",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-11765",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9871",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9872",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9874",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9879",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9936",
+                    "credit": "Mickey Jin of Trend Micro"
+                },
+                {
+                    "id": "CVE-2020-9937",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ],
+            "updated": [
+                "August 5, 2020"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9919",
+                    "credit": "Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Opening a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9876",
+                    "credit": "Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9873",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9938",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                },
+                {
+                    "id": "CVE-2020-9984",
+                    "credit": "an anonymous researcher"
+                }
+            ],
+            "updated": [
+                "September 21, 2020"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "August 5, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9877",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "added": "August 5, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9875",
+                    "credit": "Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to execute arbitrary code with system privileges",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9923",
+                    "credit": "Proteas"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An attacker in a privileged network position may be able to inject into active connections within a VPN tunnel",
+            "description": "A routing issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2019-14899",
+                    "credit": "William J. Tolley, Beau Kujath, and Jedidiah R. Crandall"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An attacker that has already achieved kernel code execution may be able to bypass kernel memory mitigations",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9909",
+                    "credit": "Brandon Azad of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9904",
+                    "credit": "Tielei Wang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory initialization issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9863",
+                    "credit": "Xinru Chi of Pangu Lab"
+                }
+            ],
+            "updated": [
+                "August 5, 2020"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to execute arbitrary code with system privileges",
+            "description": "Multiple memory corruption issues were addressed with improved state management.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9892",
+                    "credit": "Andy Nguyen of Google"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious application may be able to determine kernel memory layout",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "August 5, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9902",
+                    "credit": "Xinru Chi and Tielei Wang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "added": "August 5, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9905",
+                    "credit": "Raz Mashat (@RazMashat) of ZecOps"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "Processing maliciously crafted XML may lead to an unexpected application termination or arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "March 16, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-9926",
+                    "credit": "Found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "Mail",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2019-19906"
+                }
+            ],
+            "updated": [
+                "September 8, 2020"
+            ]
+        },
+        {
+            "module": "Mail",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious mail server may overwrite arbitrary mail files",
+            "description": "A path handling issue was addressed with improved validation.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9920",
+                    "credit": "YongYue Wang AKA BigChan of Hillstone Networks AF Team"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A user that is removed from an iMessage group could rejoin the group",
+            "description": "An issue existed in the handling of iMessage tapbacks. The issue was resolved with additional verification.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9885",
+                    "credit": "an anonymous researcher, Suryansh Mansharamani of WWP High School North (medium.com/@suryanshmansha)"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9878",
+                    "credit": "Aleksandar Nikolic of Cisco Talos, Holger Fuhrmannek of Deutsche Telekom Security"
+                },
+                {
+                    "id": "CVE-2020-9881",
+                    "credit": "Holger Fuhrmannek of Deutsche Telekom Security"
+                },
+                {
+                    "id": "CVE-2020-9882",
+                    "credit": "Holger Fuhrmannek of Deutsche Telekom Security"
+                },
+                {
+                    "id": "CVE-2020-9940",
+                    "credit": "Holger Fuhrmannek of Deutsche Telekom Security"
+                },
+                {
+                    "id": "CVE-2020-9985",
+                    "credit": "Holger Fuhrmannek of Deutsche Telekom Security"
+                }
+            ],
+            "updated": [
+                "September 21, 2020"
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "added": "September 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9880",
+                    "credit": "Holger Fuhrmannek of Deutsche Telekom Security"
+                }
+            ]
+        },
+        {
+            "module": "Safari Login AutoFill",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious attacker may cause Safari to suggest a password for the wrong domain",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9903",
+                    "credit": "Nikhil Mittal (@c0d3G33k) of Payatu Labs (payatu.com)"
+                }
+            ]
+        },
+        {
+            "module": "Safari Reader",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An issue in Safari Reader mode may allow a remote attacker to bypass the Same Origin Policy",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9911",
+                    "credit": "Nikhil Mittal (@c0d3G33k) of Payatu Labs (payatu.com)"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An attacker may have been able to impersonate a trusted website using shared key material for an administrator added certificate",
+            "description": "A certificate validation issue existed when processing administrator added certificates. This issue was addressed with improved certificate validation.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9868",
+                    "credit": "Brian Wolff of Asana"
+                }
+            ]
+        },
+        {
+            "module": "sysdiagnose",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "An issue existed within the path validation logic for symlinks. This issue was addressed with improved path sanitization.",
+            "added": "August 5, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9901",
+                    "credit": "Tim Michaud (@TimGMichaud) of Leviathan, Zhongcheng Li (CK01) from Zero-dayits Team of Legendsec at Qi'anxin Group"
+                }
+            ],
+            "updated": [
+                "August 31, 2020"
+            ]
+        },
+        {
+            "module": "WebDAV",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "This issue was addressed with improved entitlements.",
+            "added": "September 8, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9898",
+                    "credit": "Sreejith Krishnan R (@skr0x1C0)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9894",
+                    "credit": "0011 working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "An access issue existed in Content Security Policy. This issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9915",
+                    "credit": "Ayoub AIT ELMOKHTAR of Noon"
+                }
+            ],
+            "updated": [
+                "July 24, 2020"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9893",
+                    "credit": "0011 working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2020-9895",
+                    "credit": "Wen Xu of SSLab, Georgia Tech"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to universal cross site scripting",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9925",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious attacker with arbitrary read and write capability may be able to bypass Pointer Authentication",
+            "description": "Multiple issues were addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9910",
+                    "credit": "Samuel Gro\u00df of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A malicious attacker may be able to conceal the destination of a URL",
+            "description": "A URL Unicode encoding issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9916",
+                    "credit": "Rakesh Mane (@RakeshMane10)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Web Inspector",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Copying a URL from Web Inspector may lead to command injection",
+            "description": "A command injection issue existed in Web Inspector. This issue was addressed with improved escaping.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9862",
+                    "credit": "Ophir Lojkine (@lovasoa)"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An attacker in a privileged network position may be able to cause heap corruption via a crafted SCTP stream",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "September 21, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-6514",
+                    "credit": "natashenka of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause unexpected system termination or corrupt kernel memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9918",
+                    "credit": "Jianjun Dai of 360 Alpha Lab working with 360 BugCloud (bugcloud.360.cn)"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause unexpected system termination or corrupt kernel memory",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "added": "July 24, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9906",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9917",
+                    "credit": "Pradeep Deokate of Harman, Stefan B\u00f6hrer at Daimler AG, proofnet.de"
+                }
+            ],
+            "updated": [
+                "July 24, 2020"
+            ]
+        }
+    ]
+}

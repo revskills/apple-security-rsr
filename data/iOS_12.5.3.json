@@ -1,0 +1,56 @@
+{
+    "name": "iOS 12.5.3",
+    "url": "https://support.apple.com/kb/HT212341",
+    "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+    "released": "03 May 2021",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30666",
+                    "credit": "yangkang (@dnpushme)&zerokeeper&bianliang of 360 ATA"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30665",
+                    "credit": "yangkang (@dnpushme)&zerokeeper&bianliang of 360 ATA"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30663",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Storage",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30661",
+                    "credit": "yangkang (@dnpushme)&zerokeeper&bianliang of 360 ATA"
+                }
+            ]
+        }
+    ]
+}

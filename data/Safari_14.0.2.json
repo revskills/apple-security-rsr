@@ -1,0 +1,20 @@
+{
+    "name": "Safari 14.0.2",
+    "url": "https://support.apple.com/kb/HT212007",
+    "available": "macOS Catalina and macOS Mojave",
+    "released": "14 Dec 2020",
+    "advisories": [
+        {
+            "module": "WebRTC",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-15969",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

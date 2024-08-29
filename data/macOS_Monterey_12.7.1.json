@@ -1,0 +1,285 @@
+{
+    "name": "macOS Monterey 12.7.1",
+    "url": "https://support.apple.com/kb/HT213983",
+    "available": "macOS Monterey",
+    "released": "25 Oct 2023",
+    "advisories": [
+        {
+            "module": "Automation",
+            "available": "macOS Monterey",
+            "impact": "An app with root privileges may be able to access private information",
+            "description": "The issue was addressed with improved checks.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42952",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "CoreAnimation",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to cause a denial-of-service",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40449",
+                    "credit": "Tomi Tokics (@tomitokics) of iTomsn0w"
+                }
+            ]
+        },
+        {
+            "module": "Core Recents",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "The issue was resolved by sanitizing logging",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42823"
+                }
+            ]
+        },
+        {
+            "module": "FileProvider",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to cause a denial-of-service to Endpoint Security clients",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42854",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)"
+                }
+            ]
+        },
+        {
+            "module": "Find My",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "The issue was addressed with improved handling of caches.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40413",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "Foundation",
+            "available": "macOS Monterey",
+            "impact": "A website may be able to access sensitive user data when resolving symlinks",
+            "description": "This issue was addressed with improved handling of symlinks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42844",
+                    "credit": "Ron Masas of BreakPoint.SH"
+                }
+            ]
+        },
+        {
+            "module": "libc",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted input may lead to arbitrary code execution in user-installed apps",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "November 3, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40446",
+                    "credit": "inooo"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Monterey",
+            "impact": "Processing an image may result in disclosure of process memory",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40416",
+                    "credit": "JZ"
+                }
+            ]
+        },
+        {
+            "module": "IOTextEncryptionFamily",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40423",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An attacker that has already achieved kernel code execution may be able to bypass kernel memory mitigations",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42849",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing a file may lead to unexpected app termination or arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42856",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "The issue was addressed with improved checks.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42859",
+                    "credit": "Arsenii Kostromin (0x3c3e), Mickey Jin (@patch1t), and Hevel Engineering"
+                },
+                {
+                    "id": "CVE-2023-42877",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "The issue was addressed with improved checks.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42840",
+                    "credit": "Mickey Jin (@patch1t), and Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to bypass certain Privacy preferences",
+            "description": "The issue was addressed with improved checks.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42889",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A logic issue was addressed with improved checks.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42853",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A permissions issue was addressed with additional restrictions.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42860",
+                    "credit": "Koh M. Nakagawa (@tsunek0h) of FFRI Security, Inc."
+                }
+            ]
+        },
+        {
+            "module": "Pro Res",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved bounds checks.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42873",
+                    "credit": "Mingxuan Yang (@PPPF00L), and happybabywu and Guang Gong of 360 Vulnerability Research Institute"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "macOS Monterey",
+            "impact": "An app with root privileges may be able to access private information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40425",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "macOS Monterey",
+            "impact": "A remote user may be able to cause a denial-of-service",
+            "description": "This issue was addressed with improved checks.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-36191"
+                }
+            ]
+        },
+        {
+            "module": "talagent",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A permissions issue was addressed with additional restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40421",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)"
+                }
+            ]
+        },
+        {
+            "module": "WindowServer",
+            "available": "macOS Monterey",
+            "impact": "A website may be able to access the microphone without the microphone use indicator being shown",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2023-41975",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WindowServer",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "The issue was addressed with improved checks.",
+            "added": "February 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42858",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Xcode 12.0",
+    "url": "https://support.apple.com/kb/HT211848",
+    "available": "macOS Catalina 10.15.4 and later",
+    "released": "16 Sep 2020",
+    "advisories": [
+        {
+            "module": "IDE Device Support",
+            "available": "macOS Catalina 10.15.4 and later",
+            "impact": "An attacker in a privileged network position may be able to execute arbitrary code on a paired device during a debug session over the network",
+            "description": "This issue was addressed by encrypting communications over the network to devices running iOS 14, iPadOS 14, tvOS 14, and watchOS 7.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9992",
+                    "credit": "Dany Lisiansky (@DanyL931), Nikias Bassen of Zimperium zLabs"
+                }
+            ],
+            "updated": [
+                "September 21, 2020"
+            ]
+        }
+    ]
+}

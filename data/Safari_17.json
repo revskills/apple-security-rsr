@@ -1,0 +1,123 @@
+{
+    "name": "Safari 17",
+    "url": "https://support.apple.com/kb/HT213941",
+    "available": "macOS Monterey and macOS Ventura",
+    "released": "26 Sep 2023",
+    "advisories": [
+        {
+            "module": "Safari",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Visiting a website that frames malicious content may lead to UI spoofing",
+            "description": "A window management issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-40417",
+                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune (India)"
+                }
+            ],
+            "updated": [
+                "January 2, 2024"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "A remote attacker may be able to view leaked DNS queries with Private Relay turned on",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "January 2, 2024",
+            "cves": [
+                {
+                    "bugzilla": "257303",
+                    "id": "CVE-2023-40385",
+                    "credit": "Anonymous"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "A correctness issue was addressed with improved checks.",
+            "added": "January 2, 2024",
+            "cves": [
+                {
+                    "bugzilla": "258592",
+                    "id": "CVE-2023-42833",
+                    "credit": "Dong Jun Kim (@smlijun) and Jong Seong Kim (@nevul37) of AbyssLab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "added": "January 2, 2024",
+            "cves": [
+                {
+                    "bugzilla": "258992",
+                    "id": "CVE-2023-40414",
+                    "credit": "Francisco Alonso (@revskills)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "An attacker with JavaScript execution may be able to execute arbitrary code",
+            "description": "This issue was addressed with improved iframe sandbox enforcement.",
+            "cves": [
+                {
+                    "bugzilla": "251276",
+                    "id": "CVE-2023-40451",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "256551",
+                    "id": "CVE-2023-41074",
+                    "credit": "\uc774\uc900\uc131(Junsung Lee) of Cross Republic and Jie Ding(@Lime) from HKUS3 Lab"
+                }
+            ],
+            "updated": [
+                "January 2, 2024"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "239758",
+                    "id": "CVE-2023-35074",
+                    "credit": "Ajou University Abysslab Dong Jun Kim(@smlijun) and Jong Seong Kim(@nevul37)"
+                }
+            ],
+            "updated": [
+                "January 2, 2024"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Ventura",
+            "impact": "Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "261544",
+                    "id": "CVE-2023-41993",
+                    "credit": "Bill Marczak of The Citizen Lab at The University of Toronto's Munk School and Maddie Stone of Google's Threat Analysis Group"
+                }
+            ]
+        }
+    ]
+}

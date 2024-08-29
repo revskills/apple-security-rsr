@@ -1,0 +1,20 @@
+{
+    "name": "iOS 12.5",
+    "url": "https://support.apple.com/kb/HT212004",
+    "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+    "released": "14 Dec 2020",
+    "advisories": [
+        {
+            "module": "Security",
+            "available": "iPhone 5s, iPhone 6, iPhone 6 Plus, iPad Air, iPad mini 2, iPad mini 3, and iPod touch (6th generation)",
+            "impact": "Unauthorized code execution may lead to an authentication policy violation",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27951",
+                    "credit": "Apple"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,475 @@
+{
+    "name": "macOS Big Sur 11.7.9",
+    "url": "https://support.apple.com/kb/HT213845",
+    "available": "macOS Big Sur",
+    "released": "24 Jul 2023",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "September 8, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40442",
+                    "credit": "Nick Brook"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-34425",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "AppSandbox",
+            "available": "macOS Big Sur",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32364",
+                    "credit": "Gergely Kalman (@gergely_kalman)"
+                }
+            ]
+        },
+        {
+            "module": "Assets",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "This issue was addressed with improved data protection.",
+            "cves": [
+                {
+                    "id": "CVE-2023-35983",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "CFNetwork",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "September 8, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40392",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "CUPS",
+            "available": "macOS Big Sur",
+            "impact": "A user in a privileged network position may be able to leak sensitive information",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-34241",
+                    "credit": "Sei K."
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Big Sur",
+            "impact": "Multiple issues in curl",
+            "description": "Multiple issues were addressed by updating curl.",
+            "cves": [
+                {
+                    "id": "CVE-2023-28319"
+                },
+                {
+                    "id": "CVE-2023-28320"
+                },
+                {
+                    "id": "CVE-2023-28321"
+                },
+                {
+                    "id": "CVE-2023-28322"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "macOS Big Sur",
+            "impact": "Processing a font file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.1.",
+            "description": "The issue was addressed with improved handling of caches.",
+            "added": "September 8, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-41990",
+                    "credit": "Apple, Valentin Pashkov, Mikhail Vinogradov, Georgy Kucherin (@kucher1n), Leonid Bezvershenko (@bzvr_), and Boris Larin (@oct0xor) of Kaspersky"
+                }
+            ]
+        },
+        {
+            "module": "Grapher",
+            "available": "macOS Big Sur",
+            "impact": "Processing a file may lead to unexpected app termination or arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-36854",
+                    "credit": "Bool of YunShangHuaAn(\u4e91\u4e0a\u534e\u5b89)"
+                },
+                {
+                    "id": "CVE-2023-32418",
+                    "credit": "Bool of YunShangHuaAn(\u4e91\u4e0a\u534e\u5b89)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32381",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2023-32433",
+                    "credit": "Zweig of Kunlun Lab"
+                },
+                {
+                    "id": "CVE-2023-35993",
+                    "credit": "Kaitao Xie and Xiaolong Bai of Alibaba Group"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "A remote user may be able to cause a denial-of-service",
+            "description": "The issue was addressed with improved checks.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38603",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "A remote user may be able to cause unexpected system termination or corrupt kernel memory",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38590",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38598",
+                    "credit": "Mohamed GHANNAM (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-37285",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38604",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to modify sensitive kernel state. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.1.",
+            "description": "This issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38606",
+                    "credit": "Valentin Pashkov, Mikhail Vinogradov, Georgy Kucherin (@kucher1n), Leonid Bezvershenko (@bzvr_), and Boris Larin (@oct0xor) of Kaspersky"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32441",
+                    "credit": "Peter Nguy\u1ec5n V\u0169 Ho\u00e0ng (@peternguyen14) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Big Sur",
+            "impact": "A remote user may be able to cause a denial-of-service",
+            "description": "The issue was addressed with improved checks.",
+            "added": "December 22, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38603",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38565",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to cause a denial-of-service",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38593",
+                    "credit": "Noah Roskin-Frazee"
+                }
+            ]
+        },
+        {
+            "module": "Music",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved validation of symlinks.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38571",
+                    "credit": "Gergely Kalman (@gergely_kalman)"
+                }
+            ]
+        },
+        {
+            "module": "ncurses",
+            "available": "macOS Big Sur",
+            "impact": "An app may cause unexpected app termination or arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "added": "September 8, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-29491",
+                    "credit": "Jonathan Bar Or of Microsoft, Emanuele Cozzi of Microsoft, and Michael Pearse of Microsoft"
+                }
+            ]
+        },
+        {
+            "module": "Net-SNMP",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38601",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "NSSpellChecker",
+            "available": "macOS Big Sur",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32444",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "OpenLDAP",
+            "available": "macOS Big Sur",
+            "impact": "A remote user may be able to cause a denial-of-service",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-2953",
+                    "credit": "Sandipan Roy"
+                }
+            ]
+        },
+        {
+            "module": "OpenSSH",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to access SSH passphrases",
+            "description": "The issue was addressed with additional restrictions on the observability of app states.",
+            "added": "December 22, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-42829",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38259",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A permissions issue was addressed with additional restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38602",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to fingerprint the user",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "December 22, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-42831",
+                    "credit": "James Duffy (mangoSecure)"
+                }
+            ]
+        },
+        {
+            "module": "sips",
+            "available": "macOS Big Sur",
+            "impact": "Processing a file may lead to a denial-of-service or potentially disclose memory contents",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32443",
+                    "credit": "David Hoyt of Hoyt LLC"
+                }
+            ]
+        },
+        {
+            "module": "Software Update",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "added": "December 22, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-42832",
+                    "credit": "Arsenii Kostromin (0x3c3e)"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed by adding additional SQLite logging restrictions.",
+            "added": "September 8, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32422",
+                    "credit": "Gergely Kalman (@gergely_kalman), and Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "SystemMigration",
+            "available": "macOS Big Sur",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "The issue was addressed with improved checks.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-32429",
+                    "credit": "Wenchao Li and Xiaolong Bai of Hangzhou Orange Shield Information Technology Co., Ltd."
+                }
+            ]
+        },
+        {
+            "module": "tcpdump",
+            "available": "macOS Big Sur",
+            "impact": "An attacker in a privileged network position may be able to execute arbitrary code",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "added": "December 22, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-1801"
+                }
+            ]
+        },
+        {
+            "module": "Vim",
+            "available": "macOS Big Sur",
+            "impact": "Multiple issues in Vim",
+            "description": "Multiple issues were addressed by updating Vim.",
+            "added": "December 22, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-2426"
+                },
+                {
+                    "id": "CVE-2023-2609"
+                },
+                {
+                    "id": "CVE-2023-2610"
+                }
+            ]
+        }
+    ]
+}

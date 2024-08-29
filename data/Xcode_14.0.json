@@ -1,0 +1,20 @@
+{
+    "name": "Xcode 14.0",
+    "url": "https://support.apple.com/kb/HT213883",
+    "available": "macOS Monterey 12.5 and later",
+    "released": "23 May 2023",
+    "advisories": [
+        {
+            "module": "otool",
+            "available": "macOS Monterey 12.5 and later",
+            "impact": "Parsing a file may lead to disclosure of user information",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32920",
+                    "credit": "hjy79425575"
+                }
+            ]
+        }
+    ]
+}

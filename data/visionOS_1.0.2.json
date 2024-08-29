@@ -1,0 +1,20 @@
+{
+    "name": "visionOS 1.0.2",
+    "url": "https://support.apple.com/kb/HT214070",
+    "available": "Apple Vision Pro",
+    "released": "31 Jan 2024",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "Apple Vision Pro",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited.",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "267134",
+                    "id": "CVE-2024-23222"
+                }
+            ]
+        }
+    ]
+}

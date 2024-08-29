@@ -1,0 +1,196 @@
+{
+    "name": "macOS Monterey 12.2",
+    "url": "https://support.apple.com/kb/HT213054",
+    "available": "macOS Monterey",
+    "released": "26 Jan 2022",
+    "advisories": [
+        {
+            "module": "AMD Kernel",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22586",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "ColorSync",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted file may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22584",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Crash Reporter",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A logic issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22578",
+                    "credit": "Zhipeng Huo (@R3dF09) and Yuebin Sun (@yuebinsun2020) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "iCloud",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to access a user's files",
+            "description": "An issue existed within the path validation logic for symlinks. This issue was addressed with improved path sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22585",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab (https://xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22591",
+                    "credit": "Antonio Zekic (@antoniozekic) of Diverto"
+                }
+            ]
+        },
+        {
+            "module": "IOMobileFrameBuffer",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22587",
+                    "credit": "an anonymous researcher, Meysam Firouzi (@R00tkitSMM) of MBition - Mercedes-Benz Innovation Lab, Siddharth Aeri (@b1n4r1b01)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22593",
+                    "credit": "Peter Nguy\u1ec5n V\u0169 Ho\u00e0ng of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted STL file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22579",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to modify protected parts of the file system",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-22646",
+                    "credit": "Mickey Jin (@patch1t), Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to delete files for which it does not have permission",
+            "description": "An event handler validation issue in the XPC Services API was addressed by removing the service.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-22676",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An application may be able to access restricted files",
+            "description": "A permissions issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22583",
+                    "credit": "Ron Hass (@ronhass7) of Perception Point, Mickey Jin (@patch1t)"
+                }
+            ],
+            "updated": [
+                "May 25, 2022"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted mail message may lead to running arbitrary javascript",
+            "description": "A validation issue was addressed with improved input sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22589",
+                    "credit": "Heige of KnownSec 404 Team (knownsec.com) and Bo Qu of Palo Alto Networks (paloaltonetworks.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22590",
+                    "credit": "Toan Pham from Team Orca of Sea Security (security.sea.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may prevent Content Security Policy from being enforced",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22592",
+                    "credit": "Prakash (@1lastBr3ath)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Storage",
+            "available": "macOS Monterey",
+            "impact": "A website may be able to track sensitive user information",
+            "description": "A cross-origin issue in the IndexDB API was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22594",
+                    "credit": "Martin Bajanik of FingerprintJS"
+                }
+            ]
+        }
+    ]
+}

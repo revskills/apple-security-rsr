@@ -1,0 +1,21 @@
+{
+    "name": "Rapid Security Response\n iOS 16.5.1 (a) & iPadOS 16.5.1 (a)",
+    "url": "https://support.apple.com/kb/HT213823",
+    "available": "iOS 16.5.1 and iPadOS 16.5.1",
+    "released": "10 Jul 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "iOS 16.5.1 and iPadOS 16.5.1",
+            "impact": "Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "The issue was addressed with improved checks.",
+            "rsr": "Rapid Security Responses iOS 16.5.1 (c) and iPadOS 16.5.1 (c) include the security content of Rapid Security Responses iOS 16.5.1 (a) and iPadOS 16.5.1 (a) and fix an issue that prevents some websites from displaying properly.",
+            "cves": [
+                {
+                    "id": "CVE-2023-37450",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

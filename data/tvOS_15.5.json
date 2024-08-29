@@ -1,0 +1,342 @@
+{
+    "name": "tvOS 15.5",
+    "url": "https://support.apple.com/kb/HT213254",
+    "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+    "released": "16 May 2022",
+    "advisories": [
+        {
+            "module": "AppleAVD",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26702",
+                    "credit": "an anonymous researcher, Antonio Zekic (@antoniozekic), and John Aakerblom (@jaakerblom)"
+                }
+            ],
+            "updated": [
+                "June 7, 2023"
+            ]
+        },
+        {
+            "module": "AppleAVD",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22675",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "AuthKit",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A local user may be able to enable iCloud Photos without authentication",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26724",
+                    "credit": "Jorge A. Caballero (@DataDrivenMD)"
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26736",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-26737",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-26738",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-26739",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2022-26740",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "DriverKit",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A malicious application may be able to execute arbitrary code with system privileges",
+            "description": "An out-of-bounds access issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26763",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26711",
+                    "credit": "actae0n of Blacksun Hackers Club working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "IOKit",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved locking.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26701",
+                    "credit": "chenyuwang (@mzzzz__) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "IOMobileFrameBuffer",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26768",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "IOSurfaceAccelerator",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26771",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26714",
+                    "credit": "Peter Nguy\u1ec5n V\u0169 Ho\u00e0ng (@peternguyen14) of STAR Labs (@starlabs_sg)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26757",
+                    "credit": "Ned Williamson of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An attacker that has already achieved kernel code execution may be able to bypass kernel memory mitigations",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26764",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A malicious attacker with arbitrary read and write capability may be able to bypass Pointer Authentication",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26765",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "LaunchServices",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "An access issue was addressed with additional sandbox restrictions on third-party applications.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26706",
+                    "credit": "Arsenii Kostromin (0x3c3e), Jonathan Bar Or of Microsoft"
+                }
+            ],
+            "updated": [
+                "July 6, 2022"
+            ]
+        },
+        {
+            "module": "libresolv",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "added": "June 21, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-26775",
+                    "credit": "Max Shavrick (@_mxms) of the Google Security Team"
+                }
+            ]
+        },
+        {
+            "module": "libresolv",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "added": "June 21, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-26708",
+                    "credit": "Max Shavrick (@_mxms) of the Google Security Team"
+                }
+            ]
+        },
+        {
+            "module": "libresolv",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A remote user may be able to cause a denial-of-service",
+            "description": "This issue was addressed with improved checks.",
+            "added": "June 21, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32790",
+                    "credit": "Max Shavrick (@_mxms) of the Google Security Team"
+                }
+            ]
+        },
+        {
+            "module": "libresolv",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "An attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "added": "June 21, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-26776",
+                    "credit": "Max Shavrick (@_mxms) of the Google Security Team, Zubair Ashraf of Crowdstrike"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-23308"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A malicious app may be able to bypass signature validation",
+            "description": "A certificate parsing issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26766",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "238178",
+                    "id": "CVE-2022-26700",
+                    "credit": "ryuzaki"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "236950",
+                    "id": "CVE-2022-26709",
+                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab"
+                },
+                {
+                    "bugzilla": "237475",
+                    "id": "CVE-2022-26710",
+                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab"
+                },
+                {
+                    "bugzilla": "238171",
+                    "id": "CVE-2022-26717",
+                    "credit": "Jeonghoon Shin of Theori"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "238183",
+                    "id": "CVE-2022-26716",
+                    "credit": "SorryMybad (@S0rryMybad) of Kunlun Lab"
+                },
+                {
+                    "bugzilla": "238699",
+                    "id": "CVE-2022-26719",
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "Apple TV 4K, Apple TV 4K (2nd generation), and Apple TV HD",
+            "impact": "A malicious application may disclose restricted memory",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26745",
+                    "credit": "Scarlet Raine"
+                }
+            ],
+            "updated": [
+                "July 6, 2022"
+            ]
+        }
+    ]
+}

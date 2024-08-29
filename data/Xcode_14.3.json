@@ -1,0 +1,32 @@
+{
+    "name": "Xcode 14.3",
+    "url": "https://support.apple.com/kb/HT213679",
+    "available": "macOS Ventura 13.0 and later",
+    "released": "30 Mar 2023",
+    "advisories": [
+        {
+            "module": "Dev Tools",
+            "available": "macOS Ventura 13.0 and later",
+            "impact": "An app may be able to execute arbitrary code out of its sandbox or with certain elevated privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27967",
+                    "credit": "Austin Emmitt, Senior Security Researcher at Trellix ARC"
+                }
+            ]
+        },
+        {
+            "module": "Dev Tools",
+            "available": "macOS Ventura 13.0 and later",
+            "impact": "A sandboxed app may be able to collect system logs",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2023-27945",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,219 @@
+{
+    "name": "macOS Monterey 12.6.2",
+    "url": "https://support.apple.com/kb/HT213533",
+    "available": "macOS Monterey",
+    "released": "13 Dec 2022",
+    "advisories": [
+        {
+            "module": "Bluetooth",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42854",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. (@starlabs_sg)"
+                }
+            ]
+        },
+        {
+            "module": "BOM",
+            "available": "macOS Monterey",
+            "impact": "An app may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42821",
+                    "credit": "Jonathan Bar Or of Microsoft"
+                }
+            ]
+        },
+        {
+            "module": "Boot Camp",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-42853",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "DriverKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32942",
+                    "credit": "Linus Henze of Pinauten GmbH (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "File System",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42861",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "IOHIDFamily",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42864",
+                    "credit": "Tommy Muir (@Muirey03)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46689",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An app with root privileges may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42845",
+                    "credit": "Adam Doup\u00e9 of ASU SEFCOM"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "A remote user may be able to cause kernel code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42842",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "macOS Monterey",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40303",
+                    "credit": "Maddie Stone of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "macOS Monterey",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40304",
+                    "credit": "Ned Williamson and Nathan Wachholz of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "December 22, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-46704",
+                    "credit": "Mickey Jin (@patch1t), Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "ppp",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42840",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Preferences",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to use arbitrary entitlements",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42855",
+                    "credit": "Ivan Fratric of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46718",
+                    "credit": "Michael (Biscuit) Thomas"
+                }
+            ]
+        },
+        {
+            "module": "Weather",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46703",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing and Adam M."
+                }
+            ],
+            "updated": [
+                "May 31, 2024"
+            ]
+        },
+        {
+            "module": "xar",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted package may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42841",
+                    "credit": "Thijs Alkemade (@xnyhps) of Computest Sector 7"
+                }
+            ]
+        }
+    ]
+}

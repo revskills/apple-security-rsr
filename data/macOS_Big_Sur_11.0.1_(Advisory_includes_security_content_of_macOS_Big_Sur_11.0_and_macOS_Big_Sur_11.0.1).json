@@ -1,0 +1,1205 @@
+{
+    "name": "macOS Big Sur 11.0.1 (Advisory includes security content of macOS Big Sur 11.0 and macOS Big Sur 11.0.1)",
+    "url": "https://support.apple.com/kb/HT211931",
+    "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+    "released": "12 Nov 2020",
+    "advisories": [
+        {
+            "module": "AMD",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to execute arbitrary code with system privileges",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27914",
+                    "credit": "Yu Wang of Didi Research America"
+                },
+                {
+                    "id": "CVE-2020-27915",
+                    "credit": "Yu Wang of Didi Research America"
+                }
+            ]
+        },
+        {
+            "module": "App Store",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27903",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27910",
+                    "credit": "JunDong Xie and XingWei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27916",
+                    "credit": "JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to read restricted memory",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9943",
+                    "credit": "JunDong Xie of Ant Group Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "Audio",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to read restricted memory",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9944",
+                    "credit": "JunDong Xie of Ant Group Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "Bluetooth",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A remote attacker may be able to cause unexpected application termination or heap corruption",
+            "description": "Multiple integer overflows were addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27906",
+                    "credit": "Zuozhi Fan (@pattern_F_) of Ant Group Tianqiong Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "CFNetwork Cache",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "added": "March 16, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-27945",
+                    "credit": "Zhuo Liang of Qihoo 360 Vulcan Team"
+                }
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27908",
+                    "credit": "JunDong Xie and Xingwei Lin of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2020-27909",
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative, JunDong Xie and Xingwei Lin of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2020-9960",
+                    "credit": "JunDong Xie and Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreAudio",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted audio file may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10017",
+                    "credit": "Francis working with Trend Micro Zero Day Initiative, JunDong Xie of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreCapture",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9949",
+                    "credit": "Proteas"
+                }
+            ]
+        },
+        {
+            "module": "CoreGraphics",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted PDF may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-9897",
+                    "credit": "S.Y. of ZecOps Mobile XDR, an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "CoreGraphics",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9883",
+                    "credit": "an anonymous researcher, Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Crash Reporter",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "An issue existed within the path validation logic for symlinks. This issue was addressed with improved path sanitization.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10003",
+                    "credit": "Tim Michaud (@TimGMichaud) of Leviathan"
+                }
+            ]
+        },
+        {
+            "module": "CoreText",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27922",
+                    "credit": "Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "CoreText",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted text file may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9999",
+                    "credit": "Apple"
+                }
+            ],
+            "updated": [
+                "December 14, 2020"
+            ]
+        },
+        {
+            "module": "Directory Utility",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to access private information",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "March 16, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-27937",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "Disk Images",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9965",
+                    "credit": "Proteas"
+                },
+                {
+                    "id": "CVE-2020-9966",
+                    "credit": "Proteas"
+                }
+            ]
+        },
+        {
+            "module": "Finder",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Users may be unable to remove metadata indicating where files were downloaded from",
+            "description": "The issue was addressed with additional user controls.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27894",
+                    "credit": "Manuel Trezza of Shuggr (shuggr.com)"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "May 11, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2020-36615",
+                    "credit": "Peter Nguyen Hoang Vu (@peternguyen14) of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted text file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-1790",
+                    "credit": "Peter Nguyen Vu Hoang of STAR Labs"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font may lead to arbitrary code execution",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-1775",
+                    "credit": "Mickey Jin and Qi Sun of Trend Micro working with Trend Micro\u2019s Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to read restricted memory",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-29629",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-27942",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved size validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9962",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27952",
+                    "credit": "an anonymous researcher, Mickey Jin and Junzhi Lu of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9956",
+                    "credit": "Mickey Jin and Junzhi Lu of Trend Micro Mobile Security Research Team working with Trend Micro\u2019s Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "A memory corruption issue existed in the processing of font files. This issue was addressed with improved input validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27931",
+                    "credit": "Apple"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font may lead to arbitrary code execution. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27930",
+                    "credit": "Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font file may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27927",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted font may result in the disclosure of process memory",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-29639",
+                    "credit": "Mickey Jin & Qi Sun of Trend Micro working with Trend Micro's Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Foundation",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A local user may be able to read arbitrary files",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10002",
+                    "credit": "James Hutchins"
+                }
+            ]
+        },
+        {
+            "module": "HomeKit",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An attacker in a privileged network position may be able to unexpectedly alter application state",
+            "description": "This issue was addressed with improved setting propagation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9978",
+                    "credit": "Luyi Xing, Dongfang Zhao, and Xiaofeng Wang of Indiana University Bloomington, Yan Jia of Xidian University and University of Chinese Academy of Sciences, and Bin Yuan of HuaZhong University of Science and Technology"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9955",
+                    "credit": "Mickey Jin of Trend Micro, Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27924",
+                    "credit": "Lei Sun"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27912",
+                    "credit": "Xingwei Lin of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2020-27923",
+                    "credit": "Lei Sun"
+                }
+            ],
+            "updated": [
+                "December 14, 2020"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Opening a maliciously crafted PDF file may lead to an unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9876",
+                    "credit": "Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-10015",
+                    "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2020-27897",
+                    "credit": "Xiaolong Bai and Min (Spark) Zheng of Alibaba Inc., and Luyi Xing of Indiana University Bloomington"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27907",
+                    "credit": "ABC Research s.r.o. working with Trend Micro Zero Day Initiative, Liu Long of Ant Security Light-Year Lab"
+                }
+            ],
+            "updated": [
+                "March 16, 2021"
+            ]
+        },
+        {
+            "module": "Image Processing",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write was addressed with improved input validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27919",
+                    "credit": "Hou JingYi (@hjy79425575) of Qihoo 360 CERT, Xingwei Lin of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A remote attacker may be able to cause unexpected system termination or corrupt kernel memory",
+            "description": "Multiple memory corruption issues were addressed with improved input validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9967",
+                    "credit": "Alex Plaskett (@alexjplaskett)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9975",
+                    "credit": "Tielei Wang of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27921",
+                    "credit": "Linus Henze (pinauten.de)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue existed resulting in memory corruption. This was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27904",
+                    "credit": "Zuozhi Fan (@pattern_F_) of Ant Group Tianqong Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An attacker in a privileged network position may be able to inject into active connections within a VPN tunnel",
+            "description": "A routing issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2019-14899",
+                    "credit": "William J. Tolley, Beau Kujath, and Jedidiah R. Crandall"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to disclose kernel memory. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A memory initialization issue was addressed.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27950",
+                    "credit": "Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to determine kernel memory layout",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9974",
+                    "credit": "Tommy Muir (@Muirey03)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10016",
+                    "credit": "Alex Helie"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27932",
+                    "credit": "Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27917",
+                    "credit": "found by OSS-Fuzz"
+                },
+                {
+                    "id": "CVE-2020-27920",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ],
+            "updated": [
+                "December 14, 2020"
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27911",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to elevate privileges",
+            "description": "A logic issue was addressed with improved validation.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9971",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to break out of its sandbox",
+            "description": "A parsing issue in the handling of directory paths was addressed with improved path validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10014",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Logging",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10010",
+                    "credit": "Tommy Muir (@Muirey03)"
+                }
+            ]
+        },
+        {
+            "module": "Mail",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A remote attacker may be able to unexpectedly alter application state",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9941",
+                    "credit": "Fabian Ising of FH M\u00fcnster University of Applied Sciences and Damian Poddebniak of FH M\u00fcnster University of Applied Sciences"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A local user may be able to discover a user\u2019s deleted messages",
+            "description": "The issue was addressed with improved deletion.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9988",
+                    "credit": "William Breuer of the Netherlands"
+                },
+                {
+                    "id": "CVE-2020-9989",
+                    "credit": "von Brunn Media"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-10011",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-13524",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Opening a maliciously crafted file may lead to unexpected application termination or arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10004",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "NetworkExtension",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to elevate privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9996",
+                    "credit": "Zhiwei Yuan of Trend Micro iCore Team, Junzhi Lu and Mickey Jin of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "NSRemoteView",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27901",
+                    "credit": "Thijs Alkemade of Computest Research Division"
+                }
+            ]
+        },
+        {
+            "module": "NSRemoteView",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to preview files it does not have access to",
+            "description": "An issue existed in the handling of snapshots. The issue was resolved with improved permissions logic.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27900",
+                    "credit": "Thijs Alkemade of Computest Research Division"
+                }
+            ]
+        },
+        {
+            "module": "PCRE",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Multiple issues in pcre",
+            "description": "Multiple issues were addressed by updating to version 8.44.",
+            "cves": [
+                {
+                    "id": "CVE-2019-20838"
+                },
+                {
+                    "id": "CVE-2020-14155"
+                }
+            ]
+        },
+        {
+            "module": "Power Management",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to determine kernel memory layout",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10007",
+                    "credit": "singi@theori working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "python",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Cookies belonging to one origin may be sent to another origin",
+            "description": "Multiple issues were addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27896",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Quick Look",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious app may be able to determine the existence of files on the computer",
+            "description": "The issue was addressed with improved handling of icon caches.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9963",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Quick Look",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing a maliciously crafted document may lead to a cross site scripting attack",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10012",
+                    "credit": "Heige of KnownSec 404 Team (knownsec.com) and Bo Qu of Palo Alto Networks (paloaltonetworks.com)"
+                }
+            ],
+            "updated": [
+                "March 16, 2021"
+            ]
+        },
+        {
+            "module": "Ruby",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A remote attacker may be able to modify the file system",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27896",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Ruby",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "When parsing certain JSON documents, the json gem can be coerced into creating arbitrary objects in the target system",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10663",
+                    "credit": "Jeremy Evans"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "A spoofing issue existed in the handling of URLs. This issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9945",
+                    "credit": "Narendra Bhati of Suma Soft Pvt. Ltd. Pune (India) @imnarendrabhati"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to determine a user's open tabs in Safari",
+            "description": "A validation issue existed in the entitlement verification. This issue was addressed with improved validation of the process entitlement.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9977",
+                    "credit": "Josh Parnham (@joshparnham)"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "An inconsistent user interface issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9942",
+                    "credit": "an anonymous researcher, Rahul d Kankrale (servicenger.com), Rayyan Bijoora (@Bijoora) of The City School, PAF Chapter, Ruilin Yang of Tencent Security Xuanwu Lab, YoKo Kho (@YoKoAcc) of PT Telekomunikasi Indonesia (Persero) Tbk, Zhiyang Zeng(@Wester) of OPPO ZIWU Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An inconsistent user interface issue was addressed with improved state management",
+            "description": "Visiting a malicious website may lead to address bar spoofing.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-9987",
+                    "credit": "Rafay Baloch (cybercitadel.com) of Cyber Citadel"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A local application may be able to enumerate the user's iCloud documents",
+            "description": "The issue was addressed with improved permissions logic.",
+            "added": "March 16, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-1803",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A local user may be able to view senstive user information",
+            "description": "An access issue was addressed with additional sandbox restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9969",
+                    "credit": "Wojciech Regu\u0142a of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "Screen Sharing",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A user with screen sharing access may be able to view another user's screen",
+            "description": "An issue existed in screen sharing. This issue was addressed with improved state management.",
+            "added": "March 16, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-27893",
+                    "credit": "pcsgomes"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A person with physical access to an iOS device may be able to access contacts from the lock screen",
+            "description": "A lock screen issue allowed access to contacts on a locked device. This issue was addressed with improved state management.",
+            "added": "March 16, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-1755",
+                    "credit": "Yuval Ron, Amichai Shulman, and Eli Biham of Technion - Israel Institute of Technology"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An attacker in a privileged network position may be able to perform denial of service",
+            "description": "A resource exhaustion issue was addressed with improved input validation.",
+            "added": "October 25, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-10005",
+                    "credit": "Apple"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9991"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A remote attacker may be able to leak memory",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9849"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Multiple issues in SQLite",
+            "description": "Multiple issues were addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-15358"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A maliciously crafted SQL query may lead to data corruption",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-13631"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-13434"
+                },
+                {
+                    "id": "CVE-2020-13435"
+                },
+                {
+                    "id": "CVE-2020-9991"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-13630"
+                }
+            ]
+        },
+        {
+            "module": "Symptom Framework",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27899",
+                    "credit": "08Tc3wBB working with ZecOps"
+                }
+            ]
+        },
+        {
+            "module": "System Preferences",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10009",
+                    "credit": "Thijs Alkemade of Computest Research Division"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application with root privileges may be able to access private information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "December 14, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-10008",
+                    "credit": "Wojciech Regu\u0142a of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27918",
+                    "credit": "Liu Long of Ant Security Light-Year Lab"
+                }
+            ],
+            "updated": [
+                "December 14, 2020"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A use after free issue was addressed with improved memory management",
+            "description": "Processing maliciously crafted web content may lead to arbitrary code execution.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2020-9947",
+                    "credit": "cc working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2020-9950",
+                    "credit": "cc working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Wi-Fi",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "An attacker may be able to bypass Managed Frame Protection",
+            "description": "A denial of service issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27898",
+                    "credit": "Stephan Marais of University of Johannesburg"
+                }
+            ]
+        },
+        {
+            "module": "XNU",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "Multiple issues were addressed with improved logic.",
+            "added": "December 17, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-27935",
+                    "credit": "Lior Halphon (@LIJI32)"
+                }
+            ]
+        },
+        {
+            "module": "Xsan",
+            "available": "Mac Pro (2013 and later), MacBook Air (2013 and later), MacBook Pro (Late 2013 and later), Mac mini (2014 and later), iMac (2014 and later), MacBook (2015 and later), iMac Pro (all models)",
+            "impact": "A malicious application may be able to access restricted files",
+            "description": "This issue was addressed with improved entitlements.",
+            "cves": [
+                {
+                    "id": "CVE-2020-10006",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        }
+    ]
+}

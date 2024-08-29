@@ -1,0 +1,269 @@
+{
+    "name": "iOS 15.7.2 and iPadOS 15.7.2",
+    "url": "https://support.apple.com/kb/HT213531",
+    "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+    "released": "13 Dec 2022",
+    "advisories": [
+        {
+            "module": "AppleAVD",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Parsing a maliciously crafted video file may lead to kernel code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46694",
+                    "credit": "Andrey Labunets and Nikita Tarakanov"
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42848",
+                    "credit": "ABC Research s.r.o"
+                }
+            ]
+        },
+        {
+            "module": "File System",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42861",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Graphics Driver",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Parsing a maliciously crafted video file may lead to unexpected system termination",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42846",
+                    "credit": "Willy R. Vasquez of The University of Texas at Austin"
+                }
+            ]
+        },
+        {
+            "module": "IOHIDFamily",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42864",
+                    "credit": "Tommy Muir (@Muirey03)"
+                }
+            ]
+        },
+        {
+            "module": "iTunes Store",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An issue existed in the parsing of URLs. This issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42837",
+                    "credit": "Weijia Dai (@dwj1210) of Momo Security"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46689",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40303",
+                    "credit": "Maddie Stone of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40304",
+                    "credit": "Ned Williamson and Nathan Wachholz of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "ppp",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42840",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Preferences",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to use arbitrary entitlements",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42855",
+                    "credit": "Ivan Fratric of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Visiting a website that frames malicious content may lead to UI spoofing",
+            "description": "A spoofing issue existed in the handling of URLs. This issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46695",
+                    "credit": "KirtiKumar Anandrao Ramchandani"
+                }
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "May 1, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46718",
+                    "credit": "Michael (Biscuit) Thomas"
+                }
+            ]
+        },
+        {
+            "module": "Weather",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46703",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing, and an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "bugzilla": "245464",
+                    "id": "CVE-2023-23496",
+                    "credit": "ChengGang Wu, Yan Kang, YuHao Hu, Yue Sun, Jiming Wang, JiKai Ren and Hang Shu of Institute of Computing Technology, Chinese Academy of Sciences"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "A spoofing issue existed in the handling of URLs. This issue was addressed with improved input validation.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46705",
+                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "245466",
+                    "id": "CVE-2022-46691",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may result in the disclosure of process memory",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42852",
+                    "credit": "hazbinhotel working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may bypass Same Origin Policy",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "246783",
+                    "id": "CVE-2022-46692",
+                    "credit": "KirtiKumar Anandrao Ramchandani"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "247562",
+                    "id": "CVE-2022-46700",
+                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 6s (all models), iPhone 7 (all models), iPhone SE (1st generation), iPad Pro (all models), iPad Air 2 and later, iPad 5th generation and later, iPad mini 4 and later, and iPod touch (7th generation)",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.1.",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "bugzilla": "248266",
+                    "id": "CVE-2022-42856",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                }
+            ]
+        }
+    ]
+}

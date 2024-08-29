@@ -1,0 +1,32 @@
+{
+    "name": "Xcode 13.4",
+    "url": "https://support.apple.com/kb/HT213261",
+    "available": "macOS Monterey 12 and later",
+    "released": "16 May 2022",
+    "advisories": [
+        {
+            "module": "Git",
+            "available": "macOS Monterey 12 or later",
+            "impact": "On multi-user machines Git users might find themselves unexpectedly in a Git worktree",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2022-24765",
+                    "credit": "\u4fde\u6668\u4e1c"
+                }
+            ]
+        },
+        {
+            "module": "IDE",
+            "available": "macOS Monterey 12 or later",
+            "impact": "An app may be able to gain elevated privileges",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-26747",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        }
+    ]
+}

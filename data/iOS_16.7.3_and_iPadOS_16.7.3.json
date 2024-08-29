@@ -1,0 +1,158 @@
+{
+    "name": "iOS 16.7.3 and iPadOS 16.7.3",
+    "url": "https://support.apple.com/kb/HT214034",
+    "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+    "released": "11 Dec 2023",
+    "advisories": [
+        {
+            "module": "Accounts",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42919",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Assets",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "An issue was addressed with improved handling of temporary files.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42896",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "AVEVideoEncoder",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to disclose kernel memory",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42884",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "CallKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "A remote attacker may be able to cause a denial-of-service",
+            "description": "This issue was addressed with improved checks",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42962",
+                    "credit": "Aymane Chabat"
+                }
+            ]
+        },
+        {
+            "module": "Find My",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42922",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42899",
+                    "credit": "Meysam Firouzi @R00tkitSMM and Junsung Lee"
+                }
+            ]
+        },
+        {
+            "module": "IOUSBDeviceFamily",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42974",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42914",
+                    "credit": "Eloi Benoist-Vanderbeken (@elvanderb) of Synacktiv (@Synacktiv)"
+                }
+            ]
+        },
+        {
+            "module": "Libsystem",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to access protected user data",
+            "description": "A permissions issue was addressed by removing vulnerable code and adding additional checks.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42893"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "263349",
+                    "id": "CVE-2023-42883",
+                    "credit": "Zoom Offensive Security Team"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited against versions of iOS before iOS 16.7.1.",
+            "description": "A memory corruption vulnerability was addressed with improved locking.",
+            "cves": [
+                {
+                    "bugzilla": "265067",
+                    "id": "CVE-2023-42917",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing web content may disclose sensitive information. Apple is aware of a report that this issue may have been exploited against versions of iOS before iOS 16.7.1.",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "265041",
+                    "id": "CVE-2023-42916",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                }
+            ]
+        }
+    ]
+}

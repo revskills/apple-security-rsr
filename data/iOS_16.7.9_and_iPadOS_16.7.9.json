@@ -1,0 +1,275 @@
+{
+    "name": "iOS 16.7.9 and iPadOS 16.7.9",
+    "url": "https://support.apple.com/kb/HT214116",
+    "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+    "released": "29 Jul 2024",
+    "advisories": [
+        {
+            "module": "CoreGraphics",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40799",
+                    "credit": "D4m0n"
+                }
+            ]
+        },
+        {
+            "module": "CoreMedia",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing a maliciously crafted video file may lead to unexpected app termination",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27873",
+                    "credit": "Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org.",
+            "cves": [
+                {
+                    "id": "CVE-2023-6277"
+                },
+                {
+                    "id": "CVE-2023-52356"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An out-of-bounds read issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40806",
+                    "credit": "Yisumi"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40784",
+                    "credit": "Junsung Lee working with Trend Micro Zero Day Initiative and Gandalf4a"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "A local attacker may be able to cause unexpected system shutdown",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40788",
+                    "credit": "Minghao Lin and Jiaxun Zhu from Zhejiang University"
+                }
+            ]
+        },
+        {
+            "module": "NetworkExtension",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Private browsing may leak some browsing history",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40796",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "Photos Storage",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Photos in the Hidden Photos Album may be viewed without authentication",
+            "description": "An authentication issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40778",
+                    "credit": "Mateen Alinaghi"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to read Safari's browsing history",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40798",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "A shortcut may be able to use sensitive data with certain actions without prompting the user",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40833",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40835",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40836",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40793",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Shortcuts",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "A shortcut may be able to bypass Internet permission requirements",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40809",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2024-40812",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An attacker with physical access may be able to use Siri to access sensitive user data",
+            "description": "This issue was addressed by restricting options offered on a locked device.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40818",
+                    "credit": "Bistrit Dahal and Srijan Poudel"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An attacker may be able to view sensitive user information",
+            "description": "This issue was addressed through improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40786",
+                    "credit": "Bistrit Dahal"
+                }
+            ]
+        },
+        {
+            "module": "Siri",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An attacker with physical access to a device may be able to access contacts from the lock screen",
+            "description": "This issue was addressed by restricting options offered on a locked device.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40822",
+                    "credit": "Srijan Poudel"
+                }
+            ]
+        },
+        {
+            "module": "VoiceOver",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An attacker may be able to view restricted content from the lock screen",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40829",
+                    "credit": "Abhay Kailasia (@abhay_kailasia) of Lakshmi Narain College of Technology Bhopal India"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "An out-of-bounds access issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2024-40789",
+                    "credit": "Seunghyun Lee (@0x10n) of KAIST Hacking Lab working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "273176",
+                    "id": "CVE-2024-40776",
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                },
+                {
+                    "bugzilla": "268770",
+                    "id": "CVE-2024-40782",
+                    "credit": "Maksymilian Motyl"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing maliciously crafted web content may lead to an unexpected process crash",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "bugzilla": "275431",
+                    "id": "CVE-2024-40779",
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                },
+                {
+                    "bugzilla": "275273",
+                    "id": "CVE-2024-40780",
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "273805",
+                    "id": "CVE-2024-40785",
+                    "credit": "Johan Carlsson (joaxcar)"
+                }
+            ]
+        }
+    ]
+}

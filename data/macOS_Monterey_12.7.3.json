@@ -1,0 +1,101 @@
+{
+    "name": "macOS Monterey 12.7.3",
+    "url": "https://support.apple.com/kb/HT214057",
+    "available": "macOS Monterey",
+    "released": "22 Jan 2024",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42937",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23212",
+                    "credit": "Ye Zhang of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "curl",
+            "available": "macOS Monterey",
+            "impact": "Multiple issues in curl",
+            "description": "Multiple issues were addressed by updating to curl version 8.4.0.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38545"
+                },
+                {
+                    "id": "CVE-2023-38039"
+                },
+                {
+                    "id": "CVE-2023-38546"
+                }
+            ],
+            "updated": [
+                "February 13, 2024"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted image may result in disclosure of process memory",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42888",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Mail Search",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23207",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab), and Ian de Marcellus"
+                }
+            ]
+        },
+        {
+            "module": "Power Manager",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to corrupt coprocessor memory",
+            "description": "The issue was addressed with improved checks.",
+            "added": "April 24, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27791",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited.",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "267134",
+                    "id": "CVE-2024-23222"
+                }
+            ]
+        }
+    ]
+}

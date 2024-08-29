@@ -1,0 +1,32 @@
+{
+    "name": "iCloud for Windows 12.5",
+    "url": "https://support.apple.com/kb/HT212607",
+    "available": "Windows 10 and later via the Microsoft Store",
+    "released": "16 Aug 2021",
+    "advisories": [
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30779",
+                    "credit": "Jzhu, Ye Zhang(@co0py_Cat) of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30785",
+                    "credit": "CFF of Topsec Alpha Team, Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        }
+    ]
+}

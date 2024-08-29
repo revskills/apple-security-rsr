@@ -1,0 +1,20 @@
+{
+    "name": "Xcode 11.4.1",
+    "url": "https://support.apple.com/kb/HT211141",
+    "available": "macOS Catalina 10.15.2 and later",
+    "released": "15 Apr 2020",
+    "advisories": [
+        {
+            "module": "Git",
+            "available": "macOS Catalina 10.15.2 and later",
+            "impact": "A crafted git URL that contains a newline in it may cause credential information to be provided for the wrong host",
+            "description": "This issue was addressed by forbidding a newline character in any value passed via the credential protocol.",
+            "cves": [
+                {
+                    "id": "CVE-2020-5260",
+                    "credit": "Felix Wilhelm of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

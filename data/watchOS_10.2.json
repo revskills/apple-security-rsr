@@ -1,0 +1,197 @@
+{
+    "name": "watchOS 10.2",
+    "url": "https://support.apple.com/kb/HT214041",
+    "available": "Apple Watch Series 4 and later",
+    "released": "11 Dec 2023",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "January 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42937",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)"
+                }
+            ]
+        },
+        {
+            "module": "Accounts",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42919",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42898",
+                    "credit": "Zhenjiang Zhao of Pangu Team, Qianxin and Junsung Lee"
+                },
+                {
+                    "id": "CVE-2023-42899",
+                    "credit": "Meysam Firouzi @R00tkitSMM and Junsung Lee"
+                }
+            ],
+            "updated": [
+                "March 22, 2024"
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing a maliciously crafted image may result in disclosure of process memory",
+            "description": "The issue was addressed with improved checks.",
+            "added": "January 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42888",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42914",
+                    "credit": "Eloi Benoist-Vanderbeken (@elvanderb) of Synacktiv (@Synacktiv)"
+                }
+            ]
+        },
+        {
+            "module": "Libsystem",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to access protected user data",
+            "description": "A permissions issue was addressed by removing vulnerable code and adding additional checks.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42893"
+                }
+            ]
+        },
+        {
+            "module": "Sandbox",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42936",
+                    "credit": "Csaba Fitzl (@theevilbit) of OffSec"
+                }
+            ],
+            "updated": [
+                "July 16, 2024"
+            ]
+        },
+        {
+            "module": "TCC",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "A path handling issue was addressed with improved validation.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-42947",
+                    "credit": "Zhongquan Li (@Guluisacat) of Dawn Security Lab of JingDong"
+                }
+            ]
+        },
+        {
+            "module": "Transparency",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "The issue was addressed with improved restriction of data container access.",
+            "added": "July 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2023-40389",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security and Joshua Jewett (@JoshJewett33)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "259830",
+                    "id": "CVE-2023-42890",
+                    "credit": "Pwn2car"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing an image may lead to a denial-of-service",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "263349",
+                    "id": "CVE-2023-42883",
+                    "credit": "Zoom Offensive Security Team"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing web content may disclose sensitive information. Apple is aware of a report that this issue may have been exploited against versions of iOS before iOS 16.7.1.",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "265041",
+                    "id": "CVE-2023-42916",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited against versions of iOS before iOS 16.7.1.",
+            "description": "A memory corruption vulnerability was addressed with improved locking.",
+            "cves": [
+                {
+                    "bugzilla": "265067",
+                    "id": "CVE-2023-42917",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "added": "March 22, 2024",
+            "cves": [
+                {
+                    "bugzilla": "263682",
+                    "id": "CVE-2023-42950",
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute and rushikesh nandedka"
+                }
+            ]
+        }
+    ]
+}

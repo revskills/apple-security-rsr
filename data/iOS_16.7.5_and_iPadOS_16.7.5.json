@@ -1,0 +1,120 @@
+{
+    "name": "iOS 16.7.5 and iPadOS 16.7.5",
+    "url": "https://support.apple.com/kb/HT214063",
+    "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+    "released": "22 Jan 2024",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42937",
+                    "credit": "Noah Roskin-Frazee and Prof. J. (ZeroClicks.ai Lab)"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23212",
+                    "credit": "Ye Zhang of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing a maliciously crafted image may result in disclosure of process memory",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-42888",
+                    "credit": "Michael DePlante (@izobashi) of Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Power Manager",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "An app may be able to corrupt coprocessor memory",
+            "description": "The issue was addressed with improved checks.",
+            "added": "April 24, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27791",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "A user's private browsing activity may be visible in Settings",
+            "description": "A privacy issue was addressed with improved handling of user preferences.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23211",
+                    "credit": "Mark Bowers"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "266619",
+                    "id": "CVE-2024-23213",
+                    "credit": "Wangtaiyu of Zhongfu info"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "Multiple memory corruption issues were addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "265129",
+                    "id": "CVE-2024-23214",
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "A maliciously crafted webpage may be able to fingerprint the user",
+            "description": "An access issue was addressed with improved access restrictions.",
+            "cves": [
+                {
+                    "bugzilla": "262699",
+                    "id": "CVE-2024-23206",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited.",
+            "description": "A type confusion issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "267134",
+                    "id": "CVE-2024-23222"
+                }
+            ]
+        }
+    ]
+}

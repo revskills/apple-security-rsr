@@ -1,0 +1,56 @@
+{
+    "name": "iOS 12.4.9",
+    "url": "https://support.apple.com/kb/HT211940",
+    "available": "iPhone 5s, iPhone 6 and 6 Plus, iPad Air, iPad mini 2 and 3, iPod touch (6th generation)",
+    "released": "05 Nov 2020",
+    "advisories": [
+        {
+            "module": "FaceTime",
+            "available": "iPhone 5s, iPhone 6 and 6 Plus, iPad Air, iPad mini 2 and 3, iPod touch (6th generation)",
+            "impact": "A user may send video in Group FaceTime calls without knowing that they have done so",
+            "description": "A logic issue existed in the handling of Group FaceTime calls. The issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27929",
+                    "credit": "James P (@Jam_Penn)"
+                }
+            ]
+        },
+        {
+            "module": "FontParser",
+            "available": "iPhone 5s, iPhone 6 and 6 Plus, iPad Air, iPad mini 2 and 3, iPod touch (6th generation)",
+            "impact": "Processing a maliciously crafted font may lead to arbitrary code execution. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27930",
+                    "credit": "Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 5s, iPhone 6 and 6 Plus, iPad Air, iPad mini 2 and 3, iPod touch (6th generation)",
+            "impact": "A malicious application may be able to disclose kernel memory. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A memory initialization issue was addressed.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27950",
+                    "credit": "Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 5s, iPhone 6 and 6 Plus, iPad Air, iPad mini 2 and 3, iPod touch (6th generation)",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges. Apple is aware of reports that an exploit for this issue exists in the wild.",
+            "description": "A type confusion issue was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-27932",
+                    "credit": "Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

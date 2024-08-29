@@ -1,0 +1,489 @@
+{
+    "name": "iOS 16.6 and iPadOS 16.6",
+    "url": "https://support.apple.com/kb/HT213841",
+    "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+    "released": "24 Jul 2023",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40442",
+                    "credit": "Nick Brook"
+                }
+            ]
+        },
+        {
+            "module": "Accounts",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40439",
+                    "credit": "Kirin (@Pwnrin)"
+                }
+            ]
+        },
+        {
+            "module": "Apple Neural Engine",
+            "available": "devices with Apple Neural Engine: iPhone 8 and later, iPad Pro (3rd generation) and later, iPad Air (3rd generation) and later, and iPad mini (5th generation)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-34425",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2023-38136",
+                    "credit": "Mohamed GHANNAM (@_simo36)"
+                },
+                {
+                    "id": "CVE-2023-38580",
+                    "credit": "Mohamed GHANNAM (@_simo36)"
+                }
+            ],
+            "updated": [
+                "October 31, 2023"
+            ]
+        },
+        {
+            "module": "CFNetwork",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40392",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "Find My",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A privacy issue was addressed with improved private data redaction for log entries.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40437",
+                    "credit": "Kirin (@Pwnrin), and Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "Find My",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32416",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing a maliciously crafted image may lead to a denial of service",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-3970",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A remote user may be able to cause unexpected system termination or corrupt kernel memory",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38590",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38598",
+                    "credit": "Mohamed GHANNAM (@_simo36)"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "An integer overflow was addressed with improved input validation.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-36495",
+                    "credit": "\u9999\u519c\u7684\u4e09\u8e66\u5b50 of Pangu Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38604",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32734",
+                    "credit": "Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+                },
+                {
+                    "id": "CVE-2023-32441",
+                    "credit": "Peter Nguy\u1ec5n V\u0169 Ho\u00e0ng (@peternguyen14) of STAR Labs SG Pte. Ltd."
+                },
+                {
+                    "id": "CVE-2023-38261",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2023-38424",
+                    "credit": "Certik Skyfall Team"
+                },
+                {
+                    "id": "CVE-2023-38425",
+                    "credit": "Certik Skyfall Team"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to modify sensitive kernel state. Apple is aware of a report that this issue may have been actively exploited against versions of iOS released before iOS 15.7.1.",
+            "description": "This issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38606",
+                    "credit": "Valentin Pashkov, Mikhail Vinogradov, Georgy Kucherin (@kucher1n), Leonid Bezvershenko (@bzvr_), and Boris Larin (@oct0xor) of Kaspersky"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A use-after-free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32381",
+                    "credit": "an anonymous researcher"
+                },
+                {
+                    "id": "CVE-2023-32433",
+                    "credit": "Zweig of Kunlun Lab"
+                },
+                {
+                    "id": "CVE-2023-35993",
+                    "credit": "Kaitao Xie and Xiaolong Bai of Alibaba Group"
+                },
+                {
+                    "id": "CVE-2023-41995",
+                    "credit": "Certik Skyfall Team, pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                },
+                {
+                    "id": "CVE-2023-38598",
+                    "credit": "Mohamed GHANNAM (@_simo36)"
+                }
+            ],
+            "updated": [
+                "October 31, 2023"
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A user may be able to elevate privileges",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38410",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A remote user may be able to cause a denial-of-service",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38603",
+                    "credit": "Zweig of Kunlun Lab"
+                }
+            ]
+        },
+        {
+            "module": "libpcap",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A remote user may cause an unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40400",
+                    "credit": "Sei K."
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to gain root privileges",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38565",
+                    "credit": "Zhipeng Huo (@R3dF09) of Tencent Security Xuanwu Lab (xlab.tencent.com)"
+                }
+            ]
+        },
+        {
+            "module": "libxpc",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to cause a denial-of-service",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-38593",
+                    "credit": "Noah Roskin-Frazee"
+                }
+            ]
+        },
+        {
+            "module": "Logging",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "The issue was addressed with improved validation of environment variables.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-40394",
+                    "credit": "Wojciech Regula of SecuRing (wojciechregula.blog)"
+                }
+            ]
+        },
+        {
+            "module": "NSURLSession",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to break out of its sandbox",
+            "description": "The issue was addressed with improvements to the file handling protocol.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32437",
+                    "credit": "Thijs Alkemade from Computest Sector 7"
+                }
+            ]
+        },
+        {
+            "module": "Weather",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "An app may be able to determine a user\u2019s current location",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-38605",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A remote attacker may be able to cause arbitrary javascript code execution",
+            "description": "The issue was addressed with improved checks.",
+            "added": "October 31, 2023",
+            "cves": [
+                {
+                    "bugzilla": "257824",
+                    "id": "CVE-2023-40397",
+                    "credit": "Johan Carlsson (joaxcar)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A website may be able to track sensitive user information",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "bugzilla": "257822",
+                    "id": "CVE-2023-38599",
+                    "credit": "Hritvik Taneja, Jason Kim, Jie Jeff Xu, Stephan van Schaik, Daniel Genkin, and Yuval Yarom"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing a document may lead to a cross site scripting attack",
+            "description": "This issue was addressed with improved checks.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "bugzilla": "257299",
+                    "id": "CVE-2023-32445",
+                    "credit": "Johan Carlsson (joaxcar)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "bugzilla": "257331",
+                    "id": "CVE-2023-38592",
+                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India, Valentino Dalla Valle, Pedro Bernardo, Marco Squarcina, and Lorenzo Veronese of TU Wien"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A website may be able to bypass Same Origin Policy",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "256549",
+                    "id": "CVE-2023-38572",
+                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "256865",
+                    "id": "CVE-2023-38594",
+                    "credit": "Yuhao Hu"
+                },
+                {
+                    "bugzilla": "256573",
+                    "id": "CVE-2023-38595",
+                    "credit": "an anonymous researcher, Jiming Wang, and Jikai Ren"
+                },
+                {
+                    "bugzilla": "257387",
+                    "id": "CVE-2023-38600",
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "258058",
+                    "id": "CVE-2023-38611",
+                    "credit": "Francisco Alonso (@revskills)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "The issue was addressed with improved checks.",
+            "rsr": "This issue was first addressed in Rapid Security Response iOS 16.5.1 (c) and iPadOS 16.5.1 (c).",
+            "cves": [
+                {
+                    "bugzilla": "259231",
+                    "id": "CVE-2023-37450",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "December 21, 2023",
+            "cves": [
+                {
+                    "bugzilla": "257684",
+                    "id": "CVE-2023-42866",
+                    "credit": "Francisco Alonso (@revskills) and Junsung Lee"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Process Model",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "258100",
+                    "id": "CVE-2023-38597",
+                    "credit": "\uc774\uc900\uc131(Junsung Lee) of Cross Republic"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Web Inspector",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing web content may disclose sensitive information",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "bugzilla": "256932",
+                    "id": "CVE-2023-38133",
+                    "credit": "YeongHyeon Choi (@hyeon101010)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "watchOS 9.6.3",
+    "url": "https://support.apple.com/kb/HT213929",
+    "available": "Apple Watch Series 4 and later",
+    "released": "21 Sep 2023",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A local attacker may be able to elevate their privileges. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-41992",
+                    "credit": "Bill Marczak of The Citizen Lab at The University of Toronto's Munk School and Maddie Stone of Google's Threat Analysis Group"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A malicious app may be able to bypass signature validation. Apple is aware of a report that this issue may have been actively exploited against versions of iOS before iOS 16.7.",
+            "description": "A certificate validation issue was addressed.",
+            "cves": [
+                {
+                    "id": "CVE-2023-41991",
+                    "credit": "Bill Marczak of The Citizen Lab at The University of Toronto's Munk School and Maddie Stone of Google's Threat Analysis Group"
+                }
+            ]
+        }
+    ]
+}

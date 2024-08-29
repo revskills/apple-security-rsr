@@ -1,0 +1,93 @@
+{
+    "name": "macOS 10.14.6 Supplemental Update",
+    "url": "https://support.apple.com/kb/HT211872",
+    "available": "macOS Mojave",
+    "released": "01 Oct 2020",
+    "advisories": [
+        {
+            "module": "Safari",
+            "available": "macOS Catalina and macOS Mojave, and included in macOS Big Sur",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "The issue was addressed with improved UI handling.",
+            "added": "November 12, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9993",
+                    "credit": "Masato Sugiyama (@smasato) of University of Tsukuba, Piotr Duszynski"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "macOS Catalina and macOS Mojave, and included in macOS Big Sur",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "An inconsistent user interface issue was addressed with improved state management.",
+            "added": "November 12, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9987",
+                    "credit": "Rafay Baloch (cybercitadel.com) of Cyber Citadel"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9948",
+                    "credit": "Brendan Draper (@6r3nd4n) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave, and included in macOS Big Sur",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9947",
+                    "credit": "cc working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2020-9950",
+                    "credit": "cc working with Trend Micro Zero Day Initiative"
+                },
+                {
+                    "id": "CVE-2020-9951",
+                    "credit": "Marcin 'Icewall' Noga of Cisco Talos"
+                }
+            ],
+            "updated": [
+                "November 12, 2020"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack",
+            "description": "An input validation issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9952",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Catalina and macOS Mojave",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9983",
+                    "credit": "zhunki"
+                }
+            ]
+        }
+    ]
+}

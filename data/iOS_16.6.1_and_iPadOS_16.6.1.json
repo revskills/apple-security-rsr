@@ -1,0 +1,32 @@
+{
+    "name": "iOS 16.6.1 and iPadOS 16.6.1",
+    "url": "https://support.apple.com/kb/HT213905",
+    "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+    "released": "07 Sep 2023",
+    "advisories": [
+        {
+            "module": "ImageIO",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2023-41064",
+                    "credit": "The Citizen Lab at The University of Toronto\u02bcs Munk School"
+                }
+            ]
+        },
+        {
+            "module": "Wallet",
+            "available": "iPhone 8 and later, iPad Pro (all models), iPad Air 3rd generation and later, iPad 5th generation and later, and iPad mini 5th generation and later",
+            "impact": "A maliciously crafted attachment may result in arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A validation issue was addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2023-41061",
+                    "credit": "Apple"
+                }
+            ]
+        }
+    ]
+}

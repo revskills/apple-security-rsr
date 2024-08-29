@@ -1,0 +1,239 @@
+{
+    "name": "macOS Monterey 12.7.5",
+    "url": "https://support.apple.com/kb/HT214105",
+    "available": "macOS Monterey",
+    "released": "13 May 2024",
+    "advisories": [
+        {
+            "module": "Core Data",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "An issue was addressed with improved validation of environment variables.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27805",
+                    "credit": "Kirin (@Pwnrin) and \u5c0f\u6765\u6765 (@Smi1eSEC)"
+                }
+            ]
+        },
+        {
+            "module": "CoreMedia",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27817",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "CoreMedia",
+            "available": "macOS Monterey",
+            "impact": "Processing a file may lead to unexpected app termination or arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27831",
+                    "credit": "Amir Bazine and Karsten K\u00f6nig of CrowdStrike Counter Adversary Operations"
+                }
+            ]
+        },
+        {
+            "module": "Disk Management",
+            "available": "macOS Monterey",
+            "impact": "A user may be able to elevate privileges",
+            "description": "An authorization issue was addressed with improved state management.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27798",
+                    "credit": "Yann GASCUEL of Alter Solutions"
+                }
+            ]
+        },
+        {
+            "module": "Find My",
+            "available": "macOS Monterey",
+            "impact": "A malicious application may be able to access Find My data",
+            "description": "This issue was addressed with improved redaction of sensitive information.",
+            "cves": [
+                {
+                    "id": "CVE-2024-23229",
+                    "credit": "Joshua Jewett (@JoshJewett33)"
+                }
+            ]
+        },
+        {
+            "module": "Foundation",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access user-sensitive data",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2024-27789",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "IOHIDFamily",
+            "available": "macOS Monterey",
+            "impact": "An unprivileged app may be able to log keystrokes in other apps including those using secure input mode",
+            "description": "This issue was addressed with additional entitlement checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27799",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An attacker that has already achieved kernel code execution may be able to bypass kernel memory protections",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27840",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Monterey",
+            "impact": "An attacker in a privileged network position may be able to spoof network packets",
+            "description": "A race condition was addressed with improved locking.",
+            "added": "July 29, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27823",
+                    "credit": "Prof. Benny Pinkas of Bar-Ilan University, Prof. Amit Klein of Hebrew University, and EP"
+                }
+            ]
+        },
+        {
+            "module": "Maps",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A path handling issue was addressed with improved validation.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27810",
+                    "credit": "LFY@secsys of Fudan University"
+                }
+            ]
+        },
+        {
+            "module": "Messages",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted message may lead to a denial-of-service",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27800",
+                    "credit": "Daniel Zajork and Joshua Zajork"
+                }
+            ]
+        },
+        {
+            "module": "Metal",
+            "available": "macOS Monterey",
+            "impact": "Processing a maliciously crafted file may lead to unexpected app termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27802",
+                    "credit": "Meysam Firouzi (@R00tkitsmm) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to modify protected parts of the file system",
+            "description": "This issue was addressed with improved validation of symlinks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27885",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to elevate privileges",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27824",
+                    "credit": "Pedro T\u00f4rres (@t0rr3sp3dr0)"
+                }
+            ]
+        },
+        {
+            "module": "SharedFileList",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to elevate privileges",
+            "description": "A logic issue was addressed with improved checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27843",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Spotlight",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to access sensitive user data",
+            "description": "This issue was addressed with improved environment sanitization.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27806"
+                }
+            ]
+        },
+        {
+            "module": "Sync Services",
+            "available": "macOS Monterey",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed with improved checks",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27847",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Voice Control",
+            "available": "macOS Monterey",
+            "impact": "A user may be able to elevate privileges",
+            "description": "The issue was addressed with improved checks.",
+            "added": "June 10, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2024-27796",
+                    "credit": "ajajfxhj"
+                }
+            ]
+        }
+    ]
+}

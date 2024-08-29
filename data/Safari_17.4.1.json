@@ -1,0 +1,20 @@
+{
+    "name": "Safari 17.4.1",
+    "url": "https://support.apple.com/kb/HT214094",
+    "available": "macOS Monterey and macOS Ventura",
+    "released": "25 Mar 2024",
+    "advisories": [
+        {
+            "module": "WebRTC",
+            "available": "macOS Monterey and macOS Ventura",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-1580",
+                    "credit": "Nick Galloway of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

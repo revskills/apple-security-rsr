@@ -1,0 +1,32 @@
+{
+    "name": "iOS 16.7.7 and iPadOS 16.7.7",
+    "url": "https://support.apple.com/kb/HT214098",
+    "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+    "released": "21 Mar 2024",
+    "advisories": [
+        {
+            "module": "CoreMedia",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-1580",
+                    "credit": "Nick Galloway of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "iPhone 8, iPhone 8 Plus, iPhone X, iPad 5th generation, iPad Pro 9.7-inch, and iPad Pro 12.9-inch 1st generation",
+            "impact": "Processing an image may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2024-1580",
+                    "credit": "Nick Galloway of Google Project Zero"
+                }
+            ]
+        }
+    ]
+}

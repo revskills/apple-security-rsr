@@ -1,0 +1,20 @@
+{
+    "name": "iOS 13.5.1 and iPadOS 13.5.1",
+    "url": "https://support.apple.com/kb/HT211214",
+    "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+    "released": "01 Jun 2020",
+    "advisories": [
+        {
+            "module": "Kernel",
+            "available": "iPhone 6s and later, iPad Air 2 and later, iPad mini 4 and later, and iPod touch 7th generation",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9859",
+                    "credit": "unc0ver"
+                }
+            ]
+        }
+    ]
+}

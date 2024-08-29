@@ -1,0 +1,20 @@
+{
+    "name": "watchOS 9.6.2",
+    "url": "https://support.apple.com/kb/HT213907",
+    "available": "Apple Watch Series 4 and later",
+    "released": "07 Sep 2023",
+    "advisories": [
+        {
+            "module": "Wallet",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A maliciously crafted attachment may result in arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A validation issue was addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2023-41061",
+                    "credit": "Apple"
+                }
+            ]
+        }
+    ]
+}

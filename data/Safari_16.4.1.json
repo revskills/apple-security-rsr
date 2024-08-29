@@ -1,0 +1,21 @@
+{
+    "name": "Safari 16.4.1",
+    "url": "https://support.apple.com/kb/HT213722",
+    "available": "macOS Big Sur and macOS Monterey",
+    "released": "07 Apr 2023",
+    "advisories": [
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "254797",
+                    "id": "CVE-2023-28205",
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group and Donncha \u00d3 Cearbhaill of Amnesty International\u2019s Security Lab"
+                }
+            ]
+        }
+    ]
+}

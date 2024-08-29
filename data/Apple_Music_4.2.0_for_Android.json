@@ -1,0 +1,32 @@
+{
+    "name": "Apple Music 4.2.0 for Android",
+    "url": "https://support.apple.com/kb/HT213833",
+    "available": "Android version 5.0 and later",
+    "released": "23 May 2023",
+    "advisories": [
+        {
+            "module": "Apple Music on Android",
+            "available": "Android version 5.0 and later",
+            "impact": "An attacker in a privileged network position may be able to intercept network traffic",
+            "description": "This issue was addressed by using HTTPS when sending information over the network.",
+            "cves": [
+                {
+                    "id": "CVE-2023-32427",
+                    "credit": "David Coomber of Info-Sec.CA"
+                }
+            ]
+        },
+        {
+            "module": "Apple Music on Android",
+            "available": "Android version 5.0 and later",
+            "impact": "An app may be able to access contacts",
+            "description": "The issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2023-28203",
+                    "credit": "ZiMing Zeng(@hluwa) of iJiami Technology Co. Ltd (ijiami.cn)"
+                }
+            ]
+        }
+    ]
+}

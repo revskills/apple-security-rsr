@@ -1,0 +1,148 @@
+{
+    "name": "iCloud for Windows 10.9.3",
+    "url": "https://support.apple.com/kb/HT211106",
+    "available": "Windows 10 and later via the Microsoft Store",
+    "released": "25 Mar 2020",
+    "advisories": [
+        {
+            "module": "libxml2",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Multiple issues in libxml2",
+            "description": "A buffer overflow was addressed with improved size validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3910",
+                    "credit": "LGTM.com"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Multiple issues in libxml2",
+            "description": "A buffer overflow was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3909",
+                    "credit": "LGTM.com"
+                },
+                {
+                    "id": "CVE-2020-3911",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3901",
+                    "credit": "Benjamin Randazzo (@____benjamin)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "A download's origin may be incorrectly associated",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3887",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3895",
+                    "credit": "grigoritchy"
+                },
+                {
+                    "id": "CVE-2020-3900",
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "An application may be able to read restricted memory",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3894",
+                    "credit": "Sergei Glazunov of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A type confusion issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3897",
+                    "credit": "Brendan Draper (@6r3nd4n) working with Trend Micro\u2019s Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing maliciously crafted web content may lead to code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9783",
+                    "credit": "Apple"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "A remote attacker may be able to cause arbitrary code execution",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3899",
+                    "credit": "found by OSS-Fuzz"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack",
+            "description": "An input validation issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3902",
+                    "credit": "Yi\u011fit Can YILMAZ (@yilmazcanyigit)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Page Loading",
+            "available": "Windows 10 and later via the Microsoft Store",
+            "impact": "A file URL may be incorrectly processed",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2020-3885",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,365 @@
+{
+    "name": "watchOS 9.2",
+    "url": "https://support.apple.com/kb/HT213536",
+    "available": "Apple Watch Series 4 and later",
+    "released": "13 Dec 2022",
+    "advisories": [
+        {
+            "module": "Accessibility",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A user with physical access to a locked Apple Watch may be able to view user photos via accessibility features",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "June 6, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46717",
+                    "credit": "Zitong Wu(\u5434\u6893\u6850) from Zhuhai No.1 Middle School(\u73e0\u6d77\u5e02\u7b2c\u4e00\u4e2d\u5b66)"
+                }
+            ]
+        },
+        {
+            "module": "Accounts",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A user may be able to view sensitive user information",
+            "description": "This issue was addressed with improved data protection.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42843",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "AppleAVD",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Parsing a maliciously crafted video file may lead to kernel code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46694",
+                    "credit": "Andrey Labunets and Nikita Tarakanov"
+                }
+            ]
+        },
+        {
+            "module": "AppleMobileFileIntegrity",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "This issue was addressed by enabling hardened runtime.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42865",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing"
+                }
+            ]
+        },
+        {
+            "module": "CoreServices",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "Multiple issues were addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42859",
+                    "credit": "Mickey Jin (@patch1t), Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing a maliciously crafted file may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46693",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "IOHIDFamily",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with improved state handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42864",
+                    "credit": "Tommy Muir (@Muirey03)"
+                }
+            ]
+        },
+        {
+            "module": "IOMobileFrameBuffer",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46690",
+                    "credit": "John Aakerblom (@jaakerblom)"
+                }
+            ]
+        },
+        {
+            "module": "iTunes Store",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An issue existed in the parsing of URLs. This issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42837",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "A race condition was addressed with additional validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46689",
+                    "credit": "Ian Beer of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A remote user may be able to cause kernel code execution",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42842",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app with root privileges may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42845",
+                    "credit": "Adam Doup\u00e9 of ASU SEFCOM"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An attacker with arbitrary read and write capability may be able to bypass Pointer Authentication. Apple is aware of a report that this issue may have been exploited against versions of iOS released before iOS 15.7.1.",
+            "description": "The issue was addressed with improved checks.",
+            "added": "January 9, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2022-48618",
+                    "credit": "Apple"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "An integer overflow was addressed through improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40303",
+                    "credit": "Maddie Stone of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "libxml2",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A remote user may be able to cause unexpected app termination or arbitrary code execution",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-40304",
+                    "credit": "Ned Williamson and Nathan Wachholz of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Preferences",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to use arbitrary entitlements",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "June 6, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-42855",
+                    "credit": "Ivan Fratric of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "Safari",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Visiting a website that frames malicious content may lead to UI spoofing",
+            "description": "A spoofing issue existed in the handling of URLs. This issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46695",
+                    "credit": "KirtiKumar Anandrao Ramchandani"
+                }
+            ]
+        },
+        {
+            "module": "Software Update",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "A user may be able to elevate privileges",
+            "description": "An access issue existed with privileged API calls. This issue was addressed with additional restrictions.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42849",
+                    "credit": "Mickey Jin (@patch1t)"
+                }
+            ]
+        },
+        {
+            "module": "Weather",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "A logic issue was addressed with improved restrictions.",
+            "added": "June 6, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46703",
+                    "credit": "Wojciech Regu\u0142a (@_r3ggi) of SecuRing and Adam M."
+                }
+            ]
+        },
+        {
+            "module": "Weather",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "An app may be able to read sensitive location information",
+            "description": "The issue was addressed with improved handling of caches.",
+            "added": "August 16, 2024",
+            "cves": [
+                {
+                    "id": "CVE-2022-42866",
+                    "credit": "Adam M."
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Visiting a malicious website may lead to address bar spoofing",
+            "description": "A spoofing issue existed in the handling of URLs. This issue was addressed with improved input validation.",
+            "added": "June 6, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2022-46705",
+                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "bugzilla": "245521",
+                    "id": "CVE-2022-42867",
+                    "credit": "Maddie Stone of Google Project Zero"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory consumption issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "245466",
+                    "id": "CVE-2022-46691",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may bypass Same Origin Policy",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "246783",
+                    "id": "CVE-2022-46692",
+                    "credit": "KirtiKumar Anandrao Ramchandani"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may result in the disclosure of process memory",
+            "description": "The issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-42852",
+                    "credit": "hazbinhotel working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "246942",
+                    "id": "CVE-2022-46696",
+                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                },
+                {
+                    "bugzilla": "247562",
+                    "id": "CVE-2022-46700",
+                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may disclose sensitive user information",
+            "description": "A logic issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2022-46698",
+                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Secure Disclosure Labs & DNSLab, Korea Univ."
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Apple Watch Series 4 and later",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "247420",
+                    "id": "CVE-2022-46699",
+                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                },
+                {
+                    "bugzilla": "244622",
+                    "id": "CVE-2022-42863",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        }
+    ]
+}

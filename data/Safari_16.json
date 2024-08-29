@@ -1,0 +1,90 @@
+{
+    "name": "Safari 16",
+    "url": "https://support.apple.com/kb/HT213442",
+    "available": "macOS Big Sur and macOS Monterey",
+    "released": "12 Sep 2022",
+    "advisories": [
+        {
+            "module": "Safari Extensions",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "A website may be able to track users through Safari web extensions",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "242278",
+                    "id": "CVE-2022-32868",
+                    "credit": "Michael"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A buffer overflow issue was addressed with improved memory handling.",
+            "cves": [
+                {
+                    "bugzilla": "241969",
+                    "id": "CVE-2022-32886",
+                    "credit": "P1umer, afang5472, xmzyshypnc"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "bugzilla": "242762",
+                    "id": "CVE-2022-32912",
+                    "credit": "Jeonghoon Shin (@singi21a) at Theori working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "Visiting a website that frames malicious content may lead to UI spoofing",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "bugzilla": "243236",
+                    "id": "CVE-2022-32891",
+                    "credit": "@real_as3617 and an anonymous researcher"
+                }
+            ],
+            "updated": [
+                "October 27, 2022"
+            ]
+        },
+        {
+            "module": "WebKit Sandboxing",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "A sandboxed process may be able to circumvent sandbox restrictions",
+            "description": "An access issue was addressed with improvements to the sandbox.",
+            "added": "October 27, 2022",
+            "cves": [
+                {
+                    "bugzilla": "243181",
+                    "id": "CVE-2022-32892",
+                    "credit": "@18\u697c\u68a6\u60f3\u6539\u9020\u5bb6 and @jq0904 of DBAppSecurity's WeBin lab"
+                }
+            ]
+        },
+        {
+            "module": "WebKit Storage",
+            "available": "macOS Big Sur and macOS Monterey",
+            "impact": "An app may be able to bypass Privacy preferences",
+            "description": "The issue was addressed with improved handling of caches.",
+            "added": "December 22, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32833",
+                    "credit": "Csaba Fitzl (@theevilbit) of Offensive Security, Jeff Johnson"
+                }
+            ]
+        }
+    ]
+}

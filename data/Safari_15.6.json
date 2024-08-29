@@ -1,0 +1,103 @@
+{
+    "name": "Safari 15.6",
+    "url": "https://support.apple.com/kb/HT213341",
+    "available": "macOS Big Sur and macOS Catalina",
+    "released": "20 Jul 2022",
+    "advisories": [
+        {
+            "module": "JavaScriptCore",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing web content may lead to arbitrary code execution",
+            "description": "The issue was addressed with improved bounds checks.",
+            "added": "June 21, 2023",
+            "cves": [
+                {
+                    "bugzilla": "241931",
+                    "id": "CVE-2022-48503",
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech, and ZhaoHai of Cyberpeace Tech Co., Ltd."
+                }
+            ]
+        },
+        {
+            "module": "Safari Extensions",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Visiting a maliciously crafted website may leak sensitive data",
+            "description": "The issue was addressed with improved UI handling.",
+            "cves": [
+                {
+                    "id": "CVE-2022-32784",
+                    "credit": "Young Min Kim of CompSec Lab at Seoul National University"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved validation.",
+            "added": "March 16, 2023",
+            "cves": [
+                {
+                    "bugzilla": "241526",
+                    "id": "CVE-2022-32885",
+                    "credit": "P1umer(@p1umer) and Q1IQ(@q1iqF)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "A user may be tracked through their IP address",
+            "description": "A logic issue was addressed with improved state management.",
+            "added": "September 16, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32861",
+                    "credit": "Matthias Keller (m-keller.com)"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "added": "September 16, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2022-32863",
+                    "credit": "P1umer(@p1umer), afang(@afang5472), xmzyshypnc(@xmzyshypnc1)"
+                }
+            ],
+            "updated": [
+                "March 16, 2023"
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution",
+            "description": "An out-of-bounds write issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "bugzilla": "240720",
+                    "id": "CVE-2022-32792",
+                    "credit": "Manfred Paul (@_manfp) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "WebRTC",
+            "available": "macOS Big Sur and macOS Catalina",
+            "impact": "Processing maliciously crafted web content may lead to arbitrary code execution.",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "bugzilla": "242339",
+                    "id": "CVE-2022-2294",
+                    "credit": "Jan Vojtesek of Avast Threat Intelligence team"
+                }
+            ]
+        }
+    ]
+}

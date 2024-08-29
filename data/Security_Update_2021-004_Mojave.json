@@ -1,0 +1,496 @@
+{
+    "name": "Security Update 2021-004 Mojave",
+    "url": "https://support.apple.com/kb/HT212531",
+    "available": "macOS Mojave",
+    "released": "24 May 2021",
+    "advisories": [
+        {
+            "module": "AMD",
+            "available": "macOS Mojave",
+            "impact": "A local user may be able to cause unexpected system termination or read kernel memory",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30676",
+                    "credit": "shrek_wzw"
+                }
+            ]
+        },
+        {
+            "module": "AMD",
+            "available": "macOS Mojave",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30678",
+                    "credit": "Yu Wang of Didi Research America"
+                }
+            ]
+        },
+        {
+            "module": "apache",
+            "available": "macOS Mojave",
+            "impact": "Multiple issues in apache",
+            "description": "Multiple issues in apache were addressed by updating apache to version 2.4.46.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30690",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "AppleScript",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may bypass Gatekeeper checks",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30669",
+                    "credit": "Yair Hoffman"
+                }
+            ]
+        },
+        {
+            "module": "Core Services",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may be able to gain root privileges",
+            "description": "A validation issue existed in the handling of symlinks. This issue was addressed with improved validation of symlinks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30681",
+                    "credit": "Zhongcheng Li (CK01)"
+                }
+            ]
+        },
+        {
+            "module": "CVMS",
+            "available": "macOS Mojave",
+            "impact": "A local attacker may be able to elevate their privileges",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30724",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Graphics Drivers",
+            "available": "macOS Mojave",
+            "impact": "An out-of-bounds write issue was addressed with improved bounds checking",
+            "description": "A malicious application may be able to execute arbitrary code with kernel privileges.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30735",
+                    "credit": "Jack Dates of RET2 Systems, Inc. (@ret2systems) working with Trend Micro Zero Day Initiative"
+                }
+            ]
+        },
+        {
+            "module": "Heimdal",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may cause a denial of service or potentially disclose memory contents",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30710",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "Heimdal",
+            "available": "macOS Mojave",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "A race condition was addressed with improved locking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1884",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "Heimdal",
+            "available": "macOS Mojave",
+            "impact": "Processing maliciously crafted server messages may lead to heap corruption",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-1883",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "Heimdal",
+            "available": "macOS Mojave",
+            "impact": "A local user may be able to leak sensitive user information",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30697",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "Heimdal",
+            "available": "macOS Mojave",
+            "impact": "A malicious application could execute arbitrary code leading to compromise of user information",
+            "description": "A use after free issue was addressed with improved memory management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30683",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted image may lead to disclosure of user information",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30687",
+                    "credit": "Hou JingYi (@hjy79425575) of Qihoo 360"
+                }
+            ]
+        },
+        {
+            "module": "ImageIO",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted ASTC file may disclose memory contents",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30705",
+                    "credit": "Ye Zhang of Baidu Security"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Mojave",
+            "impact": "A malicious application may be able to execute arbitrary code with kernel privileges",
+            "description": "An out-of-bounds write issue was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30728",
+                    "credit": "Liu Long of Ant Security Light-Year Lab"
+                }
+            ]
+        },
+        {
+            "module": "Intel Graphics Driver",
+            "available": "macOS Mojave",
+            "impact": "An out-of-bounds write issue was addressed with improved bounds checking",
+            "description": "A malicious application may be able to execute arbitrary code with kernel privileges.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30726",
+                    "credit": "Yinyi Wu (@3ndy1) of Qihoo 360 Vulcan Team"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Mojave",
+            "impact": "An application may be able to execute arbitrary code with kernel privileges",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30704",
+                    "credit": "an anonymous researcher"
+                }
+            ]
+        },
+        {
+            "module": "Kernel",
+            "available": "macOS Mojave",
+            "impact": "A memory corruption issue was addressed with improved validation",
+            "description": "A local attacker may be able to elevate their privileges.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30739",
+                    "credit": "Zuozhi Fan (@pattern_F_) of Ant Group Tianqiong Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "Login Window",
+            "available": "macOS Mojave",
+            "impact": "A person with physical access to a Mac may be able to bypass Login Window",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30702",
+                    "credit": "Jewel Lambert of Original Spin, LLC."
+                }
+            ]
+        },
+        {
+            "module": "Mail",
+            "available": "macOS Mojave",
+            "impact": "A logic issue was addressed with improved state management",
+            "description": "An attacker in a privileged network position may be able to misrepresent application state.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30696",
+                    "credit": "Fabian Ising and Damian Poddebniak of M\u00fcnster University of Applied Sciences"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2021-30819"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30723",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                },
+                {
+                    "id": "CVE-2021-30691",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                },
+                {
+                    "id": "CVE-2021-30694",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                },
+                {
+                    "id": "CVE-2021-30692",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30746",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted image may lead to arbitrary code execution",
+            "description": "A validation issue was addressed with improved logic.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30693",
+                    "credit": "Mickey Jin (@patch1t) & Junzhi Lu (@pwn0rz) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "An out-of-bounds read was addressed with improved bounds checking.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30695",
+                    "credit": "Mickey Jin (@patch1t) & Junzhi Lu (@pwn0rz) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30708",
+                    "credit": "Mickey Jin (@patch1t) & Junzhi Lu (@pwn0rz) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted USD file may disclose memory contents",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30709",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "Model I/O",
+            "available": "macOS Mojave",
+            "impact": "Processing a maliciously crafted USD file may lead to unexpected application termination or arbitrary code execution",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30725",
+                    "credit": "Mickey Jin (@patch1t) of Trend Micro"
+                }
+            ]
+        },
+        {
+            "module": "NSOpenPanel",
+            "available": "macOS Mojave",
+            "impact": "An application may be able to gain elevated privileges",
+            "description": "This issue was addressed by removing the vulnerable code.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30679",
+                    "credit": "Gabe Kirkpatrick (@gabe_k)"
+                }
+            ]
+        },
+        {
+            "module": "OpenLDAP",
+            "available": "macOS Mojave",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "This issue was addressed with improved checks.",
+            "cves": [
+                {
+                    "id": "CVE-2020-36226"
+                },
+                {
+                    "id": "CVE-2020-36229"
+                },
+                {
+                    "id": "CVE-2020-36225"
+                },
+                {
+                    "id": "CVE-2020-36224"
+                },
+                {
+                    "id": "CVE-2020-36223"
+                },
+                {
+                    "id": "CVE-2020-36227"
+                },
+                {
+                    "id": "CVE-2020-36228"
+                },
+                {
+                    "id": "CVE-2020-36221"
+                },
+                {
+                    "id": "CVE-2020-36222"
+                },
+                {
+                    "id": "CVE-2020-36230"
+                }
+            ]
+        },
+        {
+            "module": "PackageKit",
+            "available": "macOS Mojave",
+            "impact": "An issue with path validation logic for hardlinks was addressed with improved path sanitization",
+            "description": "A malicious application may be able to overwrite arbitrary files.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30738",
+                    "credit": "Qingyang Chen of Topsec Alpha Team, Csaba Fitzl (@theevilbit) of Offensive Security"
+                }
+            ]
+        },
+        {
+            "module": "Security",
+            "available": "macOS Mojave",
+            "impact": "A memory corruption issue in the ASN.1 decoder was addressed by removing the vulnerable code",
+            "description": "Processing a maliciously crafted certificate may lead to arbitrary code execution.",
+            "added": "July 21, 2021",
+            "cves": [
+                {
+                    "id": "CVE-2021-30737",
+                    "credit": "xerub"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Mojave",
+            "impact": "An attacker in a privileged network position may be able to perform denial of service",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30716",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Mojave",
+            "impact": "An attacker in a privileged network position may be able to execute arbitrary code",
+            "description": "A memory corruption issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30717",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Mojave",
+            "impact": "A remote attacker may be able to cause unexpected application termination or arbitrary code execution",
+            "description": "A logic issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30712",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Mojave",
+            "impact": "An attacker in a privileged network position may be able to leak sensitive user information",
+            "description": "A path handling issue was addressed with improved validation.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30721",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        },
+        {
+            "module": "smbx",
+            "available": "macOS Mojave",
+            "impact": "An attacker in a privileged network position may be able to leak sensitive user information",
+            "description": "An information disclosure issue was addressed with improved state management.",
+            "cves": [
+                {
+                    "id": "CVE-2021-30722",
+                    "credit": "Aleksandar Nikolic of Cisco Talos"
+                }
+            ]
+        }
+    ]
+}

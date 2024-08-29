@@ -1,0 +1,19 @@
+{
+    "name": "iOS 16.0.3",
+    "url": "https://support.apple.com/kb/HT213480",
+    "available": "iPhone 8 and later",
+    "released": "10 Oct 2022",
+    "advisories": [
+        {
+            "module": "Mail",
+            "available": "iPhone 8 and later",
+            "impact": "Processing a maliciously crafted email message may lead to a denial-of-service",
+            "description": "An input validation issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2022-22658"
+                }
+            ]
+        }
+    ]
+}

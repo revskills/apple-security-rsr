@@ -1,0 +1,57 @@
+{
+    "name": "iCloud for Windows 7.21",
+    "url": "https://support.apple.com/kb/HT211847",
+    "available": "Windows 7 and later",
+    "released": "24 Sep 2020",
+    "advisories": [
+        {
+            "module": "ImageIO",
+            "available": "Windows 7 and later",
+            "impact": "Processing a maliciously crafted tiff file may lead to a denial-of-service or potentially disclose memory contents",
+            "description": "An out-of-bounds read was addressed with improved input validation.",
+            "added": "May 25, 2022",
+            "cves": [
+                {
+                    "id": "CVE-2020-36521",
+                    "credit": "Xingwei Lin of Ant-Financial Light-Year Security Lab"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "Windows 7 and later",
+            "impact": "A remote attacker may be able to cause a denial of service",
+            "description": "This issue was addressed with improved checks.",
+            "added": "November 12, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-9991"
+                }
+            ]
+        },
+        {
+            "module": "SQLite",
+            "available": "Windows 7 and later",
+            "impact": "Multiple issues in SQLite",
+            "description": "Multiple issues were addressed by updating SQLite to version 3.32.3.",
+            "added": "November 12, 2020",
+            "cves": [
+                {
+                    "id": "CVE-2020-15358"
+                }
+            ]
+        },
+        {
+            "module": "WebKit",
+            "available": "Windows 7 and later",
+            "impact": "Processing maliciously crafted web content may lead to a cross site scripting attack",
+            "description": "An input validation issue was addressed with improved input validation.",
+            "cves": [
+                {
+                    "id": "CVE-2020-9952",
+                    "credit": "Ryan Pickren (ryanpickren.com)"
+                }
+            ]
+        }
+    ]
+}
