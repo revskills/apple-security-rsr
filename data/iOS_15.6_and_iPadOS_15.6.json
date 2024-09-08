@@ -317,7 +317,15 @@
                 {
                     "bugzilla": "241931",
                     "id": "CVE-2022-48503",
-                    "credit": "Dongzhuo Zhao working with ADLab of Venustech, and ZhaoHai of Cyberpeace Tech Co., Ltd."
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech, and ZhaoHai of Cyberpeace Tech Co., Ltd.",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=241931",
+                    "commits": [
+                        {
+                            "commit": "612c245823a515c8c70c2ad486957bd8a850f0f9",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/612c245823a515c8c70c2ad486957bd8a850f0f9",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         },
@@ -480,7 +488,15 @@
                 {
                     "bugzilla": "239316",
                     "id": "CVE-2022-32816",
-                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Secure Disclosure Labs & DNSLab, Korea Univ."
+                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Secure Disclosure Labs & DNSLab, Korea Univ.",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=239316",
+                    "commits": [
+                        {
+                            "commit": "2749a69c192274a63244e2a56b7e99c05077f3ab",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/2749a69c192274a63244e2a56b7e99c05077f3ab",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 }
             ]
         },
@@ -493,7 +509,15 @@
                 {
                     "bugzilla": "240720",
                     "id": "CVE-2022-32792",
-                    "credit": "Manfred Paul (@_manfp) working with Trend Micro Zero Day Initiative"
+                    "credit": "Manfred Paul (@_manfp) working with Trend Micro Zero Day Initiative",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=240720",
+                    "commits": [
+                        {
+                            "commit": "6983e76741a1bad811783ceac0959ff9953c175d",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/6983e76741a1bad811783ceac0959ff9953c175d",
+                            "commit_author": "mark.lam"
+                        }
+                    ]
                 }
             ]
         },
@@ -506,7 +530,15 @@
                 {
                     "bugzilla": "242339",
                     "id": "CVE-2022-2294",
-                    "credit": "Jan Vojtesek of Avast Threat Intelligence team"
+                    "credit": "Jan Vojtesek of Avast Threat Intelligence team",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=242339",
+                    "commits": [
+                        {
+                            "commit": "8c5e775d2f16fc74a7cc0387d7a74ab8713ac7cc",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/8c5e775d2f16fc74a7cc0387d7a74ab8713ac7cc",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 }
             ]
         },

@@ -25,7 +25,15 @@
                 {
                     "bugzilla": "246783",
                     "id": "CVE-2022-46692",
-                    "credit": "KirtiKumar Anandrao Ramchandani"
+                    "credit": "KirtiKumar Anandrao Ramchandani",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=246783",
+                    "commits": [
+                        {
+                            "commit": "ad6383440b738cb4399a32876f902df43a886675",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/ad6383440b738cb4399a32876f902df43a886675",
+                            "commit_author": "mattwoodrow"
+                        }
+                    ]
                 }
             ]
         },

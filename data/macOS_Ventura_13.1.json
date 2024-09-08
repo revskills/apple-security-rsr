@@ -441,7 +441,15 @@
                 {
                     "bugzilla": "247461",
                     "id": "CVE-2022-32919",
-                    "credit": "@real_as3617"
+                    "credit": "@real_as3617",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=247461",
+                    "commits": [
+                        {
+                            "commit": "85e478aae63c944cb1825d6b279c2c7e189d469c",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/85e478aae63c944cb1825d6b279c2c7e189d469c",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 }
             ]
         },
@@ -455,12 +463,28 @@
                 {
                     "bugzilla": "247289",
                     "id": "CVE-2022-46725",
-                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE"
+                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=247289",
+                    "commits": [
+                        {
+                            "commit": "16904a9a85c8bec95b033c9db81eb06888d8c97c",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/16904a9a85c8bec95b033c9db81eb06888d8c97c",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "247287",
                     "id": "CVE-2022-46705",
-                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE"
+                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=247287",
+                    "commits": [
+                        {
+                            "commit": "a6c922ea6f0526752da82adfad89afd1ef26268a",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/a6c922ea6f0526752da82adfad89afd1ef26268a",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 }
             ],
             "updated": [
@@ -505,7 +529,15 @@
                 {
                     "bugzilla": "246783",
                     "id": "CVE-2022-46692",
-                    "credit": "KirtiKumar Anandrao Ramchandani (kirtikumarar.com)"
+                    "credit": "KirtiKumar Anandrao Ramchandani (kirtikumarar.com)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=246783",
+                    "commits": [
+                        {
+                            "commit": "ad6383440b738cb4399a32876f902df43a886675",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/ad6383440b738cb4399a32876f902df43a886675",
+                            "commit_author": "mattwoodrow"
+                        }
+                    ]
                 }
             ],
             "updated": [
@@ -537,12 +569,28 @@
                 {
                     "bugzilla": "246942",
                     "id": "CVE-2022-46696",
-                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                    "credit": "Samuel Gro\u00df of Google V8 Security",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=246942",
+                    "commits": [
+                        {
+                            "commit": "5faa0d3ac693ecf9ebf58e6441449e16257c3489",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/5faa0d3ac693ecf9ebf58e6441449e16257c3489",
+                            "commit_author": "d_degazio"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "247562",
                     "id": "CVE-2022-46700",
-                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                    "credit": "Samuel Gro\u00df of Google V8 Security",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=247562",
+                    "commits": [
+                        {
+                            "commit": "86fbeb6fcd638e2350b09a43dde355f9830e75da",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/86fbeb6fcd638e2350b09a43dde355f9830e75da",
+                            "commit_author": "d_degazio"
+                        }
+                    ]
                 }
             ]
         },
@@ -576,7 +624,15 @@
                 {
                     "bugzilla": "244622",
                     "id": "CVE-2022-42863",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=244622",
+                    "commits": [
+                        {
+                            "commit": "ac0d3d8d8e0f5829e8384dc705f680cfe09f7e71",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/ac0d3d8d8e0f5829e8384dc705f680cfe09f7e71",
+                            "commit_author": "pangle"
+                        }
+                    ]
                 }
             ]
         },

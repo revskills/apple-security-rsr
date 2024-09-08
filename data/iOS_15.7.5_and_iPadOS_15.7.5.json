@@ -25,7 +25,15 @@
                 {
                     "bugzilla": "254797",
                     "id": "CVE-2023-28205",
-                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group and Donncha \u00d3 Cearbhaill of Amnesty International\u2019s Security Lab"
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group and Donncha \u00d3 Cearbhaill of Amnesty International\u2019s Security Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=254797",
+                    "commits": [
+                        {
+                            "commit": "c9880de4a28b9a64a5e1d0513dc245d61a2e6ddb",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/c9880de4a28b9a64a5e1d0513dc245d61a2e6ddb",
+                            "commit_author": "mark.lam"
+                        }
+                    ]
                 }
             ]
         }

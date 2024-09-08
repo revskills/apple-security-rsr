@@ -28,7 +28,15 @@
                 {
                     "bugzilla": "256567",
                     "id": "CVE-2023-32439",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=256567",
+                    "commits": [
+                        {
+                            "commit": "52fe95e5805c735cc1fa4d6200fcaa1912efbfea",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/52fe95e5805c735cc1fa4d6200fcaa1912efbfea",
+                            "commit_author": "yijia_huang"
+                        }
+                    ]
                 }
             ]
         },
@@ -41,7 +49,15 @@
                 {
                     "bugzilla": "251890",
                     "id": "CVE-2023-32435",
-                    "credit": "Georgy Kucherin (@kucher1n), Leonid Bezvershenko (@bzvr_), Boris Larin (@oct0xor), and Valentin Pashkov of Kaspersky"
+                    "credit": "Georgy Kucherin (@kucher1n), Leonid Bezvershenko (@bzvr_), Boris Larin (@oct0xor), and Valentin Pashkov of Kaspersky",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=251890",
+                    "commits": [
+                        {
+                            "commit": "50c7aaec2f53ab3b960f1b299aad5009df6f1967",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/50c7aaec2f53ab3b960f1b299aad5009df6f1967",
+                            "commit_author": "justin_michaud"
+                        }
+                    ]
                 }
             ],
             "updated": [

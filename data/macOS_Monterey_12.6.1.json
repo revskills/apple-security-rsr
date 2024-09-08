@@ -156,7 +156,15 @@
                 {
                     "bugzilla": "244622",
                     "id": "CVE-2022-42823",
-                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Labs"
+                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Labs",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=244622",
+                    "commits": [
+                        {
+                            "commit": "ac0d3d8d8e0f5829e8384dc705f680cfe09f7e71",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/ac0d3d8d8e0f5829e8384dc705f680cfe09f7e71",
+                            "commit_author": "pangle"
+                        }
+                    ]
                 }
             ]
         },

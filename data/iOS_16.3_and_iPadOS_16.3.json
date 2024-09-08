@@ -240,7 +240,15 @@
                 {
                     "bugzilla": "245464",
                     "id": "CVE-2023-23496",
-                    "credit": "ChengGang Wu, Yan Kang, YuHao Hu, Yue Sun, Jiming Wang, JiKai Ren and Hang Shu of Institute of Computing Technology, Chinese Academy of Sciences"
+                    "credit": "ChengGang Wu, Yan Kang, YuHao Hu, Yue Sun, Jiming Wang, JiKai Ren and Hang Shu of Institute of Computing Technology, Chinese Academy of Sciences",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=245464",
+                    "commits": [
+                        {
+                            "commit": "b0b694fd099f5692c3d73f7d66abaca58c4f9b4e",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/b0b694fd099f5692c3d73f7d66abaca58c4f9b4e",
+                            "commit_author": "msaboff"
+                        }
+                    ]
                 }
             ]
         },
@@ -253,12 +261,28 @@
                 {
                     "bugzilla": "248268",
                     "id": "CVE-2023-23518",
-                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE"
+                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=248268",
+                    "commits": [
+                        {
+                            "commit": "f44648f07471b6c34f61993baa8997f7519a18a1",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/f44648f07471b6c34f61993baa8997f7519a18a1",
+                            "commit_author": "youennf"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "248268",
                     "id": "CVE-2023-23517",
-                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE"
+                    "credit": "YeongHyeon Choi (@hyeon101010), Hyeon Park (@tree_segment), SeOk JEON (@_seokjeon), YoungSung Ahn (@_ZeroSung), JunSeo Bae (@snakebjs0107), Dohyun Lee (@l33d0hyun) of Team ApplePIE",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=248268",
+                    "commits": [
+                        {
+                            "commit": "f44648f07471b6c34f61993baa8997f7519a18a1",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/f44648f07471b6c34f61993baa8997f7519a18a1",
+                            "commit_author": "youennf"
+                        }
+                    ]
                 }
             ]
         },

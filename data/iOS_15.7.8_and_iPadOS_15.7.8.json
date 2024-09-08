@@ -18,7 +18,17 @@
             ]
         },
         {
-            "module": "Apple Neural Engine"
+            "module": "Apple Neural Engine",
+            "available": "devices with Apple Neural Engine: iPhone 8 and later, iPad Pro (3rd generation) and later, iPad Air (3rd generation) and later, and iPad mini (5th generation)",
+            "impact": "An app may be able to execute arbitrary code with kernel privileges",
+            "description": "The issue was addressed with improved memory handling.",
+            "added": "July 27, 2023",
+            "cves": [
+                {
+                    "id": "CVE-2023-34425",
+                    "credit": "pattern-f (@pattern_F_) of Ant Security Light-Year Lab"
+                }
+            ]
         },
         {
             "module": "Apple Neural Engine",
@@ -263,7 +273,15 @@
                 {
                     "bugzilla": "257822",
                     "id": "CVE-2023-38599",
-                    "credit": "Hritvik Taneja, Jason Kim, Jie Jeff Xu, Stephan van Schaik, Daniel Genkin, and Yuval Yarom"
+                    "credit": "Hritvik Taneja, Jason Kim, Jie Jeff Xu, Stephan van Schaik, Daniel Genkin, and Yuval Yarom",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=257822",
+                    "commits": [
+                        {
+                            "commit": "a7d489f726c292c67933e32de013a15343c47b89",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/a7d489f726c292c67933e32de013a15343c47b89",
+                            "commit_author": "said"
+                        }
+                    ]
                 }
             ]
         },
@@ -277,7 +295,15 @@
                 {
                     "bugzilla": "257299",
                     "id": "CVE-2023-32445",
-                    "credit": "Johan Carlsson (joaxcar)"
+                    "credit": "Johan Carlsson (joaxcar)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=257299",
+                    "commits": [
+                        {
+                            "commit": "d294c9bf0f3fe2c7bb92dff5efc544c886001681",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/d294c9bf0f3fe2c7bb92dff5efc544c886001681",
+                            "commit_author": "sysrqb"
+                        }
+                    ]
                 }
             ]
         },
@@ -304,7 +330,15 @@
                 {
                     "bugzilla": "256549",
                     "id": "CVE-2023-38572",
-                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India"
+                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=256549",
+                    "commits": [
+                        {
+                            "commit": "a438f531da737c8a975174c1585cd25336f26960",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/a438f531da737c8a975174c1585cd25336f26960",
+                            "commit_author": "cdumez"
+                        }
+                    ]
                 }
             ]
         },
@@ -317,7 +351,15 @@
                 {
                     "bugzilla": "255350",
                     "id": "CVE-2023-32409",
-                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group and Donncha \u00d3 Cearbhaill of Amnesty International\u2019s Security Lab"
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group and Donncha \u00d3 Cearbhaill of Amnesty International\u2019s Security Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=255350",
+                    "commits": [
+                        {
+                            "commit": "54408f5746f2401721bd56d71de132a22b6f9856",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/54408f5746f2401721bd56d71de132a22b6f9856",
+                            "commit_author": "mwyrzykowski"
+                        }
+                    ]
                 }
             ]
         },
@@ -330,7 +372,15 @@
                 {
                     "bugzilla": "256865",
                     "id": "CVE-2023-38594",
-                    "credit": "Yuhao Hu"
+                    "credit": "Yuhao Hu",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=256865",
+                    "commits": [
+                        {
+                            "commit": "68133dd90f053165d8d12d975bc01c164faf05dd",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/68133dd90f053165d8d12d975bc01c164faf05dd",
+                            "commit_author": "yijia_huang"
+                        }
+                    ]
                 }
             ]
         },
@@ -343,7 +393,15 @@
                 {
                     "bugzilla": "258100",
                     "id": "CVE-2023-38597",
-                    "credit": "\uc774\uc900\uc131(Junsung Lee) of Cross Republic"
+                    "credit": "\uc774\uc900\uc131(Junsung Lee) of Cross Republic",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=258100",
+                    "commits": [
+                        {
+                            "commit": "ef41761618aa0f95c860291d02d7bab31e638c62",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/ef41761618aa0f95c860291d02d7bab31e638c62",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 }
             ]
         },
@@ -356,7 +414,15 @@
                 {
                     "bugzilla": "256932",
                     "id": "CVE-2023-38133",
-                    "credit": "YeongHyeon Choi (@hyeon101010)"
+                    "credit": "YeongHyeon Choi (@hyeon101010)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=256932",
+                    "commits": [
+                        {
+                            "commit": "e1d780dcb545a6a90b4ae0909c29b5c70d95a922",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/e1d780dcb545a6a90b4ae0909c29b5c70d95a922",
+                            "commit_author": "pangle"
+                        }
+                    ]
                 }
             ]
         }

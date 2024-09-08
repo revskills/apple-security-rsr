@@ -495,7 +495,15 @@
                 {
                     "bugzilla": "272750",
                     "id": "CVE-2024-27834",
-                    "credit": "Manfred Paul (@_manfp) working with Trend Micro's Zero Day Initiative"
+                    "credit": "Manfred Paul (@_manfp) working with Trend Micro's Zero Day Initiative",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=272750",
+                    "commits": [
+                        {
+                            "commit": "3e3d0883c84955472ece1b2f2e63f31522c5440d",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/3e3d0883c84955472ece1b2f2e63f31522c5440d",
+                            "commit_author": "keith_miller"
+                        }
+                    ]
                 }
             ]
         },
@@ -509,7 +517,15 @@
                 {
                     "bugzilla": "262337",
                     "id": "CVE-2024-27838",
-                    "credit": "Emilio Cobos of Mozilla"
+                    "credit": "Emilio Cobos of Mozilla",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=262337",
+                    "commits": [
+                        {
+                            "commit": "f0fba73ace0f5a4e31e0a16d3b824af0a396a6e9",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/f0fba73ace0f5a4e31e0a16d3b824af0a396a6e9",
+                            "commit_author": "said"
+                        }
+                    ]
                 }
             ]
         },
@@ -523,7 +539,15 @@
                 {
                     "bugzilla": "268221",
                     "id": "CVE-2024-27808",
-                    "credit": "Lukas Bernhard of CISPA Helmholtz Center for Information Security"
+                    "credit": "Lukas Bernhard of CISPA Helmholtz Center for Information Security",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=268221",
+                    "commits": [
+                        {
+                            "commit": "b25150796310098d1c10f98c45825c4be34912ee",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/b25150796310098d1c10f98c45825c4be34912ee",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         },
@@ -537,7 +561,15 @@
                 {
                     "bugzilla": "270767",
                     "id": "CVE-2024-27850",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=270767",
+                    "commits": [
+                        {
+                            "commit": "775bac300c8b006803ba1d5c2f7bf28a0f77bc69",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/775bac300c8b006803ba1d5c2f7bf28a0f77bc69",
+                            "commit_author": "wenson_hsieh"
+                        }
+                    ]
                 }
             ]
         },
@@ -551,7 +583,15 @@
                 {
                     "bugzilla": "271491",
                     "id": "CVE-2024-27833",
-                    "credit": "Manfred Paul (@_manfp) working with Trend Micro Zero Day Initiative"
+                    "credit": "Manfred Paul (@_manfp) working with Trend Micro Zero Day Initiative",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=271491",
+                    "commits": [
+                        {
+                            "commit": "1ea4ef8127276fd00ca43ffcb22bed162072abde",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/1ea4ef8127276fd00ca43ffcb22bed162072abde",
+                            "commit_author": "justin"
+                        }
+                    ]
                 }
             ]
         },
@@ -565,7 +605,15 @@
                 {
                     "bugzilla": "272106",
                     "id": "CVE-2024-27851",
-                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute"
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=272106",
+                    "commits": [
+                        {
+                            "commit": "bc5bcf116eef81d7f61706d5e157e921461757ee",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/bc5bcf116eef81d7f61706d5e157e921461757ee",
+                            "commit_author": "d_degazio"
+                        }
+                    ]
                 }
             ]
         },
@@ -579,7 +627,15 @@
                 {
                     "bugzilla": "271159",
                     "id": "CVE-2024-27830",
-                    "credit": "Joe Rutkowski (@Joe12387) of Crawless and @abrahamjuliot"
+                    "credit": "Joe Rutkowski (@Joe12387) of Crawless and @abrahamjuliot",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=271159",
+                    "commits": [
+                        {
+                            "commit": "c33df2d323602a9e7693b18d53a40887995fe942",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/c33df2d323602a9e7693b18d53a40887995fe942",
+                            "commit_author": "wenson_hsieh"
+                        }
+                    ]
                 }
             ]
         },
@@ -593,7 +649,15 @@
                 {
                     "bugzilla": "270139",
                     "id": "CVE-2024-27820",
-                    "credit": "Jeff Johnson of underpassapp.com"
+                    "credit": "Jeff Johnson of underpassapp.com",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=270139",
+                    "commits": [
+                        {
+                            "commit": "6a341af34a111bdf2a2fd229ead679f7b373b3eb",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/6a341af34a111bdf2a2fd229ead679f7b373b3eb",
+                            "commit_author": "charliew"
+                        }
+                    ]
                 }
             ]
         }

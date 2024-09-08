@@ -572,7 +572,15 @@
                 {
                     "bugzilla": "247289",
                     "id": "CVE-2022-46725",
-                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE"
+                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=247289",
+                    "commits": [
+                        {
+                            "commit": "16904a9a85c8bec95b033c9db81eb06888d8c97c",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/16904a9a85c8bec95b033c9db81eb06888d8c97c",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 }
             ],
             "updated": [
@@ -589,7 +597,15 @@
                 {
                     "bugzilla": "251890",
                     "id": "CVE-2023-32435",
-                    "credit": "Georgy Kucherin (@kucher1n), Leonid Bezvershenko (@bzvr_), Boris Larin (@oct0xor), and Valentin Pashkov of Kaspersky"
+                    "credit": "Georgy Kucherin (@kucher1n), Leonid Bezvershenko (@bzvr_), Boris Larin (@oct0xor), and Valentin Pashkov of Kaspersky",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=251890",
+                    "commits": [
+                        {
+                            "commit": "50c7aaec2f53ab3b960f1b299aad5009df6f1967",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/50c7aaec2f53ab3b960f1b299aad5009df6f1967",
+                            "commit_author": "justin_michaud"
+                        }
+                    ]
                 }
             ],
             "updated": [
@@ -618,7 +634,15 @@
                 {
                     "bugzilla": "250837",
                     "id": "CVE-2023-27954",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=250837",
+                    "commits": [
+                        {
+                            "commit": "b67af69609f3209a2a2f72f9ca5c3b03d902df04",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/b67af69609f3209a2a2f72f9ca5c3b03d902df04",
+                            "commit_author": "youennf"
+                        }
+                    ]
                 }
             ]
         },
@@ -632,7 +656,15 @@
                 {
                     "bugzilla": "247287",
                     "id": "CVE-2022-46705",
-                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE"
+                    "credit": "Hyeon Park (@tree_segment) of Team ApplePIE",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=247287",
+                    "commits": [
+                        {
+                            "commit": "a6c922ea6f0526752da82adfad89afd1ef26268a",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/a6c922ea6f0526752da82adfad89afd1ef26268a",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 }
             ],
             "updated": [
@@ -649,7 +681,15 @@
                 {
                     "bugzilla": "249434",
                     "id": "CVE-2014-1745",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=249434",
+                    "commits": [
+                        {
+                            "commit": "38946d45dfe831d30d7c7fce8123ea8a85b00169",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/38946d45dfe831d30d7c7fce8123ea8a85b00169",
+                            "commit_author": "mmaxfield"
+                        }
+                    ]
                 }
             ]
         },

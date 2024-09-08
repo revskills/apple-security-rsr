@@ -245,7 +245,15 @@
                 {
                     "bugzilla": "261544",
                     "id": "CVE-2023-41993",
-                    "credit": "Bill Marczak of The Citizen Lab at The University of Toronto's Munk School and Maddie Stone of Google's Threat Analysis Group"
+                    "credit": "Bill Marczak of The Citizen Lab at The University of Toronto's Munk School and Maddie Stone of Google's Threat Analysis Group",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=261544",
+                    "commits": [
+                        {
+                            "commit": "08d5d17c766ffc7ca6a7c833c5720eb71b427784",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/08d5d17c766ffc7ca6a7c833c5720eb71b427784",
+                            "commit_author": "keith_miller"
+                        }
+                    ]
                 }
             ]
         }

@@ -179,7 +179,15 @@
                 {
                     "bugzilla": "257822",
                     "id": "CVE-2023-38599",
-                    "credit": "Hritvik Taneja, Jason Kim, Jie Jeff Xu, Stephan van Schaik, Daniel Genkin, and Yuval Yarom"
+                    "credit": "Hritvik Taneja, Jason Kim, Jie Jeff Xu, Stephan van Schaik, Daniel Genkin, and Yuval Yarom",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=257822",
+                    "commits": [
+                        {
+                            "commit": "a7d489f726c292c67933e32de013a15343c47b89",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/a7d489f726c292c67933e32de013a15343c47b89",
+                            "commit_author": "said"
+                        }
+                    ]
                 }
             ]
         },
@@ -193,7 +201,15 @@
                 {
                     "bugzilla": "257299",
                     "id": "CVE-2023-32445",
-                    "credit": "Johan Carlsson (joaxcar)"
+                    "credit": "Johan Carlsson (joaxcar)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=257299",
+                    "commits": [
+                        {
+                            "commit": "d294c9bf0f3fe2c7bb92dff5efc544c886001681",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/d294c9bf0f3fe2c7bb92dff5efc544c886001681",
+                            "commit_author": "sysrqb"
+                        }
+                    ]
                 }
             ]
         },
@@ -207,7 +223,15 @@
                 {
                     "bugzilla": "257331",
                     "id": "CVE-2023-38592",
-                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India, Valentino Dalla Valle, Pedro Bernardo, Marco Squarcina, and Lorenzo Veronese of TU Wien"
+                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India, Valentino Dalla Valle, Pedro Bernardo, Marco Squarcina, and Lorenzo Veronese of TU Wien",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=257331",
+                    "commits": [
+                        {
+                            "commit": "04bd941e62cbadecdc889fb575315ffd142756e4",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/04bd941e62cbadecdc889fb575315ffd142756e4",
+                            "commit_author": "rreno"
+                        }
+                    ]
                 }
             ]
         },
@@ -220,7 +244,15 @@
                 {
                     "bugzilla": "256549",
                     "id": "CVE-2023-38572",
-                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India"
+                    "credit": "Narendra Bhati (twitter.com/imnarendrabhati) of Suma Soft Pvt. Ltd, Pune - India",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=256549",
+                    "commits": [
+                        {
+                            "commit": "a438f531da737c8a975174c1585cd25336f26960",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/a438f531da737c8a975174c1585cd25336f26960",
+                            "commit_author": "cdumez"
+                        }
+                    ]
                 }
             ]
         },
@@ -233,17 +265,41 @@
                 {
                     "bugzilla": "256865",
                     "id": "CVE-2023-38594",
-                    "credit": "Yuhao Hu"
+                    "credit": "Yuhao Hu",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=256865",
+                    "commits": [
+                        {
+                            "commit": "68133dd90f053165d8d12d975bc01c164faf05dd",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/68133dd90f053165d8d12d975bc01c164faf05dd",
+                            "commit_author": "yijia_huang"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "256573",
                     "id": "CVE-2023-38595",
-                    "credit": "an anonymous researcher, Jiming Wang, Jikai Ren"
+                    "credit": "an anonymous researcher, Jiming Wang, Jikai Ren",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=256573",
+                    "commits": [
+                        {
+                            "commit": "35a6bec1127c277a76b9daf51bd3a425c76fcd21",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/35a6bec1127c277a76b9daf51bd3a425c76fcd21",
+                            "commit_author": "yijia_huang"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "257387",
                     "id": "CVE-2023-38600",
-                    "credit": "Anonymous working with Trend Micro Zero Day Initiative"
+                    "credit": "Anonymous working with Trend Micro Zero Day Initiative",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=257387",
+                    "commits": [
+                        {
+                            "commit": "6e7e654417b61630d67f02b65798439cf3d6b0b5",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/6e7e654417b61630d67f02b65798439cf3d6b0b5",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         },
@@ -256,7 +312,15 @@
                 {
                     "bugzilla": "258058",
                     "id": "CVE-2023-38611",
-                    "credit": "Francisco Alonso (@revskills)"
+                    "credit": "Francisco Alonso (@revskills)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=258058",
+                    "commits": [
+                        {
+                            "commit": "4b6edc53e68ce12d8b4d0e89704aab3793a221be",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/4b6edc53e68ce12d8b4d0e89704aab3793a221be",
+                            "commit_author": "cdumez"
+                        }
+                    ]
                 }
             ]
         },
@@ -283,7 +347,15 @@
                 {
                     "bugzilla": "257684",
                     "id": "CVE-2023-42866",
-                    "credit": "Francisco Alonso (@revskills) and Junsung Lee"
+                    "credit": "Francisco Alonso (@revskills) and Junsung Lee",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=257684",
+                    "commits": [
+                        {
+                            "commit": "4a9d1a52a38c2feda07d32b7ec9790ef7a690b20",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/4a9d1a52a38c2feda07d32b7ec9790ef7a690b20",
+                            "commit_author": "simon.fraser"
+                        }
+                    ]
                 }
             ]
         },
@@ -296,7 +368,15 @@
                 {
                     "bugzilla": "256932",
                     "id": "CVE-2023-38133",
-                    "credit": "YeongHyeon Choi (@hyeon101010)"
+                    "credit": "YeongHyeon Choi (@hyeon101010)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=256932",
+                    "commits": [
+                        {
+                            "commit": "e1d780dcb545a6a90b4ae0909c29b5c70d95a922",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/e1d780dcb545a6a90b4ae0909c29b5c70d95a922",
+                            "commit_author": "pangle"
+                        }
+                    ]
                 }
             ]
         }

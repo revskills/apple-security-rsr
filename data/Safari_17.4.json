@@ -38,7 +38,15 @@
                 {
                     "bugzilla": "264811",
                     "id": "CVE-2024-23263",
-                    "credit": "Johan Carlsson (joaxcar)"
+                    "credit": "Johan Carlsson (joaxcar)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=264811",
+                    "commits": [
+                        {
+                            "commit": "93603245b1ebc4cd2c451af93d98c86533c0d6fe",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/93603245b1ebc4cd2c451af93d98c86533c0d6fe",
+                            "commit_author": "rreno"
+                        }
+                    ]
                 }
             ]
         },
@@ -51,7 +59,15 @@
                 {
                     "bugzilla": "266703",
                     "id": "CVE-2024-23280",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=266703",
+                    "commits": [
+                        {
+                            "commit": "17c0ad98bb1ce2d5df631bca49e13809b9ecf03b",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/17c0ad98bb1ce2d5df631bca49e13809b9ecf03b",
+                            "commit_author": "sysrqb"
+                        }
+                    ]
                 }
             ]
         },
@@ -64,7 +80,15 @@
                 {
                     "bugzilla": "267241",
                     "id": "CVE-2024-23284",
-                    "credit": "Georg Felber and Marco Squarcina"
+                    "credit": "Georg Felber and Marco Squarcina",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=267241",
+                    "commits": [
+                        {
+                            "commit": "186349180de5ef6858ef0e0318a4dddb75be1fdf",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/186349180de5ef6858ef0e0318a4dddb75be1fdf",
+                            "commit_author": "cdumez"
+                        }
+                    ]
                 }
             ]
         }

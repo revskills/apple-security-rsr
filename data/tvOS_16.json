@@ -171,7 +171,15 @@
                 {
                     "bugzilla": "241969",
                     "id": "CVE-2022-32886",
-                    "credit": "P1umer(@p1umer), afang(@afang5472), xmzyshypnc(@xmzyshypnc1)"
+                    "credit": "P1umer(@p1umer), afang(@afang5472), xmzyshypnc(@xmzyshypnc1)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=241969",
+                    "commits": [
+                        {
+                            "commit": "97b340447c9fc3e934a8045e059b3fac71e0ab4d",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/97b340447c9fc3e934a8045e059b3fac71e0ab4d",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         },
@@ -184,7 +192,15 @@
                 {
                     "bugzilla": "242047",
                     "id": "CVE-2022-32888",
-                    "credit": "P1umer (@p1umer)"
+                    "credit": "P1umer (@p1umer)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=242047",
+                    "commits": [
+                        {
+                            "commit": "a3dd7dc5f60b87a7cfd14c372e40ebd339076763",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/a3dd7dc5f60b87a7cfd14c372e40ebd339076763",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         },
@@ -197,7 +213,15 @@
                 {
                     "bugzilla": "242762",
                     "id": "CVE-2022-32912",
-                    "credit": "Jeonghoon Shin (@singi21a) at Theori working with Trend Micro Zero Day Initiative"
+                    "credit": "Jeonghoon Shin (@singi21a) at Theori working with Trend Micro Zero Day Initiative",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=242762",
+                    "commits": [
+                        {
+                            "commit": "7bf231b1fd3527ff9135e257bd192a004caa6548",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/7bf231b1fd3527ff9135e257bd192a004caa6548",
+                            "commit_author": "kpiddington"
+                        }
+                    ]
                 }
             ]
         },
@@ -210,7 +234,15 @@
                 {
                     "bugzilla": "242762",
                     "id": "CVE-2022-32891",
-                    "credit": "@real_as3617, an anonymous researcher"
+                    "credit": "@real_as3617, an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=242762",
+                    "commits": [
+                        {
+                            "commit": "7bf231b1fd3527ff9135e257bd192a004caa6548",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/7bf231b1fd3527ff9135e257bd192a004caa6548",
+                            "commit_author": "kpiddington"
+                        }
+                    ]
                 }
             ]
         },

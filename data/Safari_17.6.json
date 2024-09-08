@@ -25,12 +25,28 @@
                 {
                     "bugzilla": "273176",
                     "id": "CVE-2024-40776",
-                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=273176",
+                    "commits": [
+                        {
+                            "commit": "42190b9e1320b2ef71e165fefaf8263d5924281d",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/42190b9e1320b2ef71e165fefaf8263d5924281d",
+                            "commit_author": "jya"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "268770",
                     "id": "CVE-2024-40782",
-                    "credit": "Maksymilian Motyl"
+                    "credit": "Maksymilian Motyl",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=268770",
+                    "commits": [
+                        {
+                            "commit": "c2f9092d3a8e7bf63dd1c55c9917cd391fff2665",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/c2f9092d3a8e7bf63dd1c55c9917cd391fff2665",
+                            "commit_author": "antti"
+                        }
+                    ]
                 }
             ]
         },
@@ -43,12 +59,28 @@
                 {
                     "bugzilla": "275431",
                     "id": "CVE-2024-40779",
-                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=275431",
+                    "commits": [
+                        {
+                            "commit": "971ab40cd8de9afbe40334360e07230d1f76d0ed",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/971ab40cd8de9afbe40334360e07230d1f76d0ed",
+                            "commit_author": "jya"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "275273",
                     "id": "CVE-2024-40780",
-                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab"
+                    "credit": "Huang Xilin of Ant Group Light-Year Security Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=275273",
+                    "commits": [
+                        {
+                            "commit": "0b2843995193ff7b5bab822c5456a69de24a326c",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/0b2843995193ff7b5bab822c5456a69de24a326c",
+                            "commit_author": "jer.noble"
+                        }
+                    ]
                 }
             ]
         },
@@ -61,7 +93,15 @@
                 {
                     "bugzilla": "273805",
                     "id": "CVE-2024-40785",
-                    "credit": "Johan Carlsson (joaxcar)"
+                    "credit": "Johan Carlsson (joaxcar)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=273805",
+                    "commits": [
+                        {
+                            "commit": "f9a7dd12bbf77919866f72097b381a51cebdf56b",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/f9a7dd12bbf77919866f72097b381a51cebdf56b",
+                            "commit_author": "sysrqb"
+                        }
+                    ]
                 }
             ]
         },

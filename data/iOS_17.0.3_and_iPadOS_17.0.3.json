@@ -23,7 +23,15 @@
             "cves": [
                 {
                     "bugzilla": "262365",
-                    "id": "CVE-2023-5217"
+                    "id": "CVE-2023-5217",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=262365",
+                    "commits": [
+                        {
+                            "commit": "d3f4969766d2b2db99cd2e673036b44ee22f08e8",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/d3f4969766d2b2db99cd2e673036b44ee22f08e8",
+                            "commit_author": "ryanhaddad"
+                        }
+                    ]
                 }
             ]
         }

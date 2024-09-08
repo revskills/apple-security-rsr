@@ -176,7 +176,15 @@
                 {
                     "bugzilla": "243693",
                     "id": "CVE-2022-42799",
-                    "credit": "Jihwan Kim (@gPayl0ad), Dohyun Lee (@l33d0hyun)"
+                    "credit": "Jihwan Kim (@gPayl0ad), Dohyun Lee (@l33d0hyun)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=243693",
+                    "commits": [
+                        {
+                            "commit": "b64fbc1b4bf78392372c53d1fda02f21af13b8f5",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/b64fbc1b4bf78392372c53d1fda02f21af13b8f5",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 }
             ]
         },
@@ -189,7 +197,15 @@
                 {
                     "bugzilla": "244622",
                     "id": "CVE-2022-42823",
-                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Labs"
+                    "credit": "Dohyun Lee (@l33d0hyun) of SSD Labs",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=244622",
+                    "commits": [
+                        {
+                            "commit": "ac0d3d8d8e0f5829e8384dc705f680cfe09f7e71",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/ac0d3d8d8e0f5829e8384dc705f680cfe09f7e71",
+                            "commit_author": "pangle"
+                        }
+                    ]
                 }
             ]
         },
@@ -202,7 +218,15 @@
                 {
                     "bugzilla": "245058",
                     "id": "CVE-2022-42824",
-                    "credit": "Abdulrahman Alqabandi of Microsoft Browser Vulnerability Research, Ryan Shin of IAAI SecLab at Korea University, Dohyun Lee (@l33d0hyun) of DNSLab at Korea University"
+                    "credit": "Abdulrahman Alqabandi of Microsoft Browser Vulnerability Research, Ryan Shin of IAAI SecLab at Korea University, Dohyun Lee (@l33d0hyun) of DNSLab at Korea University",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=245058",
+                    "commits": [
+                        {
+                            "commit": "a703b40c3292a57949210425c37f76833a188e14",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/a703b40c3292a57949210425c37f76833a188e14",
+                            "commit_author": "wenson_hsieh"
+                        }
+                    ]
                 }
             ]
         },
@@ -216,7 +240,15 @@
                 {
                     "bugzilla": "242964",
                     "id": "CVE-2022-32923",
-                    "credit": "Wonyoung Jung (@nonetype_pwn) of KAIST Hacking Lab"
+                    "credit": "Wonyoung Jung (@nonetype_pwn) of KAIST Hacking Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=242964",
+                    "commits": [
+                        {
+                            "commit": "ef76e31a2a066c3d65a9c94a9e2cd88133260c1f",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/ef76e31a2a066c3d65a9c94a9e2cd88133260c1f",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         }

@@ -444,12 +444,28 @@
                 {
                     "bugzilla": "249451",
                     "id": "CVE-2023-39434",
-                    "credit": "Francisco Alonso (@revskills), and Dohyun Lee (@l33d0hyun) of PK Security"
+                    "credit": "Francisco Alonso (@revskills), and Dohyun Lee (@l33d0hyun) of PK Security",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=249451",
+                    "commits": [
+                        {
+                            "commit": "d1cbec4c36d40118f5549264674a7a7fe280c18b",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/d1cbec4c36d40118f5549264674a7a7fe280c18b",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "258992",
                     "id": "CVE-2023-40414",
-                    "credit": "Francisco Alonso (@revskills)"
+                    "credit": "Francisco Alonso (@revskills)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=258992",
+                    "commits": [
+                        {
+                            "commit": "784f2d33e59cc08ee43227f5730de71b9d71b4f8",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/784f2d33e59cc08ee43227f5730de71b9d71b4f8",
+                            "commit_author": "cdumez"
+                        }
+                    ]
                 }
             ],
             "updated": [
@@ -465,7 +481,15 @@
                 {
                     "bugzilla": "256551",
                     "id": "CVE-2023-41074",
-                    "credit": "\uc774\uc900\uc131(Junsung Lee) of Cross Republic and Jie Ding(@Lime) from HKUS3 Lab"
+                    "credit": "\uc774\uc900\uc131(Junsung Lee) of Cross Republic and Jie Ding(@Lime) from HKUS3 Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=256551",
+                    "commits": [
+                        {
+                            "commit": "d60bafb0be1bf24b79a858f9208e5047c58f0d06",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/d60bafb0be1bf24b79a858f9208e5047c58f0d06",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ],
             "updated": [
@@ -481,7 +505,15 @@
                 {
                     "bugzilla": "239758",
                     "id": "CVE-2023-35074",
-                    "credit": "Ajou University Abysslab Dong Jun Kim(@smlijun) and Jong Seong Kim(@nevul37)"
+                    "credit": "Ajou University Abysslab Dong Jun Kim(@smlijun) and Jong Seong Kim(@nevul37)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=239758",
+                    "commits": [
+                        {
+                            "commit": "5e1033a7cd0361a94d7af3ca78c81873f33aa6a8",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/5e1033a7cd0361a94d7af3ca78c81873f33aa6a8",
+                            "commit_author": "yijia_huang"
+                        }
+                    ]
                 }
             ],
             "updated": [

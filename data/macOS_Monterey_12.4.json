@@ -768,7 +768,15 @@
                 {
                     "bugzilla": "238178",
                     "id": "CVE-2022-26700",
-                    "credit": "ryuzaki"
+                    "credit": "ryuzaki",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=238178",
+                    "commits": [
+                        {
+                            "commit": "d3de196c34846e908a1a821dcacf4209706ea9bb",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/d3de196c34846e908a1a821dcacf4209706ea9bb",
+                            "commit_author": "sbarati"
+                        }
+                    ]
                 }
             ]
         },
@@ -781,17 +789,41 @@
                 {
                     "bugzilla": "236950",
                     "id": "CVE-2022-26709",
-                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab"
+                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=236950",
+                    "commits": [
+                        {
+                            "commit": "6a782fdb64c97cd0d49b4125e4683e019a804293",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/6a782fdb64c97cd0d49b4125e4683e019a804293",
+                            "commit_author": "sihui_liu"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "237475",
                     "id": "CVE-2022-26710",
-                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab"
+                    "credit": "Chijin Zhou of ShuiMuYuLin Ltd and Tsinghua wingtecher lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=237475",
+                    "commits": [
+                        {
+                            "commit": "338d6cd9675c568ec98a893239c8d07cc1430c94",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/338d6cd9675c568ec98a893239c8d07cc1430c94",
+                            "commit_author": "tyler_w"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "238171",
                     "id": "CVE-2022-26717",
-                    "credit": "Jeonghoon Shin of Theori"
+                    "credit": "Jeonghoon Shin of Theori",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=238171",
+                    "commits": [
+                        {
+                            "commit": "bc155ece568d7f6a8ea39dfc6c81f94791e1f239",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/bc155ece568d7f6a8ea39dfc6c81f94791e1f239",
+                            "commit_author": "kbr"
+                        }
+                    ]
                 }
             ]
         },
@@ -804,12 +836,28 @@
                 {
                     "bugzilla": "238183",
                     "id": "CVE-2022-26716",
-                    "credit": "SorryMybad (@S0rryMybad) of Kunlun Lab"
+                    "credit": "SorryMybad (@S0rryMybad) of Kunlun Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=238183",
+                    "commits": [
+                        {
+                            "commit": "6f6be58bd505ee1c478c98676dad658456fbd3ab",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/6f6be58bd505ee1c478c98676dad658456fbd3ab",
+                            "commit_author": "sbarati"
+                        }
+                    ]
                 },
                 {
                     "bugzilla": "238699",
                     "id": "CVE-2022-26719",
-                    "credit": "Dongzhuo Zhao working with ADLab of Venustech"
+                    "credit": "Dongzhuo Zhao working with ADLab of Venustech",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=238699",
+                    "commits": [
+                        {
+                            "commit": "02fbf9b7aa435edb96cbf563a8d4dcf1aa73b4b3",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/02fbf9b7aa435edb96cbf563a8d4dcf1aa73b4b3",
+                            "commit_author": "keith_miller"
+                        }
+                    ]
                 }
             ]
         },
@@ -822,7 +870,15 @@
                 {
                     "bugzilla": "237524",
                     "id": "CVE-2022-22677",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=237524",
+                    "commits": [
+                        {
+                            "commit": "dfb86000b72d39780cb2644ad0e41ca85a75f4d4",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/dfb86000b72d39780cb2644ad0e41ca85a75f4d4",
+                            "commit_author": "youenn"
+                        }
+                    ]
                 }
             ]
         },

@@ -255,7 +255,15 @@
                 {
                     "bugzilla": "250837",
                     "id": "CVE-2023-27954",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=250837",
+                    "commits": [
+                        {
+                            "commit": "b67af69609f3209a2a2f72f9ca5c3b03d902df04",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/b67af69609f3209a2a2f72f9ca5c3b03d902df04",
+                            "commit_author": "youennf"
+                        }
+                    ]
                 }
             ]
         },

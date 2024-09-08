@@ -181,7 +181,15 @@
                 {
                     "bugzilla": "242964",
                     "id": "CVE-2022-32923",
-                    "credit": "Wonyoung Jung (@nonetype_pwn) of KAIST Hacking Lab"
+                    "credit": "Wonyoung Jung (@nonetype_pwn) of KAIST Hacking Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=242964",
+                    "commits": [
+                        {
+                            "commit": "ef76e31a2a066c3d65a9c94a9e2cd88133260c1f",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/ef76e31a2a066c3d65a9c94a9e2cd88133260c1f",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         },

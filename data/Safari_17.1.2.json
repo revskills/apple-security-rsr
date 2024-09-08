@@ -26,7 +26,15 @@
                 {
                     "bugzilla": "265067",
                     "id": "CVE-2023-42917",
-                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=265067",
+                    "commits": [
+                        {
+                            "commit": "e1048521aef5bf2f660d0d1826450f0588d2eec2",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/e1048521aef5bf2f660d0d1826450f0588d2eec2",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         }

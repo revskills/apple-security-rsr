@@ -74,7 +74,15 @@
                 {
                     "bugzilla": "238171",
                     "id": "CVE-2022-26717",
-                    "credit": "Jeonghoon Shin of Theori"
+                    "credit": "Jeonghoon Shin of Theori",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=238171",
+                    "commits": [
+                        {
+                            "commit": "bc155ece568d7f6a8ea39dfc6c81f94791e1f239",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/bc155ece568d7f6a8ea39dfc6c81f94791e1f239",
+                            "commit_author": "kbr"
+                        }
+                    ]
                 }
             ]
         }

@@ -50,7 +50,15 @@
                 {
                     "bugzilla": "234966",
                     "id": "CVE-2022-22629",
-                    "credit": "Jeonghoon Shin at Theori working with Trend Micro Zero Day Initiative"
+                    "credit": "Jeonghoon Shin at Theori working with Trend Micro Zero Day Initiative",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=234966",
+                    "commits": [
+                        {
+                            "commit": "c087ca07c9125093ca62e8e44024b738bb7d46dc",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/c087ca07c9125093ca62e8e44024b738bb7d46dc",
+                            "commit_author": "bfulgham"
+                        }
+                    ]
                 }
             ]
         },

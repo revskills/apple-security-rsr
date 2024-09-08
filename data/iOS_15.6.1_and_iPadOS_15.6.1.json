@@ -25,7 +25,15 @@
                 {
                     "bugzilla": "243557",
                     "id": "CVE-2022-32893",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=243557",
+                    "commits": [
+                        {
+                            "commit": "1ed1e4a336e15a59b94a21b0300658e2f7dc9fef",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/1ed1e4a336e15a59b94a21b0300658e2f7dc9fef",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         }

@@ -13,7 +13,15 @@
                 {
                     "bugzilla": "255075",
                     "id": "CVE-2023-32402",
-                    "credit": "Ignacio Sanmillan (@ulexec)"
+                    "credit": "Ignacio Sanmillan (@ulexec)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=255075",
+                    "commits": [
+                        {
+                            "commit": "9d792587594f2ea0714bdf233d63c6dbf7e060d1",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/9d792587594f2ea0714bdf233d63c6dbf7e060d1",
+                            "commit_author": "arunsundar_kannan"
+                        }
+                    ]
                 }
             ],
             "updated": [
@@ -29,7 +37,15 @@
                 {
                     "bugzilla": "254781",
                     "id": "CVE-2023-32423",
-                    "credit": "Ignacio Sanmillan (@ulexec)"
+                    "credit": "Ignacio Sanmillan (@ulexec)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=254781",
+                    "commits": [
+                        {
+                            "commit": "5c059ab32c26d642874354e3be0f8802d8e71e1b",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/5c059ab32c26d642874354e3be0f8802d8e71e1b",
+                            "commit_author": "arunsundar_kannan"
+                        }
+                    ]
                 }
             ]
         },
@@ -42,7 +58,15 @@
                 {
                     "bugzilla": "255350",
                     "id": "CVE-2023-32409",
-                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group and Donncha \u00d3 Cearbhaill of Amnesty International\u2019s Security Lab"
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group and Donncha \u00d3 Cearbhaill of Amnesty International\u2019s Security Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=255350",
+                    "commits": [
+                        {
+                            "commit": "54408f5746f2401721bd56d71de132a22b6f9856",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/54408f5746f2401721bd56d71de132a22b6f9856",
+                            "commit_author": "mwyrzykowski"
+                        }
+                    ]
                 }
             ]
         },
@@ -55,7 +79,15 @@
                 {
                     "bugzilla": "254930",
                     "id": "CVE-2023-28204",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=254930",
+                    "commits": [
+                        {
+                            "commit": "698c6e293734c3c46f223b77d5b4ee48b320e32c",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/698c6e293734c3c46f223b77d5b4ee48b320e32c",
+                            "commit_author": "msaboff"
+                        }
+                    ]
                 }
             ]
         },
@@ -68,7 +100,15 @@
                 {
                     "bugzilla": "254840",
                     "id": "CVE-2023-32373",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=254840",
+                    "commits": [
+                        {
+                            "commit": "85fd2302d16a09a82d9a6e81eb286babb23c4b3c",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/85fd2302d16a09a82d9a6e81eb286babb23c4b3c",
+                            "commit_author": "graouts"
+                        }
+                    ]
                 }
             ]
         }

@@ -267,7 +267,15 @@
                 {
                     "bugzilla": "232812",
                     "id": "CVE-2022-22610",
-                    "credit": "Quan Yin of Bigo Technology Live Client Team"
+                    "credit": "Quan Yin of Bigo Technology Live Client Team",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=232812",
+                    "commits": [
+                        {
+                            "commit": "64653db149cfb39410b885d7059c3d5f2f5f6e12",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/64653db149cfb39410b885d7059c3d5f2f5f6e12",
+                            "commit_author": "wenson_hsieh"
+                        }
+                    ]
                 }
             ]
         },
@@ -285,7 +293,15 @@
                 {
                     "bugzilla": "234147",
                     "id": "CVE-2022-22628",
-                    "credit": "Kirin (@Pwnrin) of Tencent Security Xuanwu Lab"
+                    "credit": "Kirin (@Pwnrin) of Tencent Security Xuanwu Lab",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=234147",
+                    "commits": [
+                        {
+                            "commit": "fb4da5fb18c6d1f75954102908ccb44652434f07",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/fb4da5fb18c6d1f75954102908ccb44652434f07",
+                            "commit_author": "bfulgham"
+                        }
+                    ]
                 }
             ]
         },
@@ -298,7 +314,15 @@
                 {
                     "bugzilla": "234966",
                     "id": "CVE-2022-22629",
-                    "credit": "Jeonghoon Shin at Theori working with Trend Micro Zero Day Initiative"
+                    "credit": "Jeonghoon Shin at Theori working with Trend Micro Zero Day Initiative",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=234966",
+                    "commits": [
+                        {
+                            "commit": "c087ca07c9125093ca62e8e44024b738bb7d46dc",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/c087ca07c9125093ca62e8e44024b738bb7d46dc",
+                            "commit_author": "bfulgham"
+                        }
+                    ]
                 }
             ]
         },
@@ -311,7 +335,15 @@
                 {
                     "bugzilla": "235294",
                     "id": "CVE-2022-22637",
-                    "credit": "Tom McKee of Google"
+                    "credit": "Tom McKee of Google",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=235294",
+                    "commits": [
+                        {
+                            "commit": "a45f4326df6cd03b9cd2dfa83af6fe3ee65f113a",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/a45f4326df6cd03b9cd2dfa83af6fe3ee65f113a",
+                            "commit_author": "achristensen"
+                        }
+                    ]
                 }
             ]
         }

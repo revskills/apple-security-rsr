@@ -184,7 +184,15 @@
                 {
                     "bugzilla": "245464",
                     "id": "CVE-2023-23496",
-                    "credit": "ChengGang Wu, Yan Kang, YuHao Hu, Yue Sun, Jiming Wang, JiKai Ren and Hang Shu of Institute of Computing Technology, Chinese Academy of Sciences"
+                    "credit": "ChengGang Wu, Yan Kang, YuHao Hu, Yue Sun, Jiming Wang, JiKai Ren and Hang Shu of Institute of Computing Technology, Chinese Academy of Sciences",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=245464",
+                    "commits": [
+                        {
+                            "commit": "b0b694fd099f5692c3d73f7d66abaca58c4f9b4e",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/b0b694fd099f5692c3d73f7d66abaca58c4f9b4e",
+                            "commit_author": "msaboff"
+                        }
+                    ]
                 }
             ]
         },
@@ -235,7 +243,15 @@
                 {
                     "bugzilla": "246783",
                     "id": "CVE-2022-46692",
-                    "credit": "KirtiKumar Anandrao Ramchandani"
+                    "credit": "KirtiKumar Anandrao Ramchandani",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=246783",
+                    "commits": [
+                        {
+                            "commit": "ad6383440b738cb4399a32876f902df43a886675",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/ad6383440b738cb4399a32876f902df43a886675",
+                            "commit_author": "mattwoodrow"
+                        }
+                    ]
                 }
             ]
         },
@@ -248,7 +264,15 @@
                 {
                     "bugzilla": "247562",
                     "id": "CVE-2022-46700",
-                    "credit": "Samuel Gro\u00df of Google V8 Security"
+                    "credit": "Samuel Gro\u00df of Google V8 Security",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=247562",
+                    "commits": [
+                        {
+                            "commit": "86fbeb6fcd638e2350b09a43dde355f9830e75da",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/86fbeb6fcd638e2350b09a43dde355f9830e75da",
+                            "commit_author": "d_degazio"
+                        }
+                    ]
                 }
             ]
         },

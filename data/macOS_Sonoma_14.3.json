@@ -186,7 +186,15 @@
                 {
                     "bugzilla": "262699",
                     "id": "CVE-2024-23206",
-                    "credit": "an anonymous researcher"
+                    "credit": "an anonymous researcher",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=262699",
+                    "commits": [
+                        {
+                            "commit": "89314de81d9bcf4a5011c3304179351e6c637ccd",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/89314de81d9bcf4a5011c3304179351e6c637ccd",
+                            "commit_author": "sysrqb"
+                        }
+                    ]
                 }
             ]
         },
@@ -199,7 +207,15 @@
                 {
                     "bugzilla": "266619",
                     "id": "CVE-2024-23213",
-                    "credit": "Wangtaiyu of Zhongfu info"
+                    "credit": "Wangtaiyu of Zhongfu info",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=266619",
+                    "commits": [
+                        {
+                            "commit": "77a6809901292311fc674150434d829d3dd2bf0c",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/77a6809901292311fc674150434d829d3dd2bf0c",
+                            "commit_author": "aestes"
+                        }
+                    ]
                 }
             ]
         },
@@ -212,7 +228,15 @@
                 {
                     "bugzilla": "265129",
                     "id": "CVE-2024-23214",
-                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute"
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=265129",
+                    "commits": [
+                        {
+                            "commit": "0023fa29b365fd4f1f7c79ff3bd84786e96a1ea9",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/0023fa29b365fd4f1f7c79ff3bd84786e96a1ea9",
+                            "commit_author": "kkinnunen"
+                        }
+                    ]
                 }
             ]
         },
@@ -224,7 +248,20 @@
             "cves": [
                 {
                     "bugzilla": "267134",
-                    "id": "CVE-2024-23222"
+                    "id": "CVE-2024-23222",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=267134",
+                    "commits": [
+                        {
+                            "commit": "66f60deae730514621d3f9c5e620aaa76e03f8f8",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/66f60deae730514621d3f9c5e620aaa76e03f8f8",
+                            "commit_author": "ysuzuki"
+                        },
+                        {
+                            "commit": "64714692967ad278155fcae66c5cb0f853b3bf34",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/64714692967ad278155fcae66c5cb0f853b3bf34",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         },
@@ -238,7 +275,15 @@
                 {
                     "bugzilla": "265812",
                     "id": "CVE-2024-23271",
-                    "credit": "James Lee (@Windowsrcer)"
+                    "credit": "James Lee (@Windowsrcer)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=265812",
+                    "commits": [
+                        {
+                            "commit": "863558a77cbf5d2cf19869c6fb9884b6928dbbdf",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/863558a77cbf5d2cf19869c6fb9884b6928dbbdf",
+                            "commit_author": "youennf"
+                        }
+                    ]
                 }
             ]
         }

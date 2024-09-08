@@ -110,7 +110,15 @@
                 {
                     "bugzilla": "259830",
                     "id": "CVE-2023-42890",
-                    "credit": "Pwn2car"
+                    "credit": "Pwn2car",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=259830",
+                    "commits": [
+                        {
+                            "commit": "014d6ff4b81cf471153af5faaf83dd6347503b6e",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/014d6ff4b81cf471153af5faaf83dd6347503b6e",
+                            "commit_author": "beidson"
+                        }
+                    ]
                 }
             ]
         },
@@ -123,7 +131,15 @@
                 {
                     "bugzilla": "263349",
                     "id": "CVE-2023-42883",
-                    "credit": "Zoom Offensive Security Team"
+                    "credit": "Zoom Offensive Security Team",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=263349",
+                    "commits": [
+                        {
+                            "commit": "00f03d987c0cec7d2821e3d1086bdf15dc807c0d",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/00f03d987c0cec7d2821e3d1086bdf15dc807c0d",
+                            "commit_author": "said"
+                        }
+                    ]
                 }
             ]
         },
@@ -149,7 +165,15 @@
                 {
                     "bugzilla": "265067",
                     "id": "CVE-2023-42917",
-                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group"
+                    "credit": "Cl\u00e9ment Lecigne of Google's Threat Analysis Group",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=265067",
+                    "commits": [
+                        {
+                            "commit": "e1048521aef5bf2f660d0d1826450f0588d2eec2",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/e1048521aef5bf2f660d0d1826450f0588d2eec2",
+                            "commit_author": "ysuzuki"
+                        }
+                    ]
                 }
             ]
         },
@@ -163,7 +187,15 @@
                 {
                     "bugzilla": "263682",
                     "id": "CVE-2023-42950",
-                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute and rushikesh nandedkar"
+                    "credit": "Nan Wang (@eternalsakura13) of 360 Vulnerability Research Institute and rushikesh nandedkar",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=263682",
+                    "commits": [
+                        {
+                            "commit": "1325b97c04cdb848f8ba167b6c7595dcd5ef0cc7",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/1325b97c04cdb848f8ba167b6c7595dcd5ef0cc7",
+                            "commit_author": "nisha_jain"
+                        }
+                    ]
                 }
             ]
         }

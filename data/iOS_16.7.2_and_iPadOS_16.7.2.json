@@ -216,7 +216,15 @@
                 {
                     "bugzilla": "248717",
                     "id": "CVE-2023-32359",
-                    "credit": "Claire Houston"
+                    "credit": "Claire Houston",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=248717",
+                    "commits": [
+                        {
+                            "commit": "3b6d017ba868a66c08ca684570e44269fb2b1274",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/3b6d017ba868a66c08ca684570e44269fb2b1274",
+                            "commit_author": "thomas_mchugh"
+                        }
+                    ]
                 }
             ]
         },
@@ -242,7 +250,15 @@
                 {
                     "bugzilla": "260173",
                     "id": "CVE-2023-42852",
-                    "credit": "Pedro Ribeiro (@pedrib1337) and Vitor Pedreira (@0xvhp_) of Agile Information Security"
+                    "credit": "Pedro Ribeiro (@pedrib1337) and Vitor Pedreira (@0xvhp_) of Agile Information Security",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=260173",
+                    "commits": [
+                        {
+                            "commit": "81ec83aef725e14600ce22c49ff71ac2c12e31a4",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/81ec83aef725e14600ce22c49ff71ac2c12e31a4",
+                            "commit_author": "msaboff"
+                        }
+                    ]
                 }
             ],
             "updated": [
@@ -258,7 +274,15 @@
                 {
                     "bugzilla": "259890",
                     "id": "CVE-2023-41976",
-                    "credit": "\uc774\uc900\uc131(Junsung Lee)"
+                    "credit": "\uc774\uc900\uc131(Junsung Lee)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=259890",
+                    "commits": [
+                        {
+                            "commit": "868fdd2f60885a5095ab3888261aed0ba002cc03",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/868fdd2f60885a5095ab3888261aed0ba002cc03",
+                            "commit_author": "cdumez"
+                        }
+                    ]
                 }
             ]
         },
@@ -272,7 +296,15 @@
                 {
                     "bugzilla": "260046",
                     "id": "CVE-2023-42843",
-                    "credit": "Kacper Kwapisz (@KKKas_)"
+                    "credit": "Kacper Kwapisz (@KKKas_)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=260046",
+                    "commits": [
+                        {
+                            "commit": "950758759f71415f03308692ebd0feae8e6591f9",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/950758759f71415f03308692ebd0feae8e6591f9",
+                            "commit_author": "cdumez"
+                        }
+                    ]
                 }
             ]
         },
@@ -285,7 +317,15 @@
                 {
                     "bugzilla": "260757",
                     "id": "CVE-2023-41983",
-                    "credit": "\uc774\uc900\uc131(Junsung Lee)"
+                    "credit": "\uc774\uc900\uc131(Junsung Lee)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=260757",
+                    "commits": [
+                        {
+                            "commit": "cdb96bc02a635dd676c28b4b8a7f4388a0edc9e0",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/cdb96bc02a635dd676c28b4b8a7f4388a0edc9e0",
+                            "commit_author": "cdumez"
+                        }
+                    ]
                 }
             ]
         }

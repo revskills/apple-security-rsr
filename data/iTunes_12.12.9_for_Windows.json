@@ -38,7 +38,15 @@
                 {
                     "bugzilla": "241430",
                     "id": "CVE-2023-32430",
-                    "credit": "James Tsz Ko Yeung (@5cript1diot)"
+                    "credit": "James Tsz Ko Yeung (@5cript1diot)",
+                    "bugzilla_url": "https://bugs.webkit.org/show_bug.cgi?id=241430",
+                    "commits": [
+                        {
+                            "commit": "5c0209d05ff96c733b70d4153ed23a77b710b925",
+                            "commit_url": "https://github.com/WebKit/WebKit/commit/5c0209d05ff96c733b70d4153ed23a77b710b925",
+                            "commit_author": "pvollan"
+                        }
+                    ]
                 }
             ]
         }
